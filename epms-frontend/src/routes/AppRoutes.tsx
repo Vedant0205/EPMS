@@ -16,6 +16,7 @@ import { StudentAttendance } from '../pages/student/StudentAttendance';
 import { StudentNotifications } from '../pages/student/StudentNotifications';
 import { StudentProgress } from '../pages/student/StudentProgress';
 import { StudentProfile } from '../pages/student/StudentProfile';
+import { StudentAIAdvisor } from '../pages/student/StudentAIAdvisor';
 
 // Teacher Pages
 import { TeacherDashboard } from '../pages/teacher/TeacherDashboard';
@@ -28,6 +29,7 @@ import { ReportsAnalytics } from '../pages/teacher/ReportsAnalytics';
 import { RiskSettings } from '../pages/teacher/RiskSettings';
 import { TeacherProgressMonitoring } from '../pages/teacher/TeacherProgressMonitoring';
 import { TeacherProfile } from '../pages/teacher/TeacherProfile';
+import { TeacherAICopilot } from '../pages/teacher/TeacherAICopilot';
 
 export const AppRoutes: React.FC = () => {
   const { user } = useAuth();
@@ -66,6 +68,7 @@ export const AppRoutes: React.FC = () => {
                 <Route path="courses/:courseId/learn/:lessonId" element={<CoursePlayer />} />
                 <Route path="progress" element={<StudentProgress />} />
                 <Route path="attendance" element={<StudentAttendance />} />
+                <Route path="ai-advisor" element={<StudentAIAdvisor />} />
                 <Route path="notifications" element={<StudentNotifications />} />
                 <Route path="profile" element={<StudentProfile />} />
                 <Route path="*" element={<Navigate to="/student/dashboard" replace />} />
@@ -88,6 +91,7 @@ export const AppRoutes: React.FC = () => {
                 <Route path="courses" element={<CourseManagement />} />
                 <Route path="progress" element={<TeacherProgressMonitoring />} />
                 <Route path="attendance" element={<AttendanceMarking />} />
+                <Route path="ai-copilot" element={<TeacherAICopilot />} />
                 <Route path="warnings" element={<WarningManagement />} />
                 <Route path="reports" element={<ReportsAnalytics />} />
                 <Route path="settings" element={<RiskSettings />} />

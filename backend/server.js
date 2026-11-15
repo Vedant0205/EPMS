@@ -83,6 +83,7 @@ app.use('/api/warnings', require('./routes/warningRoutes'));
 app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/reports', require('./routes/reportRoutes'));
 app.use('/api/upload', require('./routes/uploadRoutes'));
+app.use('/api/ai', require('./routes/aiRoutes'));
 
 // 404 Handler
 app.use((req, res, next) => {

@@ -55,4 +55,19 @@ const isStudent = (req, res, next) => {
   next();
 };
 
-module.exports = { verifyToken, isTeacher, isStudent };
+const protect = verifyToken;
+
+const authorize = (...roles) => {
+  const allowed = roles.flat();
+  return (req, res, next) => {
+    if (!req.user || !allowed.includes(req.user.role)) {
+      return res.status(403).json({
+        success: false,
+        message: `Access denied. Role ${req.user ? req.user.role : 'unauthenticated'} not authorized.`
+      });
+    }
+    next();
+  };
+};
+
+module.exports = { verifyToken, isTeacher, isStudent, protect, authorize };

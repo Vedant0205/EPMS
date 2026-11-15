@@ -22,7 +22,6 @@ import {
   Compass
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CustomCursor } from '../../components/common/CustomCursor';
 import toast from 'react-hot-toast';
 
 export const LoginPage: React.FC = () => {
@@ -160,7 +159,6 @@ export const LoginPage: React.FC = () => {
 
   return (
     <div className="min-h-screen w-full flex bg-navy-950 text-slate-100 relative overflow-hidden font-sans">
-      <CustomCursor />
 
       {/* Background Animated Gradient Blobs */}
       <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-purple-700/20 blur-3xl pointer-events-none animate-float-slow"></div>
