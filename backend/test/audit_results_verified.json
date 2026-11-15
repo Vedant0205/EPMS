@@ -1,0 +1,469 @@
+{
+  "timestamp": "2026-11-14T09:24:33.874Z",
+  "total": 43,
+  "passed": 43,
+  "failed": 0,
+  "blocked": 0,
+  "notTested": 0,
+  "passRate": "100%",
+  "matrix": [
+    {
+      "Category": "Authentication & Session Security",
+      "Total": 7,
+      "Passed": 7,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Role-Based Access Control (RBAC)",
+      "Total": 4,
+      "Passed": 4,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Student Management & Enrolment",
+      "Total": 4,
+      "Passed": 4,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Course & Curriculum Management",
+      "Total": 4,
+      "Passed": 4,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Video Telemetry & Watch Tracking",
+      "Total": 3,
+      "Passed": 3,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Course Completion Formula Integrity",
+      "Total": 3,
+      "Passed": 3,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Attendance Recording & De-duplication",
+      "Total": 3,
+      "Passed": 3,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "At-Risk Student Early Warning Detection",
+      "Total": 2,
+      "Passed": 2,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Warning & Notification System",
+      "Total": 3,
+      "Passed": 3,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Reports & Analytics Aggregation",
+      "Total": 3,
+      "Passed": 3,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "Input Validation & Security Hardening",
+      "Total": 5,
+      "Passed": 5,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    },
+    {
+      "Category": "API Performance & Latency Benchmarks",
+      "Total": 2,
+      "Passed": 2,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "100%"
+    }
+  ],
+  "categories": {
+    "Authentication & Session Security": {
+      "passed": 7,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Teacher Authentication & JWT Issuance",
+          "status": "PASSED",
+          "details": "Role: teacher"
+        },
+        {
+          "name": "Student Authentication & JWT Issuance",
+          "status": "PASSED",
+          "details": "Student ID: STU-2001"
+        },
+        {
+          "name": "Invalid Password Rejection (401)",
+          "status": "PASSED",
+          "details": "HTTP 401"
+        },
+        {
+          "name": "Non-Existent User Rejection (401)",
+          "status": "PASSED",
+          "details": "HTTP 401"
+        },
+        {
+          "name": "Missing Authorization Token Rejection (401)",
+          "status": "PASSED",
+          "details": "HTTP 401"
+        },
+        {
+          "name": "Tampered Token Cryptographic Rejection (401)",
+          "status": "PASSED",
+          "details": "HTTP 401"
+        },
+        {
+          "name": "Valid Bearer JWT Verification & Identity Extraction",
+          "status": "PASSED",
+          "details": "User: teacher@epms.edu"
+        }
+      ]
+    },
+    "Role-Based Access Control (RBAC)": {
+      "passed": 4,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Student Blocked from Teacher Endpoint (403 Forbidden)",
+          "status": "PASSED",
+          "details": "HTTP 403"
+        },
+        {
+          "name": "Teacher Blocked from Student-Only Submissions (403 Forbidden)",
+          "status": "PASSED",
+          "details": "HTTP 403"
+        },
+        {
+          "name": "Teacher Granted Privilege to Teacher Endpoints",
+          "status": "PASSED",
+          "details": "Allowed: true"
+        },
+        {
+          "name": "Student Granted Privilege to Student Endpoints",
+          "status": "PASSED",
+          "details": "Allowed: true"
+        }
+      ]
+    },
+    "Student Management & Enrolment": {
+      "passed": 4,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Cohort Roster Listing & Academic Metrics",
+          "status": "PASSED",
+          "details": "Retrieved 10 students"
+        },
+        {
+          "name": "Cohort Roster Risk Filter Querying",
+          "status": "PASSED",
+          "details": "Filtered: 7 at-risk"
+        },
+        {
+          "name": "Individual Student Profile Deep-Dive",
+          "status": "PASSED",
+          "details": "Student: Alex Rivera"
+        },
+        {
+          "name": "Student Dashboard Self-Service Overview",
+          "status": "PASSED",
+          "details": "Enrolled: 12"
+        }
+      ]
+    },
+    "Course & Curriculum Management": {
+      "passed": 4,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Course Creation with Department & Metadata",
+          "status": "PASSED",
+          "details": "ID: 7ee9a482328cbee91662fca3"
+        },
+        {
+          "name": "Lesson Creation with Duration & Video Stream URL",
+          "status": "PASSED",
+          "details": "ID: 88127aa82f6a839f94ba29ab"
+        },
+        {
+          "name": "Sequential Lesson Curriculum Architecture",
+          "status": "PASSED",
+          "details": "Order 2 added"
+        },
+        {
+          "name": "Student Dynamic Enrollment Lifecycle",
+          "status": "PASSED",
+          "details": "Enrolled student"
+        }
+      ]
+    },
+    "Video Telemetry & Watch Tracking": {
+      "passed": 3,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Heartbeat Telemetry (250s Watch Position)",
+          "status": "PASSED",
+          "details": "Recorded 250s"
+        },
+        {
+          "name": "Negative Watch Time Input Sanitization Guard",
+          "status": "PASSED",
+          "details": "Safeguarded at 250s"
+        },
+        {
+          "name": "Resume Playhead State Timestamp Retention",
+          "status": "PASSED",
+          "details": "Lesson verified: Lecture 1: Kernel Address Space & MMU Translation"
+        }
+      ]
+    },
+    "Course Completion Formula Integrity": {
+      "passed": 3,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Progress Mathematical Formula Validation (1/2 = 50%)",
+          "status": "PASSED",
+          "details": "Calculated: 50%"
+        },
+        {
+          "name": "Student Enrollment Progress Synchronisation",
+          "status": "PASSED",
+          "details": "Enrollment progress: 50%"
+        },
+        {
+          "name": "Mathematical Boundary Limits Enforced (0 <= p <= 100)",
+          "status": "PASSED",
+          "details": "Boundary limits guaranteed"
+        }
+      ]
+    },
+    "Attendance Recording & De-duplication": {
+      "passed": 3,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Attendance Marking for Student (Present)",
+          "status": "PASSED",
+          "details": "Recorded on 2026-11-14"
+        },
+        {
+          "name": "Compound Unique Key ({student, course, date}) De-duplication",
+          "status": "PASSED",
+          "details": "Status safely updated without duplicate"
+        },
+        {
+          "name": "Student Attendance Ledger and Metrics Aggregation",
+          "status": "PASSED",
+          "details": "Total: 1, Present: 0"
+        }
+      ]
+    },
+    "At-Risk Student Early Warning Detection": {
+      "passed": 2,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Early Warning Algorithm Execution",
+          "status": "PASSED",
+          "details": "Identified 7 at-risk students"
+        },
+        {
+          "name": "Configurable Risk Threshold Settings Management",
+          "status": "PASSED",
+          "details": "Threshold: Attendance < 75%"
+        }
+      ]
+    },
+    "Warning & Notification System": {
+      "passed": 3,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Teacher Warning Dispatch with Context & Severity",
+          "status": "PASSED",
+          "details": "Warning ID: 54c31c4cd42dbd3964ff57dd"
+        },
+        {
+          "name": "Real-Time Notification Delivery to Student Inbox",
+          "status": "PASSED",
+          "details": "Inbox count: 9"
+        },
+        {
+          "name": "Student Warning Acknowledgment Lifecycle",
+          "status": "PASSED",
+          "details": "Acknowledged successfully"
+        }
+      ]
+    },
+    "Reports & Analytics Aggregation": {
+      "passed": 3,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Course Completion Distribution & Aggregations",
+          "status": "PASSED",
+          "details": "Courses: 14"
+        },
+        {
+          "name": "Monthly Attendance Cohort Analytics",
+          "status": "PASSED",
+          "details": "Trends: 2 intervals"
+        },
+        {
+          "name": "Executive CSV Export Streaming",
+          "status": "PASSED",
+          "details": "CSV Lines: 12"
+        }
+      ]
+    },
+    "Input Validation & Security Hardening": {
+      "passed": 5,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "Invalid Email Syntax Rejection (Regex)",
+          "status": "PASSED",
+          "details": "HTTP 400"
+        },
+        {
+          "name": "Password Confirmation Enforcement",
+          "status": "PASSED",
+          "details": "HTTP 400"
+        },
+        {
+          "name": "Minimum Password Complexity Enforcement",
+          "status": "PASSED",
+          "details": "HTTP 400"
+        },
+        {
+          "name": "Duplicate User Conflict Detection (Unique Index)",
+          "status": "PASSED",
+          "details": "HTTP 400"
+        },
+        {
+          "name": "Duplicate Identifier Conflict Detection (Unique ID)",
+          "status": "PASSED",
+          "details": "HTTP 400"
+        }
+      ]
+    },
+    "API Performance & Latency Benchmarks": {
+      "passed": 2,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": [
+        {
+          "name": "P95 Latency SLA (< 100ms for In-Memory Queries)",
+          "status": "PASSED",
+          "details": "Max P95 was 0.94ms"
+        },
+        {
+          "name": "Concurrent 100-Execution Stress Stability",
+          "status": "PASSED",
+          "details": "100 iterations executed with 0 exceptions"
+        }
+      ]
+    }
+  },
+  "latencies": [
+    {
+      "name": "Teacher Dashboard Analytics",
+      "avg": "0.25",
+      "p50": "0.19",
+      "p95": "0.94",
+      "p99": "0.94"
+    },
+    {
+      "name": "Student Dashboard Self-Query",
+      "avg": "0.34",
+      "p50": "0.30",
+      "p95": "0.72",
+      "p99": "0.72"
+    },
+    {
+      "name": "Student Roster Directory",
+      "avg": "0.18",
+      "p50": "0.17",
+      "p95": "0.31",
+      "p99": "0.31"
+    },
+    {
+      "name": "Course Completion Analytics",
+      "avg": "0.35",
+      "p50": "0.33",
+      "p95": "0.52",
+      "p99": "0.52"
+    },
+    {
+      "name": "Attendance Verification Ledger",
+      "avg": "0.05",
+      "p50": "0.03",
+      "p95": "0.21",
+      "p99": "0.21"
+    }
+  ]
+}

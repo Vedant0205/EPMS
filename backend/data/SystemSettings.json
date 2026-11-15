@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "5100ba38edb995f08417daab",
+    "attendanceThreshold": 60,
+    "completionThreshold": 60,
+    "inactivityDaysThreshold": 10,
+    "institutionName": "Apex Institute of Technology & Computing",
+    "createdAt": "2026-11-06T15:46:48.178Z",
+    "updatedAt": "2026-11-14T09:45:49.712Z",
+    "updatedBy": "6d87cc017f8c94b87d19f8cc"
+  }
+]

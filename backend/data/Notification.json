@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "6e98f205bd38437796f7df30",
+    "recipient": "dca8a0c79f9d0de3f41c4f6d",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"Your attendance is currently 55%, which is well below the mandatory 75% threshold. Please schedule an office hour meeting immediately.\"",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "8a2e042efa422e46797dd045",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-06T15:46:48.600Z",
+    "updatedAt": "2026-11-06T15:46:48.600Z"
+  },
+  {
+    "_id": "fc39d5e18458f6a67bd9eb14",
+    "recipient": "2f8923caeafd8201cbc60ddb",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"You have only completed 25% of coursework for CS-101 and CS-202. Immediate catch-up is required to maintain passing standing.\"",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "e5f2ad1fa43a574514bd7fd1",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-06T15:46:48.603Z",
+    "updatedAt": "2026-11-06T15:46:48.603Z"
+  },
+  {
+    "_id": "92b2d8aabac183ba17e05b7a",
+    "recipient": "b4fb86aa7bf030826528cc3b",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Inactive Student",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"No learning activity has been logged on your account for over 8 consecutive days. Please resume your video lectures.\"",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "3b70555fa5f321745f865b2f",
+      "priority": "High",
+      "category": "Inactive Student"
+    },
+    "createdAt": "2026-11-06T15:46:48.603Z",
+    "updatedAt": "2026-11-06T15:46:48.603Z"
+  },
+  {
+    "_id": "4e199528e52739257a422141",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Missing Lessons",
+    "message": "Instructor Dr. Sarah Jenkins issued a Medium priority alert: \"You missed completing Module 2 lessons in React & Node.js. Review the recorded videos before the next quiz.\"",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "0fd2f7a505ccb218d53941b7",
+      "priority": "Medium",
+      "category": "Missing Lessons"
+    },
+    "createdAt": "2026-11-06T15:46:48.604Z",
+    "updatedAt": "2026-11-06T15:46:48.604Z"
+  },
+  {
+    "_id": "e8a5ace88d45a51ceda5feb4",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a Medium priority alert: \"Your attendance has dropped to 76%. One additional absence will place you in academic probation status.\"",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "3e3e4bbcee06b4e482cab1b3",
+      "priority": "Medium",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-06T15:46:48.604Z",
+    "updatedAt": "2026-11-06T15:46:48.604Z"
+  },
+  {
+    "_id": "e5a642c389ae1a0084169b77",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.605Z",
+    "updatedAt": "2026-11-06T15:46:48.605Z"
+  },
+  {
+    "_id": "f3ea6d8c973271c176114a21",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.606Z",
+    "updatedAt": "2026-11-06T15:46:48.606Z"
+  },
+  {
+    "_id": "b91b66f9c4d8745f45f084ef",
+    "recipient": "0cb0aa05090a12ba6dfeedd7",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.606Z",
+    "updatedAt": "2026-11-06T15:46:48.606Z"
+  },
+  {
+    "_id": "a8ba02f61fb59be83c6ed40d",
+    "recipient": "0cb0aa05090a12ba6dfeedd7",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.606Z",
+    "updatedAt": "2026-11-06T15:46:48.606Z"
+  },
+  {
+    "_id": "094080cfb480158cfea8b67a",
+    "recipient": "3cd3f8ac28d644eadfb3b05e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.607Z",
+    "updatedAt": "2026-11-06T15:46:48.607Z"
+  },
+  {
+    "_id": "1acc1ca4034b8a6d2116923f",
+    "recipient": "3cd3f8ac28d644eadfb3b05e",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.607Z",
+    "updatedAt": "2026-11-06T15:46:48.607Z"
+  },
+  {
+    "_id": "a52a7c099c576017dcfe8837",
+    "recipient": "f486a26de80ac7f8db8303ab",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.607Z",
+    "updatedAt": "2026-11-06T15:46:48.607Z"
+  },
+  {
+    "_id": "80fbd17ea3d35697c27bc4b1",
+    "recipient": "f486a26de80ac7f8db8303ab",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.608Z",
+    "updatedAt": "2026-11-06T15:46:48.608Z"
+  },
+  {
+    "_id": "cf7d4ceb465af3511372ddcf",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.608Z",
+    "updatedAt": "2026-11-06T15:46:48.608Z"
+  },
+  {
+    "_id": "36beee3b7b6a732cf8673eb4",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.608Z",
+    "updatedAt": "2026-11-06T15:46:48.608Z"
+  },
+  {
+    "_id": "b6c0e4962686d7f544255069",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.609Z",
+    "updatedAt": "2026-11-06T15:46:48.609Z"
+  },
+  {
+    "_id": "04bc02a70d53ca6603aa4e33",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.609Z",
+    "updatedAt": "2026-11-06T15:46:48.609Z"
+  },
+  {
+    "_id": "06f9a87b1d4f707d86e25e39",
+    "recipient": "dca8a0c79f9d0de3f41c4f6d",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.609Z",
+    "updatedAt": "2026-11-06T15:46:48.609Z"
+  },
+  {
+    "_id": "702d987d7bbb66ffd17de976",
+    "recipient": "dca8a0c79f9d0de3f41c4f6d",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.610Z",
+    "updatedAt": "2026-11-06T15:46:48.610Z"
+  },
+  {
+    "_id": "c5969608419e461fc9c5c2f7",
+    "recipient": "2f8923caeafd8201cbc60ddb",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.610Z",
+    "updatedAt": "2026-11-06T15:46:48.610Z"
+  },
+  {
+    "_id": "428049c6b85bd7fba46da283",
+    "recipient": "2f8923caeafd8201cbc60ddb",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.610Z",
+    "updatedAt": "2026-11-06T15:46:48.610Z"
+  },
+  {
+    "_id": "ddfd5d1a567d18d304a874d3",
+    "recipient": "b4fb86aa7bf030826528cc3b",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.610Z",
+    "updatedAt": "2026-11-06T15:46:48.610Z"
+  },
+  {
+    "_id": "850ad8387344cb1755dd8a63",
+    "recipient": "b4fb86aa7bf030826528cc3b",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.611Z",
+    "updatedAt": "2026-11-06T15:46:48.611Z"
+  },
+  {
+    "_id": "99d2dd89b4c72cfae4af0d23",
+    "recipient": "bdb60f9b1f1f903fffd63081",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "📢 New Course Announcement",
+    "message": "Midterm Examination Schedule & Format has been published. Please review the syllabus.",
+    "type": "announcement",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.611Z",
+    "updatedAt": "2026-11-06T15:46:48.611Z"
+  },
+  {
+    "_id": "da06aaa6cc4de66f4aeabbb6",
+    "recipient": "bdb60f9b1f1f903fffd63081",
+    "title": "🎓 Welcome to EPMS Portal",
+    "message": "Your courses have been assigned. Track your video lessons, attendance, and progress in real time.",
+    "type": "system",
+    "link": "/student/dashboard",
+    "createdAt": "2026-11-06T15:46:48.611Z",
+    "updatedAt": "2026-11-06T15:46:48.611Z"
+  },
+  {
+    "_id": "a061f521a71669fb6ed34472",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "91e778e62520788dc1a5090b",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-06T16:14:39.476Z",
+    "updatedAt": "2026-11-06T16:14:39.476Z"
+  },
+  {
+    "_id": "f3ab14d8a64dcd04bde81c04",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "33fb5bb3bb6d0905b547b6a3",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-06T16:14:39.478Z",
+    "updatedAt": "2026-11-06T16:14:39.478Z"
+  },
+  {
+    "_id": "e30b23baf150e3da9d623c0f",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "cc3d91a8c910d63f20ff5933",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-06T16:21:11.955Z",
+    "updatedAt": "2026-11-06T16:21:11.955Z"
+  },
+  {
+    "_id": "dada0c6b59d4c25fa8a5b121",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "33fb5bb3bb6d0905b547b6a3",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-06T16:21:11.956Z",
+    "updatedAt": "2026-11-06T16:21:11.956Z"
+  },
+  {
+    "_id": "438182a051562e8adbbea347",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "700976d19bd9a4b93967f068",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-06T17:44:27.309Z",
+    "updatedAt": "2026-11-06T17:44:27.309Z"
+  },
+  {
+    "_id": "285e8e82e966945dc85bbcf0",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "33fb5bb3bb6d0905b547b6a3",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-06T17:44:27.313Z",
+    "updatedAt": "2026-11-06T17:44:27.313Z"
+  },
+  {
+    "_id": "606986a0775e5847b7bb4533",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "29368f9818fd70f2ec30d3c6",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-07T15:34:14.197Z",
+    "updatedAt": "2026-11-07T15:34:14.197Z"
+  },
+  {
+    "_id": "cfd4c944bc33f00c6d9062dc",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-07T15:34:14.198Z",
+    "updatedAt": "2026-11-07T15:34:14.198Z"
+  },
+  {
+    "_id": "95e65d6ed94d066111aafcb7",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "c7a07dfa1994088698337e55",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-07T15:36:08.143Z",
+    "updatedAt": "2026-11-07T15:36:08.143Z"
+  },
+  {
+    "_id": "fcefbaf12cb16250f7e9f97f",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-07T15:36:08.144Z",
+    "updatedAt": "2026-11-07T15:36:08.144Z"
+  },
+  {
+    "_id": "f6c70dda2c31441b1413f383",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "225cbe821ee9c1ad705677f0",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-07T15:38:21.522Z",
+    "updatedAt": "2026-11-07T15:38:21.522Z"
+  },
+  {
+    "_id": "0919988b8b3f7c57de8e2abe",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-07T15:38:21.534Z",
+    "updatedAt": "2026-11-07T15:38:21.534Z"
+  },
+  {
+    "_id": "f132eab116fc26baa1ece63e",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "8d57c1cd861d3d7e4d222d29",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-07T15:39:13.209Z",
+    "updatedAt": "2026-11-07T15:39:13.209Z"
+  },
+  {
+    "_id": "93edf2ac6c5dbbc2b1c33826",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-07T15:39:13.212Z",
+    "updatedAt": "2026-11-07T15:39:13.212Z"
+  },
+  {
+    "_id": "d04eec31db8e2140ede788eb",
+    "recipient": "33fb5bb3bb6d0905b547b6a3",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "7e239d40b03b82ecba0a315b",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-07T15:39:23.608Z",
+    "updatedAt": "2026-11-07T15:39:23.608Z"
+  },
+  {
+    "_id": "65d89b49054c9f4698692fb0",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "33fb5bb3bb6d0905b547b6a3",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-07T15:39:23.611Z",
+    "updatedAt": "2026-11-07T15:39:23.611Z"
+  },
+  {
+    "_id": "52e2b2ffb072cb53d11e6209",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "🎉 Course Completed!",
+    "message": "Congratulations! You have completed 100% of the lessons in Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4",
+    "createdAt": "2026-11-09T17:58:31.985Z",
+    "updatedAt": "2026-11-09T17:58:31.985Z"
+  },
+  {
+    "_id": "3e8396f681b3b8480fd8b016",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "🎉 Course Completed!",
+    "message": "Congratulations! You have completed 100% of the lessons in Full-Stack Web Development with React & Node.js.",
+    "type": "course",
+    "link": "/student/courses/9b8d9ba99dd22178d26158fe",
+    "createdAt": "2026-11-09T17:59:00.716Z",
+    "updatedAt": "2026-11-09T17:59:00.716Z"
+  },
+  {
+    "_id": "9f361d013572b4ab1a7d7ded",
+    "recipient": "3cd3f8ac28d644eadfb3b05e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "7bc3eb881306bf63df01b81a",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-14T09:24:23.306Z",
+    "updatedAt": "2026-11-14T09:24:23.306Z"
+  },
+  {
+    "_id": "1195444f498390a80e05b2eb",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "3cd3f8ac28d644eadfb3b05e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-14T09:24:23.307Z",
+    "updatedAt": "2026-11-14T09:24:23.307Z"
+  },
+  {
+    "_id": "de1822952be8b4a31930385c",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "54c31c4cd42dbd3964ff57dd",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-14T09:24:33.847Z",
+    "updatedAt": "2026-11-14T09:24:33.847Z"
+  },
+  {
+    "_id": "2dd3fd132f176d7b911c2a1b",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-14T09:24:33.848Z",
+    "updatedAt": "2026-11-14T09:24:33.848Z"
+  },
+  {
+    "_id": "05079a691692d2d5927c3b21",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "⚠️ Attendance Alert",
+    "message": "You were marked absent in Introduction to Computer Science & Python on 2026-11-14. Please contact your instructor if this is an error.",
+    "type": "attendance",
+    "link": "/student/attendance",
+    "createdAt": "2026-11-14T09:44:56.113Z",
+    "updatedAt": "2026-11-14T09:44:56.113Z"
+  },
+  {
+    "_id": "76f295e15a3d5609241d36cd",
+    "recipient": "0cb0aa05090a12ba6dfeedd7",
+    "title": "⚠️ Attendance Alert",
+    "message": "You were marked absent in Introduction to Computer Science & Python on 2026-11-14. Please contact your instructor if this is an error.",
+    "type": "attendance",
+    "link": "/student/attendance",
+    "createdAt": "2026-11-14T09:44:56.116Z",
+    "updatedAt": "2026-11-14T09:44:56.116Z"
+  }
+]

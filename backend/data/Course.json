@@ -1,0 +1,251 @@
+[
+  {
+    "_id": "f0eeed924aed70ee83cc55f4",
+    "title": "Introduction to Computer Science & Python",
+    "code": "CS-101",
+    "category": "Programming & Foundations",
+    "description": "Comprehensive introduction to algorithmic thinking, computational problem solving, Python syntax, modular programming, and data structures.",
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 24,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e",
+      "0cb0aa05090a12ba6dfeedd7",
+      "3cd3f8ac28d644eadfb3b05e",
+      "f486a26de80ac7f8db8303ab",
+      "1ee48c8838da4e3811f4ed12",
+      "33fb5bb3bb6d0905b547b6a3",
+      "dca8a0c79f9d0de3f41c4f6d",
+      "2f8923caeafd8201cbc60ddb",
+      "b4fb86aa7bf030826528cc3b",
+      "bdb60f9b1f1f903fffd63081"
+    ],
+    "createdAt": "2026-11-06T15:46:48.245Z",
+    "updatedAt": "2026-11-06T15:46:48.245Z"
+  },
+  {
+    "_id": "9b8d9ba99dd22178d26158fe",
+    "title": "Full-Stack Web Development with React & Node.js",
+    "code": "CS-202",
+    "category": "Web Engineering",
+    "description": "Build production-ready modern web applications using React, Vite, Tailwind CSS, Express REST APIs, JWT authentication, and MongoDB.",
+    "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 32,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e",
+      "0cb0aa05090a12ba6dfeedd7",
+      "3cd3f8ac28d644eadfb3b05e",
+      "f486a26de80ac7f8db8303ab",
+      "1ee48c8838da4e3811f4ed12",
+      "33fb5bb3bb6d0905b547b6a3",
+      "dca8a0c79f9d0de3f41c4f6d",
+      "2f8923caeafd8201cbc60ddb",
+      "b4fb86aa7bf030826528cc3b",
+      "bdb60f9b1f1f903fffd63081"
+    ],
+    "createdAt": "2026-11-06T15:46:48.248Z",
+    "updatedAt": "2026-11-06T15:46:48.248Z"
+  },
+  {
+    "_id": "9b5efdec9908bf44bdce945b",
+    "title": "Data Structures, Algorithms & Problem Solving",
+    "code": "CS-303",
+    "category": "Computer Science Core",
+    "description": "In-depth study of abstract data types, asymptotic analysis (Big O), trees, graphs, dynamic programming, and greedy algorithms.",
+    "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 28,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e",
+      "0cb0aa05090a12ba6dfeedd7",
+      "3cd3f8ac28d644eadfb3b05e",
+      "f486a26de80ac7f8db8303ab",
+      "1ee48c8838da4e3811f4ed12",
+      "33fb5bb3bb6d0905b547b6a3",
+      "dca8a0c79f9d0de3f41c4f6d",
+      "2f8923caeafd8201cbc60ddb",
+      "b4fb86aa7bf030826528cc3b",
+      "bdb60f9b1f1f903fffd63081"
+    ],
+    "createdAt": "2026-11-06T15:46:48.250Z",
+    "updatedAt": "2026-11-06T15:46:48.250Z"
+  },
+  {
+    "_id": "ce950befc9ffc2067480b91c",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-06T16:14:39.366Z",
+    "updatedAt": "2026-11-06T16:14:39.464Z"
+  },
+  {
+    "_id": "681da48642dcfda3970d3459",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-06T16:21:11.851Z",
+    "updatedAt": "2026-11-06T16:21:11.941Z"
+  },
+  {
+    "_id": "48629298bead10d84eb186e4",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-06T17:44:27.145Z",
+    "updatedAt": "2026-11-06T17:44:27.285Z"
+  },
+  {
+    "_id": "2b2939a217b817aca08d817f",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-913",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "General Computer Science",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [],
+    "createdAt": "2026-11-07T15:31:37.704Z",
+    "updatedAt": "2026-11-07T15:31:37.704Z"
+  },
+  {
+    "_id": "12482d1a7aea21e19a83b6cf",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-AUDIT-4185",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "Systems Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-07T15:34:14.188Z",
+    "updatedAt": "2026-11-07T15:34:14.190Z"
+  },
+  {
+    "_id": "87301b7eda73774c695211de",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-AUDIT-8134",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "Systems Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-07T15:36:08.135Z",
+    "updatedAt": "2026-11-07T15:36:08.137Z"
+  },
+  {
+    "_id": "a70876c06bc4100fd4f11f84",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-AUDIT-1481",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "Systems Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-07T15:38:21.492Z",
+    "updatedAt": "2026-11-07T15:38:21.500Z"
+  },
+  {
+    "_id": "b9475459c1b59ce90cfbc41d",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-AUDIT-3185",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "Systems Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-07T15:39:13.193Z",
+    "updatedAt": "2026-11-07T15:39:13.196Z"
+  },
+  {
+    "_id": "13aedcf4fb30113b296d0dd6",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-07T15:39:23.516Z",
+    "updatedAt": "2026-11-07T15:39:23.594Z"
+  },
+  {
+    "_id": "99368e20d30d466473ea0874",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-14T09:24:23.231Z",
+    "updatedAt": "2026-11-14T09:24:23.294Z"
+  },
+  {
+    "_id": "7ee9a482328cbee91662fca3",
+    "title": "Advanced Operating Systems & Kernel Architecture",
+    "code": "CS-AUDIT-3836",
+    "description": "Microkernel design, process scheduling, virtual memory, and hardware isolation.",
+    "category": "Systems Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
+    "durationHours": 30,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Dr. Sarah Jenkins",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-14T09:24:33.839Z",
+    "updatedAt": "2026-11-14T09:24:33.840Z"
+  }
+]

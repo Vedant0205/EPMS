@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "45516001986304da1d269ed8",
+    "title": "Midterm Examination Schedule & Format",
+    "content": "The Midterm Practical Evaluation for CS-101 and CS-202 will take place on November 20th. Ensure all video lessons through Module 2 are completed before the exam.",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "priority": "important",
+    "createdAt": "2026-11-06T15:46:48.605Z",
+    "updatedAt": "2026-11-06T15:46:48.605Z"
+  },
+  {
+    "_id": "dd1dd2e694c911276397362a",
+    "title": "Weekly Office Hours with Dr. Sarah Jenkins",
+    "content": "Office hours are conducted every Tuesday & Thursday from 3:00 PM to 5:00 PM in CS Building Hall B or via virtual link.",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "priority": "normal",
+    "createdAt": "2026-11-06T15:46:48.605Z",
+    "updatedAt": "2026-11-06T15:46:48.605Z"
+  }
+]

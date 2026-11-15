@@ -1,0 +1,658 @@
+[
+  {
+    "_id": "a83a040e7be3efca2d36f3ca",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 1: Foundations & Python Syntax",
+    "title": "1. Welcome & Computational Thinking",
+    "description": "Understanding algorithms, problem decomposition, and environment setup.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 540,
+    "order": 1,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.246Z",
+    "updatedAt": "2026-11-06T15:46:48.246Z"
+  },
+  {
+    "_id": "84b161b62e2e0f16de5a8a76",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 1: Foundations & Python Syntax",
+    "title": "2. Variables, Expressions & Data Types",
+    "description": "Mastering numbers, strings, booleans, and dynamic type inference.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 620,
+    "order": 2,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.247Z",
+    "updatedAt": "2026-11-06T15:46:48.247Z"
+  },
+  {
+    "_id": "09397c77d5dd40ea660b2df0",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 1: Foundations & Python Syntax",
+    "title": "3. Conditional Logic & Branching",
+    "description": "If, else-if structures, nested conditions, and logical operators.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "duration": 710,
+    "order": 3,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.247Z",
+    "updatedAt": "2026-11-06T15:46:48.247Z"
+  },
+  {
+    "_id": "0c1cb36680809d3271716bed",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 2: Iteration & Functions",
+    "title": "4. While & For Loops in Python",
+    "description": "Loop invariants, break/continue statements, and range generators.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "duration": 680,
+    "order": 4,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.247Z",
+    "updatedAt": "2026-11-06T15:46:48.247Z"
+  },
+  {
+    "_id": "edcc81d9df65bb99eb41d0b7",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 2: Iteration & Functions",
+    "title": "5. Writing Modular Functions",
+    "description": "Parameters, default arguments, return values, and scope.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "duration": 750,
+    "order": 5,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.248Z",
+    "updatedAt": "2026-11-06T15:46:48.248Z"
+  },
+  {
+    "_id": "4dba809316a8f391355ef7c8",
+    "course": "f0eeed924aed70ee83cc55f4",
+    "module": "Module 2: Iteration & Functions",
+    "title": "6. Lists, Tuples & Dictionaries",
+    "description": "Complex collections, key-value lookups, and iteration patterns.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+    "duration": 840,
+    "order": 6,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.248Z",
+    "updatedAt": "2026-11-06T15:46:48.248Z"
+  },
+  {
+    "_id": "fa459063d1b9e57635438ebc",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 1: Modern Frontend with React",
+    "title": "1. Modern Web Architecture & Vite",
+    "description": "Client-server model, Single Page Applications, and bundle tooling.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.249Z",
+    "updatedAt": "2026-11-06T15:46:48.249Z"
+  },
+  {
+    "_id": "b0b2ec2ed2e3bde2b6b70913",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 1: Modern Frontend with React",
+    "title": "2. React Components, Props & JSX",
+    "description": "Component composition, props validation, and virtual DOM diffing.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    "duration": 780,
+    "order": 2,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.249Z",
+    "updatedAt": "2026-11-06T15:46:48.249Z"
+  },
+  {
+    "_id": "2763d753fc29075af4cb34dc",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 1: Modern Frontend with React",
+    "title": "3. State Management & Hooks (useState, useEffect)",
+    "description": "Managing reactive local state, lifecycle side-effects, and dependencies.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackSeeTheWorld.mp4",
+    "duration": 890,
+    "order": 3,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.249Z",
+    "updatedAt": "2026-11-06T15:46:48.249Z"
+  },
+  {
+    "_id": "5f4a3933ae5e8f2ed8af8a15",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 2: Backend REST APIs & Persistence",
+    "title": "4. Express.js Routing & Middleware",
+    "description": "Building clean RESTful endpoints, request parsing, and error middleware.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+    "duration": 720,
+    "order": 4,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.250Z",
+    "updatedAt": "2026-11-06T15:46:48.250Z"
+  },
+  {
+    "_id": "e704f345cb70051beb2c521d",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 2: Backend REST APIs & Persistence",
+    "title": "5. JWT Authentication & Password Hashing",
+    "description": "Implementing stateless security tokens, bcrypt, and role guards.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+    "duration": 920,
+    "order": 5,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.250Z",
+    "updatedAt": "2026-11-06T15:46:48.250Z"
+  },
+  {
+    "_id": "4b89146aedbe1974a7221a96",
+    "course": "9b8d9ba99dd22178d26158fe",
+    "module": "Module 2: Backend REST APIs & Persistence",
+    "title": "6. MongoDB Schemas & Aggregations",
+    "description": "Modeling relational document data with Mongoose, indexes, and queries.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+    "duration": 810,
+    "order": 6,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.250Z",
+    "updatedAt": "2026-11-06T15:46:48.250Z"
+  },
+  {
+    "_id": "fa8dc96b399ab6e4fb2918ad",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 1: Analysis & Linear Structures",
+    "title": "1. Asymptotic Notation & Big-O Complexity",
+    "description": "Time and space complexity proofs, best/worst/average case bounds.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 650,
+    "order": 1,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.251Z",
+    "updatedAt": "2026-11-06T15:46:48.251Z"
+  },
+  {
+    "_id": "1117249d07b51edeed46e62e",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 1: Analysis & Linear Structures",
+    "title": "2. Linked Lists & Doubly Linked Chains",
+    "description": "Pointer manipulation, node deletion, insertion, and reversal.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 740,
+    "order": 2,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.251Z",
+    "updatedAt": "2026-11-06T15:46:48.251Z"
+  },
+  {
+    "_id": "a514a0a4249b64c2dbf03412",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 1: Analysis & Linear Structures",
+    "title": "3. Stacks, Queues & Deques",
+    "description": "LIFO and FIFO implementations with array and linked buffers.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    "duration": 680,
+    "order": 3,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.252Z",
+    "updatedAt": "2026-11-06T15:46:48.252Z"
+  },
+  {
+    "_id": "2c000f5ed33680711262968e",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 2: Trees, Graphs & Dynamic Programming",
+    "title": "4. Binary Search Trees & Balanced Trees",
+    "description": "In-order traversal, tree rotations, AVL balance properties.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    "duration": 820,
+    "order": 4,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.252Z",
+    "updatedAt": "2026-11-06T15:46:48.252Z"
+  },
+  {
+    "_id": "a84e66d6e6b5f8be4184e78b",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 2: Trees, Graphs & Dynamic Programming",
+    "title": "5. Graph Traversals: BFS and DFS",
+    "description": "Adjacency lists, shortest paths in unweighted graphs, cycle detection.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    "duration": 900,
+    "order": 5,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.252Z",
+    "updatedAt": "2026-11-06T15:46:48.252Z"
+  },
+  {
+    "_id": "1a3f6a67f3e72ef7adb67401",
+    "course": "9b5efdec9908bf44bdce945b",
+    "module": "Module 2: Trees, Graphs & Dynamic Programming",
+    "title": "6. Dynamic Programming Fundamentals",
+    "description": "Optimal substructure, overlapping subproblems, memoization vs tabulation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyBlazes.mp4",
+    "duration": 960,
+    "order": 6,
+    "resources": [
+      {
+        "title": "Lecture Notes (PDF)",
+        "url": "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+      },
+      {
+        "title": "Code Starter Repository",
+        "url": "https://github.com"
+      }
+    ],
+    "createdAt": "2026-11-06T15:46:48.253Z",
+    "updatedAt": "2026-11-06T15:46:48.253Z"
+  },
+  {
+    "_id": "4146e8c66760d7983d5b8605",
+    "course": "ce950befc9ffc2067480b91c",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-06T16:14:39.367Z",
+    "updatedAt": "2026-11-06T16:14:39.367Z"
+  },
+  {
+    "_id": "a882f8371660652ff24348f7",
+    "course": "ce950befc9ffc2067480b91c",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-06T16:14:39.369Z",
+    "updatedAt": "2026-11-06T16:14:39.369Z"
+  },
+  {
+    "_id": "0e8c5d8e6ac10178ab950260",
+    "course": "681da48642dcfda3970d3459",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-06T16:21:11.852Z",
+    "updatedAt": "2026-11-06T16:21:11.852Z"
+  },
+  {
+    "_id": "5ee052a0cc98c2ff3ffd931c",
+    "course": "681da48642dcfda3970d3459",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-06T16:21:11.853Z",
+    "updatedAt": "2026-11-06T16:21:11.853Z"
+  },
+  {
+    "_id": "2c5bd60a3cf55154096dfc5c",
+    "course": "48629298bead10d84eb186e4",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-06T17:44:27.152Z",
+    "updatedAt": "2026-11-06T17:44:27.152Z"
+  },
+  {
+    "_id": "522dc65d9696cc0fb1a29593",
+    "course": "48629298bead10d84eb186e4",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-06T17:44:27.155Z",
+    "updatedAt": "2026-11-06T17:44:27.155Z"
+  },
+  {
+    "_id": "a88b5afbd9687f81a17446f3",
+    "course": "12482d1a7aea21e19a83b6cf",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 1: Kernel Address Space & MMU Translation",
+    "description": "Virtual-to-physical memory paging tables and TLB cache invalidation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 900,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-07T15:34:14.189Z",
+    "updatedAt": "2026-11-07T15:34:14.189Z"
+  },
+  {
+    "_id": "d4d2413a670e0299e41d757b",
+    "course": "12482d1a7aea21e19a83b6cf",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 2: Preemptive Multitasking & Context Switching",
+    "description": "Thread control blocks and interrupt dispatching.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 900,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-07T15:34:14.189Z",
+    "updatedAt": "2026-11-07T15:34:14.189Z"
+  },
+  {
+    "_id": "2b17fb5f610edd2ba1375bf6",
+    "course": "87301b7eda73774c695211de",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 1: Kernel Address Space & MMU Translation",
+    "description": "Virtual-to-physical memory paging tables and TLB cache invalidation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 900,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-07T15:36:08.136Z",
+    "updatedAt": "2026-11-07T15:36:08.136Z"
+  },
+  {
+    "_id": "05dc22741336276399c0ec6b",
+    "course": "87301b7eda73774c695211de",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 2: Preemptive Multitasking & Context Switching",
+    "description": "Thread control blocks and interrupt dispatching.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 900,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-07T15:36:08.136Z",
+    "updatedAt": "2026-11-07T15:36:08.136Z"
+  },
+  {
+    "_id": "9509c22a36180cff4557248f",
+    "course": "a70876c06bc4100fd4f11f84",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 1: Kernel Address Space & MMU Translation",
+    "description": "Virtual-to-physical memory paging tables and TLB cache invalidation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 900,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-07T15:38:21.495Z",
+    "updatedAt": "2026-11-07T15:38:21.495Z"
+  },
+  {
+    "_id": "5f7fda2efdcf0b621e08497e",
+    "course": "a70876c06bc4100fd4f11f84",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 2: Preemptive Multitasking & Context Switching",
+    "description": "Thread control blocks and interrupt dispatching.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 900,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-07T15:38:21.497Z",
+    "updatedAt": "2026-11-07T15:38:21.497Z"
+  },
+  {
+    "_id": "a0c1da691f19f92a47a674bf",
+    "course": "b9475459c1b59ce90cfbc41d",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 1: Kernel Address Space & MMU Translation",
+    "description": "Virtual-to-physical memory paging tables and TLB cache invalidation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 900,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-07T15:39:13.194Z",
+    "updatedAt": "2026-11-07T15:39:13.194Z"
+  },
+  {
+    "_id": "c490e6a98d9a1418d65cf325",
+    "course": "b9475459c1b59ce90cfbc41d",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 2: Preemptive Multitasking & Context Switching",
+    "description": "Thread control blocks and interrupt dispatching.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 900,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-07T15:39:13.194Z",
+    "updatedAt": "2026-11-07T15:39:13.194Z"
+  },
+  {
+    "_id": "5085325d4f4c3e0c58fe9eed",
+    "course": "13aedcf4fb30113b296d0dd6",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-07T15:39:23.517Z",
+    "updatedAt": "2026-11-07T15:39:23.517Z"
+  },
+  {
+    "_id": "a805eea38ef217f681c820bc",
+    "course": "13aedcf4fb30113b296d0dd6",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-07T15:39:23.518Z",
+    "updatedAt": "2026-11-07T15:39:23.518Z"
+  },
+  {
+    "_id": "ad4ebfb8791a4fa0b6cc24b2",
+    "course": "99368e20d30d466473ea0874",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-14T09:24:23.232Z",
+    "updatedAt": "2026-11-14T09:24:23.232Z"
+  },
+  {
+    "_id": "3b5ff664eb324607cb86b694",
+    "course": "99368e20d30d466473ea0874",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-14T09:24:23.233Z",
+    "updatedAt": "2026-11-14T09:24:23.233Z"
+  },
+  {
+    "_id": "88127aa82f6a839f94ba29ab",
+    "course": "7ee9a482328cbee91662fca3",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 1: Kernel Address Space & MMU Translation",
+    "description": "Virtual-to-physical memory paging tables and TLB cache invalidation.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 900,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-14T09:24:33.839Z",
+    "updatedAt": "2026-11-14T09:24:33.839Z"
+  },
+  {
+    "_id": "3f89e8cd57efaa2ab042c9ab",
+    "course": "7ee9a482328cbee91662fca3",
+    "module": "Module 1: Kernel Memory",
+    "title": "Lecture 2: Preemptive Multitasking & Context Switching",
+    "description": "Thread control blocks and interrupt dispatching.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 900,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-14T09:24:33.840Z",
+    "updatedAt": "2026-11-14T09:24:33.840Z"
+  }
+]

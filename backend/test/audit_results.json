@@ -1,0 +1,206 @@
+{
+  "timestamp": "2026-11-07T15:30:26.854Z",
+  "total": 0,
+  "passed": 0,
+  "failed": 0,
+  "blocked": 0,
+  "notTested": 0,
+  "passRate": "NaN%",
+  "matrix": [
+    {
+      "Category": "Authentication & Session Security",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Role-Based Access Control (RBAC)",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Student Management & Enrolment",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Course & Curriculum Management",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Video Telemetry & Watch Tracking",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Course Completion Formula Integrity",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Attendance Recording & De-duplication",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "At-Risk Student Early Warning Detection",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Warning & Notification System",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Reports & Analytics Aggregation",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "Input Validation & Security Hardening",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    },
+    {
+      "Category": "API Performance & Latency Benchmarks",
+      "Total": 0,
+      "Passed": 0,
+      "Failed": 0,
+      "Blocked": 0,
+      "NotTested": 0,
+      "PassRate": "0%"
+    }
+  ],
+  "categories": {
+    "Authentication & Session Security": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Role-Based Access Control (RBAC)": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Student Management & Enrolment": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Course & Curriculum Management": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Video Telemetry & Watch Tracking": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Course Completion Formula Integrity": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Attendance Recording & De-duplication": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "At-Risk Student Early Warning Detection": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Warning & Notification System": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Reports & Analytics Aggregation": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "Input Validation & Security Hardening": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    },
+    "API Performance & Latency Benchmarks": {
+      "passed": 0,
+      "failed": 0,
+      "blocked": 0,
+      "notTested": 0,
+      "tests": []
+    }
+  },
+  "latencies": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "epms-root",
+  "version": "1.0.0",
+  "description": "Educational Progress Monitoring System (EPMS)",
+  "scripts": {
+    "start": "node backend/server.js",
+    "backend": "cd backend && npm start",
+    "frontend": "cd epms-frontend && npm run dev",
+    "seed": "cd backend && node seed/seedData.js",
+    "test:workflow": "cd backend && node test/workflowTest.js"
+  }
+}
