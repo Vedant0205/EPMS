@@ -263,10 +263,10 @@ export const LoginPage: React.FC = () => {
               </div>
               <div>
                 <span className="text-xs font-bold text-amber-400 tracking-wider uppercase block">
-                  राष्ट्रीय शैक्षणिक प्रगती प्रणाली
+                  EPMS Academic Portal
                 </span>
                 <span className="text-sm font-bold text-white tracking-tight">
-                  Educational Progress Monitoring System (EPMS)
+                  Educational Progress Monitoring System
                 </span>
               </div>
             </div>
