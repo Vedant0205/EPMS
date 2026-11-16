@@ -641,5 +641,16 @@
     "priority": "Normal",
     "createdAt": "2026-11-16T08:06:38.745Z",
     "updatedAt": "2026-11-16T08:06:38.745Z"
+  },
+  {
+    "_id": "4d146ed0d90ec8c640e15092",
+    "user": "8f14b64469cc3f538c76d95e",
+    "type": "warning",
+    "title": "Password Change Request Logged",
+    "message": "Your credential change request #REQ-PWD-460377 has been submitted for institutional authorization.",
+    "read": false,
+    "priority": "Normal",
+    "createdAt": "2026-11-16T14:11:53.805Z",
+    "updatedAt": "2026-11-16T14:11:53.805Z"
   }
 ]

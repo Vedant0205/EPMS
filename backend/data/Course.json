@@ -32,8 +32,8 @@
     "description": "Build production-ready modern web applications using React, Vite, Tailwind CSS, Express REST APIs, JWT authentication, and MongoDB.",
     "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=80",
     "durationHours": 32,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "7e98dd028a9d05c98e20a9dd",
+    "teacherName": "Prof. Sunita Deshmukh",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e",
       "0cb0aa05090a12ba6dfeedd7",
@@ -57,8 +57,8 @@
     "description": "In-depth study of abstract data types, asymptotic analysis (Big O), trees, graphs, dynamic programming, and greedy algorithms.",
     "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&auto=format&fit=crop&q=80",
     "durationHours": 28,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "8f09ee039b0e16da9f31baee",
+    "teacherName": "Prof. Amit Verma",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e",
       "0cb0aa05090a12ba6dfeedd7",
@@ -82,8 +82,8 @@
     "category": "Cloud Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
     "durationHours": 25,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "9a10ff040c1f27eb0a42cbff",
+    "teacherName": "Prof. Ananya Kulkarni",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -98,8 +98,8 @@
     "category": "Cloud Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
     "durationHours": 25,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "0b21aa051d2038fc1b53dc00",
+    "teacherName": "Prof. Vikramaditya Joshi",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -114,8 +114,8 @@
     "category": "Cloud Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
     "durationHours": 25,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "1c32bb062e3149ad2c64ed11",
+    "teacherName": "Prof. Meera Nambiar",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -144,8 +144,8 @@
     "category": "Systems Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
     "durationHours": 30,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "7e98dd028a9d05c98e20a9dd",
+    "teacherName": "Prof. Sunita Deshmukh",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -160,8 +160,8 @@
     "category": "Systems Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
     "durationHours": 30,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "8f09ee039b0e16da9f31baee",
+    "teacherName": "Prof. Amit Verma",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -176,8 +176,8 @@
     "category": "Systems Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
     "durationHours": 30,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "9a10ff040c1f27eb0a42cbff",
+    "teacherName": "Prof. Ananya Kulkarni",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -192,8 +192,8 @@
     "category": "Systems Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
     "durationHours": 30,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "0b21aa051d2038fc1b53dc00",
+    "teacherName": "Prof. Vikramaditya Joshi",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -208,8 +208,8 @@
     "category": "Cloud Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
     "durationHours": 25,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "1c32bb062e3149ad2c64ed11",
+    "teacherName": "Prof. Meera Nambiar",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],
@@ -240,8 +240,8 @@
     "category": "Systems Engineering",
     "thumbnail": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=60",
     "durationHours": 30,
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "teacherName": "Prof. Rajesh Sharma",
+    "teacher": "7e98dd028a9d05c98e20a9dd",
+    "teacherName": "Prof. Sunita Deshmukh",
     "enrolledStudents": [
       "8f14b64469cc3f538c76d95e"
     ],

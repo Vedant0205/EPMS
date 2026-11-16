@@ -705,9 +705,48 @@ export const LoginPage: React.FC = () => {
                       }`}
                     >
                       <GraduationCap className="w-3.5 h-3.5" />
-                      <span>Faculty (Prof. Rajesh Sharma)</span>
+                      <span>Faculty (6 Professors)</span>
                     </button>
                   </div>
+
+                  {activeRoleTab === 'teacher' ? (
+                    <div className="pt-1">
+                      <label className="text-[11px] font-medium text-slate-400 block mb-1">Select Faculty Professor Account:</label>
+                      <select
+                        value={loginEmail}
+                        onChange={(e) => {
+                          setLoginEmail(e.target.value);
+                          setLoginPassword('Password123!');
+                        }}
+                        className="w-full px-2.5 py-1.5 rounded-lg text-xs bg-slate-900 border border-slate-800 text-slate-200 focus:outline-none focus:border-sky-500"
+                      >
+                        <option value="teacher@epms.edu">Prof. Rajesh Sharma (Computer Science & Engineering)</option>
+                        <option value="prof.sunita@epms.edu">Prof. Sunita Deshmukh (Data Science & AI)</option>
+                        <option value="prof.amit@epms.edu">Prof. Amit Verma (Software Engineering & Cloud)</option>
+                        <option value="prof.ananya@epms.edu">Prof. Ananya Kulkarni (Cybersecurity & Cryptography)</option>
+                        <option value="prof.vikramaditya@epms.edu">Prof. Vikramaditya Joshi (Embedded Systems & IoT)</option>
+                        <option value="prof.meera@epms.edu">Prof. Meera Nambiar (Distributed Systems)</option>
+                      </select>
+                    </div>
+                  ) : (
+                    <div className="pt-1">
+                      <label className="text-[11px] font-medium text-slate-400 block mb-1">Select Student Scholar:</label>
+                      <select
+                        value={loginEmail}
+                        onChange={(e) => {
+                          setLoginEmail(e.target.value);
+                          setLoginPassword('Password123!');
+                        }}
+                        className="w-full px-2.5 py-1.5 rounded-lg text-xs bg-slate-900 border border-slate-800 text-slate-200 focus:outline-none focus:border-sky-500"
+                      >
+                        <option value="student1@epms.edu">Aarav Patel (STU-2001 - Computer Science)</option>
+                        <option value="student2@epms.edu">Priya Sharma (STU-2002 - Software Engineering)</option>
+                        <option value="student3@epms.edu">Rohan Deshmukh (STU-2003 - Data Science)</option>
+                        <option value="student4@epms.edu">Ananya Iyer (STU-2004 - Computer Science)</option>
+                        <option value="student5@epms.edu">Vikram Singh (STU-2005 - Information Technology)</option>
+                      </select>
+                    </div>
+                  )}
                 </div>
 
                 <div>

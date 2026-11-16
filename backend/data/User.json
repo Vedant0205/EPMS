@@ -9,9 +9,79 @@
     "department": "Computer Science & Engineering",
     "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 98230 45671",
-    "lastActive": "2026-11-16T08:09:29.152Z",
+    "lastActive": "2026-11-16T14:12:58.281Z",
     "createdAt": "2026-11-06T15:46:48.240Z",
-    "updatedAt": "2026-11-16T08:09:29.152Z"
+    "updatedAt": "2026-11-16T14:12:58.281Z"
+  },
+  {
+    "_id": "7e98dd028a9d05c98e20a9dd",
+    "name": "Prof. Sunita Deshmukh",
+    "email": "prof.sunita@epms.edu",
+    "identifier": "TCH-1002",
+    "password": "/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
+    "role": "teacher",
+    "department": "Data Science & Artificial Intelligence",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
+    "phone": "+91 98221 54321",
+    "lastActive": "2026-11-16T08:16:39.475Z",
+    "createdAt": "2026-11-06T15:46:48.240Z",
+    "updatedAt": "2026-11-16T08:16:39.477Z"
+  },
+  {
+    "_id": "8f09ee039b0e16da9f31baee",
+    "name": "Prof. Amit Verma",
+    "email": "prof.amit@epms.edu",
+    "identifier": "TCH-1003",
+    "password": "/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
+    "role": "teacher",
+    "department": "Software Engineering & Cloud Systems",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "phone": "+91 98332 65432",
+    "lastActive": "2026-11-16T08:16:39.477Z",
+    "createdAt": "2026-11-06T15:46:48.240Z",
+    "updatedAt": "2026-11-16T08:16:39.477Z"
+  },
+  {
+    "_id": "9a10ff040c1f27eb0a42cbff",
+    "name": "Prof. Ananya Kulkarni",
+    "email": "prof.ananya@epms.edu",
+    "identifier": "TCH-1004",
+    "password": "/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
+    "role": "teacher",
+    "department": "Cybersecurity & Cryptography",
+    "avatar": "https://images.unsplash.com/photo-1580894732454-defa4fb530c3?w=400&auto=format&fit=crop&q=80",
+    "phone": "+91 98443 76543",
+    "lastActive": "2026-11-16T08:16:39.477Z",
+    "createdAt": "2026-11-06T15:46:48.240Z",
+    "updatedAt": "2026-11-16T08:16:39.477Z"
+  },
+  {
+    "_id": "0b21aa051d2038fc1b53dc00",
+    "name": "Prof. Vikramaditya Joshi",
+    "email": "prof.vikramaditya@epms.edu",
+    "identifier": "TCH-1005",
+    "password": "/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
+    "role": "teacher",
+    "department": "Embedded Systems & IoT Engineering",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "phone": "+91 98554 87654",
+    "lastActive": "2026-11-16T08:16:39.477Z",
+    "createdAt": "2026-11-06T15:46:48.240Z",
+    "updatedAt": "2026-11-16T08:16:39.477Z"
+  },
+  {
+    "_id": "1c32bb062e3149ad2c64ed11",
+    "name": "Prof. Meera Nambiar",
+    "email": "prof.meera@epms.edu",
+    "identifier": "TCH-1006",
+    "password": "/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
+    "role": "teacher",
+    "department": "Information Technology & Distributed Systems",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80",
+    "phone": "+91 98665 98765",
+    "lastActive": "2026-11-16T08:16:39.477Z",
+    "createdAt": "2026-11-06T15:46:48.240Z",
+    "updatedAt": "2026-11-16T08:16:39.477Z"
   },
   {
     "_id": "8f14b64469cc3f538c76d95e",
@@ -23,9 +93,9 @@
     "department": "Computer Science",
     "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 98451 23456",
-    "lastActive": "2026-11-16T08:09:29.157Z",
+    "lastActive": "2026-11-16T14:12:58.283Z",
     "createdAt": "2026-11-06T15:46:48.241Z",
-    "updatedAt": "2026-11-16T08:09:29.157Z"
+    "updatedAt": "2026-11-16T14:12:58.283Z"
   },
   {
     "_id": "0cb0aa05090a12ba6dfeedd7",

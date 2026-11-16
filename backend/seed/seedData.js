@@ -60,18 +60,32 @@ async function seedDemoData(force = false) {
 
     const defaultPassword = await bcrypt.hash('Password123!', 10);
 
-    // 1. Create Teacher
-    const teacher = await User.create({
-      name: 'Prof. Rajesh Sharma',
-      email: 'teacher@epms.edu',
-      identifier: 'TCH-1001',
-      password: defaultPassword,
-      role: 'teacher',
-      department: 'Computer Science & Engineering',
-      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
-      phone: '+91 98230 45671',
-      lastActive: new Date().toISOString()
-    });
+    // 1. Create Faculty Members (Min 5 Professors)
+    const facultyProfiles = [
+      { name: 'Prof. Rajesh Sharma', email: 'teacher@epms.edu', id: 'TCH-1001', dept: 'Computer Science & Engineering', phone: '+91 98230 45671', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Prof. Sunita Deshmukh', email: 'prof.sunita@epms.edu', id: 'TCH-1002', dept: 'Data Science & Artificial Intelligence', phone: '+91 98221 54321', avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Prof. Amit Verma', email: 'prof.amit@epms.edu', id: 'TCH-1003', dept: 'Software Engineering & Cloud Systems', phone: '+91 98332 65432', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Prof. Ananya Kulkarni', email: 'prof.ananya@epms.edu', id: 'TCH-1004', dept: 'Cybersecurity & Cryptography', phone: '+91 98443 76543', avatar: 'https://images.unsplash.com/photo-1580894732454-defa4fb530c3?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Prof. Vikramaditya Joshi', email: 'prof.vikramaditya@epms.edu', id: 'TCH-1005', dept: 'Embedded Systems & IoT Engineering', phone: '+91 98554 87654', avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Prof. Meera Nambiar', email: 'prof.meera@epms.edu', id: 'TCH-1006', dept: 'Information Technology & Distributed Systems', phone: '+91 98665 98765', avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' }
+    ];
+
+    const facultyUsers = [];
+    for (const f of facultyProfiles) {
+      const createdTeacher = await User.create({
+        name: f.name,
+        email: f.email,
+        identifier: f.id,
+        password: defaultPassword,
+        role: 'teacher',
+        department: f.dept,
+        avatar: f.avatar,
+        phone: f.phone,
+        lastActive: new Date().toISOString()
+      });
+      facultyUsers.push(createdTeacher);
+    }
+    const teacher = facultyUsers[0]; // primary HOD reference
 
     // 2. Create 10 Students with authentic Indian names
     const studentProfiles = [
