@@ -222,5 +222,33 @@
     "status": "active",
     "createdAt": "2026-11-16T07:53:37.025Z",
     "updatedAt": "2026-11-16T07:53:37.025Z"
+  },
+  {
+    "_id": "3d11a8db443bebe25e743365",
+    "student": "1ee48c8838da4e3811f4ed12",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "de6e40d05c72e8e8381e9481",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-16T16:04:29.349Z",
+    "updatedAt": "2026-11-16T16:04:29.350Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-16T16:04:29.350Z"
+  },
+  {
+    "_id": "68990b1b26acb382dc04f762",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "313107a5fe19cc625add94fa",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-16T16:08:54.075Z",
+    "updatedAt": "2026-11-16T16:08:54.076Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-16T16:08:54.076Z"
   }
 ]

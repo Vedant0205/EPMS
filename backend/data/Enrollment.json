@@ -478,5 +478,29 @@
     "createdAt": "2026-11-14T09:24:33.840Z",
     "updatedAt": "2026-11-14T09:24:33.843Z",
     "lastAccessed": "2026-11-14T09:24:33.843Z"
+  },
+  {
+    "_id": "8abe7eac7de1c44b508df941",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "de6e40d05c72e8e8381e9481",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-16T16:04:29.343Z",
+    "updatedAt": "2026-11-16T16:04:29.345Z",
+    "lastAccessed": "2026-11-16T16:04:29.345Z"
+  },
+  {
+    "_id": "6171747502f260a89c10d640",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "313107a5fe19cc625add94fa",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-16T16:08:54.068Z",
+    "updatedAt": "2026-11-16T16:08:54.071Z",
+    "lastAccessed": "2026-11-16T16:08:54.071Z"
   }
 ]

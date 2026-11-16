@@ -720,12 +720,13 @@ export const LoginPage: React.FC = () => {
                         }}
                         className="w-full px-2.5 py-1.5 rounded-lg text-xs bg-slate-900 border border-slate-800 text-slate-200 focus:outline-none focus:border-sky-500"
                       >
-                        <option value="teacher@epms.edu">Prof. Rajesh Sharma (Computer Science & Engineering)</option>
-                        <option value="prof.sunita@epms.edu">Prof. Sunita Deshmukh (Data Science & AI)</option>
-                        <option value="prof.amit@epms.edu">Prof. Amit Verma (Software Engineering & Cloud)</option>
-                        <option value="prof.ananya@epms.edu">Prof. Ananya Kulkarni (Cybersecurity & Cryptography)</option>
-                        <option value="prof.vikramaditya@epms.edu">Prof. Vikramaditya Joshi (Embedded Systems & IoT)</option>
-                        <option value="prof.meera@epms.edu">Prof. Meera Nambiar (Distributed Systems)</option>
+                        <option value="teacher@epms.edu">Prof. Rajesh Sharma (TCH-1001 - Computer Science)</option>
+                        <option value="prof.sunita@epms.edu">Prof. Sunita Deshmukh (TCH-1002 - Data Science & AI)</option>
+                        <option value="prof.amit@epms.edu">Prof. Amit Verma (TCH-1003 - Software Engineering)</option>
+                        <option value="prof.ananya@epms.edu">Prof. Ananya Kulkarni (TCH-1004 - Cybersecurity)</option>
+                        <option value="prof.vikramaditya@epms.edu">Prof. Vikramaditya Joshi (TCH-1005 - IoT)</option>
+                        <option value="prof.meera@epms.edu">Prof. Meera Nambiar (TCH-1006 - Distributed Systems)</option>
+                        <option value="prathiba@epms.edu">Prof. Prathiba Jadhav (TCH-1020 - Computer Science)</option>
                       </select>
                     </div>
                   ) : (
@@ -744,20 +745,26 @@ export const LoginPage: React.FC = () => {
                         <option value="student3@epms.edu">Rohan Deshmukh (STU-2003 - Data Science)</option>
                         <option value="student4@epms.edu">Ananya Iyer (STU-2004 - Computer Science)</option>
                         <option value="student5@epms.edu">Vikram Singh (STU-2005 - Information Technology)</option>
+                        <option value="student6@epms.edu">Sneha Joshi (STU-2006 - Software Engineering)</option>
+                        <option value="student7@epms.edu">Kabir Mehta (STU-2007 - Computer Science)</option>
+                        <option value="student8@epms.edu">Diya Reddy (STU-2008 - Data Science)</option>
+                        <option value="student9@epms.edu">Arjun Nair (STU-2009 - Information Technology)</option>
+                        <option value="student10@epms.edu">Pooja Verma (STU-2010 - Computer Science)</option>
+                        <option value="vedant@epms.edu">Vedant Shelke (STU-2020 - Computer Science)</option>
                       </select>
                     </div>
                   )}
                 </div>
 
                 <div>
-                  <label className="text-xs font-semibold text-slate-300 block mb-1">Institutional Email</label>
+                  <label className="text-xs font-semibold text-slate-300 block mb-1">Institutional Email or ID</label>
                   <div className="relative">
                     <Mail className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                     <input
-                      type="email"
+                      type="text"
                       value={loginEmail}
                       onChange={(e) => setLoginEmail(e.target.value)}
-                      placeholder="user@epms.edu"
+                      placeholder="user@epms.edu or ID (e.g. STU-2001, TCH-1001)"
                       className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500 transition-colors"
                       required
                     />

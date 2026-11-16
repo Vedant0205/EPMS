@@ -105,7 +105,16 @@ The database comes pre-seeded with realistic educational data:
 
 ---
 
-## 🚀 Local Installation & Running Instructions
+## 🚀 Quick Start (1-Click Automated Launchers)
+
+For Windows, double-click either launcher in the project root:
+- **`start-epms.bat`** *(Recommended)* or **`start-epms.exe`**: Automatically checks Node.js/npm, installs any missing dependencies, terminates stale port locks, boots the Express backend (Port 5000), boots the Vite React frontend (Port 5173), waits until ready, and opens `http://localhost:5173` in your default browser.
+- **`stop-epms.bat`**: 1-click clean shutdown script that frees ports 5000 and 5173.
+- **`create-desktop-shortcut.bat`**: Creates an `EPMS` shortcut directly on your Windows Desktop for instant launching.
+
+---
+
+## 💻 Manual Installation & Running Instructions
 
 ### Prerequisites
 - Node.js (v18 or higher)

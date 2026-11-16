@@ -6928,5 +6928,27 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-14T09:30:49.560Z",
     "updatedAt": "2026-11-14T09:44:56.128Z"
+  },
+  {
+    "_id": "8286e696859704c35ae3ae8f",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "de6e40d05c72e8e8381e9481",
+    "date": "2026-11-16",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-16T16:04:29.347Z",
+    "updatedAt": "2026-11-16T16:04:29.347Z"
+  },
+  {
+    "_id": "dd288cbdbd9cf828a617bc13",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "313107a5fe19cc625add94fa",
+    "date": "2026-11-16",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-16T16:08:54.072Z",
+    "updatedAt": "2026-11-16T16:08:54.073Z"
   }
 ]

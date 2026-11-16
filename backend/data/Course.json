@@ -247,5 +247,37 @@
     ],
     "createdAt": "2026-11-14T09:24:33.839Z",
     "updatedAt": "2026-11-14T09:24:33.840Z"
+  },
+  {
+    "_id": "de6e40d05c72e8e8381e9481",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Prof. Rajesh Sharma",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-16T16:04:29.287Z",
+    "updatedAt": "2026-11-16T16:04:29.344Z"
+  },
+  {
+    "_id": "313107a5fe19cc625add94fa",
+    "title": "DevOps & Distributed Systems Engineering",
+    "code": "CS-499",
+    "description": "Master Docker, Kubernetes, CI/CD pipelines, and microservices resilience.",
+    "category": "Cloud Engineering",
+    "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&auto=format&fit=crop&q=80",
+    "durationHours": 25,
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "teacherName": "Prof. Rajesh Sharma",
+    "enrolledStudents": [
+      "8f14b64469cc3f538c76d95e"
+    ],
+    "createdAt": "2026-11-16T16:08:54.011Z",
+    "updatedAt": "2026-11-16T16:08:54.069Z"
   }
 ]

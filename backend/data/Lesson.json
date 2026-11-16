@@ -654,5 +654,57 @@
     "resources": [],
     "createdAt": "2026-11-14T09:24:33.840Z",
     "updatedAt": "2026-11-14T09:24:33.840Z"
+  },
+  {
+    "_id": "41ef98fd62f3a957646287c3",
+    "course": "de6e40d05c72e8e8381e9481",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-16T16:04:29.288Z",
+    "updatedAt": "2026-11-16T16:04:29.288Z"
+  },
+  {
+    "_id": "45b9212ae98e6fdddd888eaf",
+    "course": "de6e40d05c72e8e8381e9481",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-16T16:04:29.288Z",
+    "updatedAt": "2026-11-16T16:04:29.288Z"
+  },
+  {
+    "_id": "c758740edf1e94503b36636b",
+    "course": "313107a5fe19cc625add94fa",
+    "module": "Module 1: Container Foundations",
+    "title": "1. Docker Architecture & Containerization Basics",
+    "description": "Understanding namespaces, cgroups, image layers, and container runtimes.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+    "duration": 600,
+    "order": 1,
+    "resources": [],
+    "createdAt": "2026-11-16T16:08:54.012Z",
+    "updatedAt": "2026-11-16T16:08:54.012Z"
+  },
+  {
+    "_id": "68f18df3201f7b77d5081a6f",
+    "course": "313107a5fe19cc625add94fa",
+    "module": "Module 1: Container Foundations",
+    "title": "2. Multi-Container Orchestration with Docker Compose",
+    "description": "Bridge networks, persistent volumes, environment configs, and health checks.",
+    "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    "duration": 720,
+    "order": 2,
+    "resources": [],
+    "createdAt": "2026-11-16T16:08:54.012Z",
+    "updatedAt": "2026-11-16T16:08:54.012Z"
   }
 ]

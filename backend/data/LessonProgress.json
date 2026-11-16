@@ -2468,5 +2468,31 @@
     "createdAt": "2026-11-14T09:24:33.841Z",
     "updatedAt": "2026-11-14T09:24:33.842Z",
     "completedAt": "2026-11-14T09:24:33.842Z"
+  },
+  {
+    "_id": "a1f4eac1a241b52236174312",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "de6e40d05c72e8e8381e9481",
+    "lesson": "41ef98fd62f3a957646287c3",
+    "completed": true,
+    "watchedSeconds": 300,
+    "lastPositionSeconds": 300,
+    "watchPercentage": 100,
+    "createdAt": "2026-11-16T16:04:29.344Z",
+    "updatedAt": "2026-11-16T16:04:29.345Z",
+    "completedAt": "2026-11-16T16:04:29.345Z"
+  },
+  {
+    "_id": "599b39515bf523124b4b5262",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "313107a5fe19cc625add94fa",
+    "lesson": "c758740edf1e94503b36636b",
+    "completed": true,
+    "watchedSeconds": 300,
+    "lastPositionSeconds": 300,
+    "watchPercentage": 100,
+    "createdAt": "2026-11-16T16:08:54.070Z",
+    "updatedAt": "2026-11-16T16:08:54.070Z",
+    "completedAt": "2026-11-16T16:08:54.070Z"
   }
 ]

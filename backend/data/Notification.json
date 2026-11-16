@@ -652,5 +652,59 @@
     "priority": "Normal",
     "createdAt": "2026-11-16T14:11:53.805Z",
     "updatedAt": "2026-11-16T14:11:53.805Z"
+  },
+  {
+    "_id": "27a35c97c415d085341c4b8b",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "3d11a8db443bebe25e743365",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-16T16:04:29.350Z",
+    "updatedAt": "2026-11-16T16:04:29.350Z"
+  },
+  {
+    "_id": "2c0f7b644eb42e70a8a57038",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "1ee48c8838da4e3811f4ed12",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-16T16:04:29.351Z",
+    "updatedAt": "2026-11-16T16:04:29.351Z"
+  },
+  {
+    "_id": "40e2ff4e893efd8d1d22614d",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "68990b1b26acb382dc04f762",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-16T16:08:54.075Z",
+    "updatedAt": "2026-11-16T16:08:54.075Z"
+  },
+  {
+    "_id": "6bd8e8962cc9b068f96b878c",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-16T16:08:54.076Z",
+    "updatedAt": "2026-11-16T16:08:54.076Z"
   }
 ]
