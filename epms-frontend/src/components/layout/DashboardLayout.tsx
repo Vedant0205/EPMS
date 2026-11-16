@@ -37,11 +37,11 @@ export const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({ child
       <button
         type="button"
         onClick={() => setChatOpen(prev => !prev)}
-        aria-label="Toggle AI Academic Copilot"
+        aria-label="Toggle विद्या Helper Assistant"
         className="fixed bottom-5 right-5 z-40 inline-flex items-center gap-2.5 px-4 py-2.5 rounded-lg bg-slate-900 dark:bg-slate-100 text-white dark:text-slate-900 shadow-md hover:bg-slate-800 dark:hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 dark:focus:ring-white transition-all text-xs font-semibold tracking-wide"
       >
         <Bot className="w-4 h-4 text-sky-400 dark:text-sky-600" />
-        <span className="hidden sm:inline">AI Copilot</span>
+        <span className="hidden sm:inline">विद्या Helper</span>
         <span className="w-2 h-2 rounded-full bg-emerald-500" title="Online" />
       </button>
 

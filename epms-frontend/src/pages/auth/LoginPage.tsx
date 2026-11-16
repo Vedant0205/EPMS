@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import { authApi } from '../../api/authApi';
+import { AcademicBackgroundCanvas } from '../../components/common/AcademicBackgroundCanvas';
 import {
   GraduationCap,
   Mail,
@@ -9,24 +10,23 @@ import {
   User,
   ArrowRight,
   ShieldCheck,
-  CheckCircle2,
   AlertCircle,
   Eye,
   EyeOff,
-  Sparkles,
   Building,
   KeyRound,
   BookOpen,
-  TrendingUp,
-  Clock,
-  Compass
+  CalendarCheck,
+  CheckCircle2,
+  FileCheck2,
+  HelpCircle
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import toast from 'react-hot-toast';
 
 export const LoginPage: React.FC = () => {
   const [isRegistering, setIsRegistering] = useState(false);
-  const [isForgotPassword, setIsForgotPassword] = useState(false);
+  const [isPasswordRequestMode, setIsPasswordRequestMode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [showPassword, setShowPassword] = useState(false);
@@ -49,14 +49,20 @@ export const LoginPage: React.FC = () => {
   const [role, setRole] = useState<'student' | 'teacher'>('student');
   const [department, setDepartment] = useState('Computer Science & Engineering');
 
-  // Forgot password state
-  const [forgotEmail, setForgotEmail] = useState('');
-  const [resetMessage, setResetMessage] = useState<string | null>(null);
+  // Password Request Workflow state
+  const [pwdWorkflowStep, setPwdWorkflowStep] = useState<'request' | 'complete'>('request');
+  const [reqEmailOrId, setReqEmailOrId] = useState('');
+  const [reqReason, setReqReason] = useState('Routine Security Credential Update');
+  const [generatedTicketId, setGeneratedTicketId] = useState<string | null>(null);
+  const [authCodeInput, setAuthCodeInput] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmNewPassword, setConfirmNewPassword] = useState('');
+  const [demoApprovedCode, setDemoApprovedCode] = useState<string | null>(null);
 
   const { login, register } = useAuth();
   const navigate = useNavigate();
 
-  // Handle Demo Fill shortcuts
+  // Role shortcut selection for quick verification
   const handleSelectRoleDemo = (targetRole: 'student' | 'teacher') => {
     setActiveRoleTab(targetRole);
     if (targetRole === 'teacher') {
@@ -82,14 +88,14 @@ export const LoginPage: React.FC = () => {
       }
 
       const user = await login({ email: loginEmail, password: loginPassword });
-      toast.success(`Welcome back, ${user.name}!`);
+      toast.success(`Welcome, ${user.name}!`);
       if (user.role === 'teacher') {
         navigate('/teacher/dashboard');
       } else {
         navigate('/student/dashboard');
       }
     } catch (err: any) {
-      const msg = err.response?.data?.message || err.message || 'Login failed. Please verify credentials.';
+      const msg = err.response?.data?.message || err.message || 'Authentication failed. Please verify credentials.';
       setError(msg);
       toast.error(msg);
     } finally {
@@ -112,7 +118,6 @@ export const LoginPage: React.FC = () => {
     }
 
     setLoading(true);
-
     try {
       const user = await register({
         name,
@@ -123,7 +128,8 @@ export const LoginPage: React.FC = () => {
         role,
         department
       });
-      toast.success(`Account created successfully! Welcome, ${user.name}!`);
+
+      toast.success(`Account registered! Welcome ${user.name}`);
       if (user.role === 'teacher') {
         navigate('/teacher/dashboard');
       } else {
@@ -138,191 +144,418 @@ export const LoginPage: React.FC = () => {
     }
   };
 
-  const handleForgotPasswordSubmit = async (e: React.FormEvent) => {
+  // Submit Password Change Request to Academic Office
+  const handleSubmitPasswordRequest = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!forgotEmail) {
-      setError('Please provide your registered institutional email.');
+    setError(null);
+
+    if (!reqEmailOrId.trim()) {
+      setError('Please provide your institutional email address or Student/Teacher ID.');
       return;
     }
+
     setLoading(true);
     try {
-      await authApi.forgotPassword(forgotEmail);
-      setResetMessage('Password reset instructions have been dispatched to your email.');
-      toast.success('Password reset link sent!');
+      const payload = reqEmailOrId.includes('@')
+        ? { email: reqEmailOrId.trim(), reason: reqReason }
+        : { identifier: reqEmailOrId.trim(), reason: reqReason };
+
+      const res = await authApi.submitPasswordRequest(payload);
+      if (res.success && res.requestId) {
+        setGeneratedTicketId(res.requestId);
+        toast.success(`Ticket #${res.requestId} registered! Forwarded to Department Head.`);
+      }
     } catch (err: any) {
-      setResetMessage('Password reset request logged for system administrator review.');
-      toast.success('Reset request recorded.');
+      const msg = err.response?.data?.message || 'Could not register password change request.';
+      setError(msg);
+      toast.error(msg);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Demo shortcut to approve request on behalf of Department Administration
+  const handleDemoApproveRequest = async () => {
+    if (!generatedTicketId) return;
+    setLoading(true);
+    try {
+      const res = await authApi.approvePasswordRequest(generatedTicketId);
+      if (res.success && res.authorizationCode) {
+        setDemoApprovedCode(res.authorizationCode);
+        setAuthCodeInput(res.authorizationCode);
+        toast.success(`Department Head authorized! Code: ${res.authorizationCode}`);
+        setPwdWorkflowStep('complete');
+      }
+    } catch (err: any) {
+      toast.error(err.response?.data?.message || 'Approval action failed.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  // Complete Password Change using official authorization code
+  const handleCompletePasswordChange = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+
+    if (!generatedTicketId || !authCodeInput || !newPassword) {
+      setError('Please complete all required fields.');
+      return;
+    }
+
+    if (newPassword !== confirmNewPassword) {
+      setError('New passwords do not match.');
+      return;
+    }
+
+    if (newPassword.length < 6) {
+      setError('Password must be at least 6 characters.');
+      return;
+    }
+
+    setLoading(true);
+    try {
+      const res = await authApi.completePasswordChange({
+        requestId: generatedTicketId,
+        authorizationCode: authCodeInput.trim().toUpperCase(),
+        newPassword,
+        confirmPassword: confirmNewPassword
+      });
+
+      if (res.success) {
+        toast.success('Password updated successfully! You can now sign in.');
+        setIsPasswordRequestMode(false);
+        setPwdWorkflowStep('request');
+        setGeneratedTicketId(null);
+        setAuthCodeInput('');
+        setNewPassword('');
+        setConfirmNewPassword('');
+        setLoginPassword(newPassword);
+      }
+    } catch (err: any) {
+      const msg = err.response?.data?.message || 'Could not finalize password update.';
+      setError(msg);
+      toast.error(msg);
     } finally {
       setLoading(false);
     }
   };
 
   return (
-    <div className="min-h-screen w-full flex bg-navy-950 text-slate-100 relative overflow-hidden font-sans">
+    <div className="min-h-screen w-full flex bg-slate-950 text-slate-100 relative overflow-hidden font-sans select-none">
+      {/* Background Animated Video Canvas */}
+      <AcademicBackgroundCanvas />
 
-      {/* Background Animated Gradient Blobs */}
-      <div className="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-purple-700/20 blur-3xl pointer-events-none animate-float-slow"></div>
-      <div className="absolute top-1/2 -right-32 w-[32rem] h-[32rem] rounded-full bg-cyan-500/15 blur-3xl pointer-events-none animate-float-reverse"></div>
-      <div className="absolute -bottom-32 left-1/3 w-96 h-96 rounded-full bg-purple-900/30 blur-3xl pointer-events-none"></div>
-
-      {/* Split-Screen Container */}
-      <div className="w-full flex flex-col lg:flex-row min-h-screen z-10">
-        {/* Left Hero & Branding Section */}
+      {/* Main Split-Screen Container */}
+      <div className="w-full flex flex-col lg:flex-row min-h-screen z-10 relative">
+        {/* Left Side: Institutional Identity & Academic Overview */}
         <motion.div
-          initial={{ opacity: 0, x: -30 }}
+          initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut' }}
-          className="lg:w-1/2 p-8 sm:p-12 lg:p-16 flex flex-col justify-between relative bg-gradient-to-b from-navy-900/90 via-navy-950/90 to-purple-950/80 backdrop-blur-xl border-r border-white/10"
+          transition={{ duration: 0.5 }}
+          className="lg:w-1/2 p-6 sm:p-10 lg:p-14 flex flex-col justify-between border-b lg:border-b-0 lg:border-r border-slate-800/80 bg-slate-950/70 backdrop-blur-md"
         >
-          {/* Top Brand Tag */}
-          <div className="space-y-4">
-            <div className="inline-flex items-center gap-3 px-3.5 py-2 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md shadow-glass">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 to-cyan-400 flex items-center justify-center text-white shadow-glow-purple">
-                <GraduationCap className="w-5 h-5" />
+          {/* Institutional Emblem & Title */}
+          <div className="space-y-6">
+            <div className="flex items-center gap-3.5">
+              <div className="w-11 h-11 rounded-lg bg-slate-900 border border-slate-700/80 flex items-center justify-center text-amber-400 shadow-sm shrink-0">
+                <GraduationCap className="w-6 h-6" />
               </div>
               <div>
-                <span className="text-xs font-black tracking-wider uppercase text-white block">EPMS</span>
-                <span className="text-[10px] text-cyan-300 font-semibold">Educational Progress Monitoring</span>
+                <span className="text-xs font-bold text-amber-400 tracking-wider uppercase block">
+                  राष्ट्रीय शैक्षणिक प्रगती प्रणाली
+                </span>
+                <span className="text-sm font-bold text-white tracking-tight">
+                  Educational Progress Monitoring System (EPMS)
+                </span>
               </div>
             </div>
 
-            <div className="pt-8 max-w-xl">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-bold mb-4 border border-purple-400/30">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Next-Gen Academic Analytics</span>
+            <div className="pt-4 max-w-xl space-y-3">
+              <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-slate-900/90 border border-slate-700 text-slate-300 text-xs font-medium">
+                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                <span>Statutory 75% Attendance & Coursework Registry • AY 2026-27</span>
               </div>
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
-                Empowering Minds with <span className="bg-gradient-to-r from-purple-400 via-cyan-300 to-white bg-clip-text text-transparent">Real-Time Telemetry</span>.
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight leading-tight">
+                Institutional Academic Telemetry & Early Warning Architecture
               </h1>
-              <p className="mt-4 text-xs sm:text-sm text-slate-300 leading-relaxed max-w-lg">
-                Monitor student attendance, track lesson video progress, detect at-risk academic signals early, and streamline university workflows in one intuitive platform.
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                Centralized academic governance platform for Department of Computer Science & Engineering. Track real-time attendance compliance, continuous internal evaluations (CIE), and faculty intervention advisories.
               </p>
             </div>
           </div>
 
-          {/* Interactive Feature Highlights Preview */}
-          <div className="my-8 grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm hover:border-purple-500/40 transition-colors">
-              <TrendingUp className="w-5 h-5 text-cyan-400 mb-2" />
-              <h4 className="text-xs font-bold text-white">Live Progress</h4>
-              <p className="text-[11px] text-slate-400 mt-0.5">Second-by-second video watch heartbeats</p>
+          {/* Institutional Compliance Indicators */}
+          <div className="my-6 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div className="p-3.5 rounded-lg bg-slate-900/70 border border-slate-800">
+              <CalendarCheck className="w-4 h-4 text-sky-400 mb-1.5" />
+              <h4 className="text-xs font-semibold text-white">75% Attendance Rule</h4>
+              <p className="text-[11px] text-slate-400 mt-0.5">Automated detection of semester exam ineligibility</p>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm hover:border-purple-500/40 transition-colors">
-              <ShieldCheck className="w-5 h-5 text-purple-400 mb-2" />
-              <h4 className="text-xs font-bold text-white">Early Warnings</h4>
-              <p className="text-[11px] text-slate-400 mt-0.5">Automated detection of students at risk</p>
+            <div className="p-3.5 rounded-lg bg-slate-900/70 border border-slate-800">
+              <BookOpen className="w-4 h-4 text-emerald-400 mb-1.5" />
+              <h4 className="text-xs font-semibold text-white">Course Telemetry</h4>
+              <p className="text-[11px] text-slate-400 mt-0.5">Video lecture watch heartbeats & module completion</p>
             </div>
 
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm hover:border-purple-500/40 transition-colors">
-              <Clock className="w-5 h-5 text-emerald-400 mb-2" />
-              <h4 className="text-xs font-bold text-white">Zero Duplicates</h4>
-              <p className="text-[11px] text-slate-400 mt-0.5">Idempotent attendance ledger updates</p>
+            <div className="p-3.5 rounded-lg bg-slate-900/70 border border-slate-800">
+              <FileCheck2 className="w-4 h-4 text-amber-400 mb-1.5" />
+              <h4 className="text-xs font-semibold text-white">Controlled Access</h4>
+              <p className="text-[11px] text-slate-400 mt-0.5">Credential changes governed by department authorization</p>
             </div>
           </div>
 
-          {/* Bottom Accreditation Note */}
-          <div className="pt-4 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-400">
-            <span>Ratan Tata Maharashtra State Skills University</span>
-            <span className="font-mono text-cyan-300 font-bold">EPMS v2.0 Enterprise</span>
+          {/* Footer Metadata */}
+          <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between text-[11px] text-slate-400">
+            <span>Affiliated with State Technical University Council</span>
+            <span className="font-mono text-slate-300">EPMS Academic Portal v2.4</span>
           </div>
         </motion.div>
 
-        {/* Right Authentication Card Section */}
+        {/* Right Side: Authentication & Password Request Panel */}
         <motion.div
-          initial={{ opacity: 0, x: 30 }}
+          initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, ease: 'easeOut', delay: 0.1 }}
-          className="lg:w-1/2 p-6 sm:p-10 lg:p-16 flex items-center justify-center bg-navy-950/80 backdrop-blur-md"
+          transition={{ duration: 0.5 }}
+          className="lg:w-1/2 p-6 sm:p-10 lg:p-14 flex items-center justify-center bg-slate-950/80 backdrop-blur-md"
         >
-          <div className="w-full max-w-md space-y-6">
+          <div className="w-full max-w-md space-y-5">
             {/* Header Titles */}
-            <div>
-              <h2 className="text-2xl font-black text-white tracking-tight">
-                {isForgotPassword
-                  ? 'Recover Access'
+            <div className="space-y-1">
+              <h2 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+                {isPasswordRequestMode
+                  ? 'Request Password Change'
                   : isRegistering
-                  ? 'Join EPMS Academic Network'
-                  : 'Sign in to EPMS'}
+                  ? 'Register Academic Account'
+                  : 'Institutional Portal Sign In'}
               </h2>
-              <p className="text-xs text-slate-400 mt-1">
-                {isForgotPassword
-                  ? 'Enter your institutional email to request a reset link.'
+              <p className="text-xs text-slate-400">
+                {isPasswordRequestMode
+                  ? 'Institutional governance: password changes require department authorization.'
                   : isRegistering
-                  ? 'Create your verified student or faculty credentials.'
-                  : 'Select your institutional role and enter your credentials.'}
+                  ? 'Enroll new faculty or student scholar into the departmental ledger.'
+                  : 'Select your institutional role and enter your verified credentials.'}
               </p>
             </div>
 
-            {/* Error / Alert Display */}
+            {/* Error Notification */}
             <AnimatePresence>
               {error && (
                 <motion.div
-                  initial={{ opacity: 0, height: 0 }}
-                  animate={{ opacity: 1, height: 'auto' }}
-                  exit={{ opacity: 0, height: 0 }}
-                  className="p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-300 text-xs flex items-start gap-2.5"
+                  initial={{ opacity: 0, y: -6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -6 }}
+                  className="p-3 rounded-lg bg-rose-950/40 border border-rose-800/60 text-rose-200 text-xs flex items-start gap-2"
                 >
-                  <AlertCircle className="w-4 h-4 shrink-0 mt-0.5 text-rose-400" />
+                  <AlertCircle className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />
                   <span>{error}</span>
                 </motion.div>
               )}
             </AnimatePresence>
 
-            {/* Forgot Password View */}
-            {isForgotPassword ? (
-              <form onSubmit={handleForgotPasswordSubmit} className="space-y-4">
-                <div>
-                  <label className="text-xs font-bold text-slate-300 block mb-1.5">Registered Institutional Email</label>
-                  <div className="relative">
-                    <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                    <input
-                      type="email"
-                      value={forgotEmail}
-                      onChange={(e) => setForgotEmail(e.target.value)}
-                      placeholder="student@epms.edu"
-                      className="w-full pl-10 pr-4 py-2.5 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all"
-                      required
-                    />
-                  </div>
-                </div>
-
-                {resetMessage && (
-                  <p className="text-xs text-cyan-300 bg-cyan-950/40 p-3 rounded-xl border border-cyan-800/40">
-                    {resetMessage}
-                  </p>
-                )}
-
-                <div className="flex items-center gap-2 pt-2">
+            {/* View 1: Password Change Request Workflow */}
+            {isPasswordRequestMode ? (
+              <div className="space-y-4">
+                {/* 2-Step Tabs */}
+                <div className="grid grid-cols-2 gap-1.5 p-1 rounded-lg bg-slate-900 border border-slate-800">
                   <button
                     type="button"
-                    onClick={() => {
-                      setIsForgotPassword(false);
-                      setError(null);
-                    }}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-semibold text-slate-300 hover:bg-white/5 border border-white/10 transition-colors"
+                    onClick={() => setPwdWorkflowStep('request')}
+                    className={`py-1.5 rounded text-xs font-medium transition-colors ${
+                      pwdWorkflowStep === 'request'
+                        ? 'bg-slate-800 text-white shadow-xs'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
                   >
-                    Back to Sign In
+                    1. Submit Request
                   </button>
                   <button
-                    type="submit"
-                    disabled={loading}
-                    className="flex-1 py-2.5 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-purple-600 to-cyan-500 hover:from-purple-500 hover:to-cyan-400 shadow-glow-purple transition-all flex items-center justify-center gap-2"
+                    type="button"
+                    onClick={() => setPwdWorkflowStep('complete')}
+                    className={`py-1.5 rounded text-xs font-medium transition-colors ${
+                      pwdWorkflowStep === 'complete'
+                        ? 'bg-slate-800 text-white shadow-xs'
+                        : 'text-slate-400 hover:text-white'
+                    }`}
                   >
-                    {loading ? 'Sending...' : 'Send Recovery Link'}
+                    2. Authorize & Finalize
                   </button>
                 </div>
-              </form>
+
+                {pwdWorkflowStep === 'request' ? (
+                  <form onSubmit={handleSubmitPasswordRequest} className="space-y-3.5">
+                    <div>
+                      <label className="text-xs font-semibold text-slate-300 block mb-1">
+                        Registered Email or PRN / Teacher ID
+                      </label>
+                      <div className="relative">
+                        <User className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                        <input
+                          type="text"
+                          value={reqEmailOrId}
+                          onChange={(e) => setReqEmailOrId(e.target.value)}
+                          placeholder="e.g. student1@epms.edu or STU-2001"
+                          className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white placeholder-slate-500 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition-colors"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-xs font-semibold text-slate-300 block mb-1">
+                        Reason for Password Modification
+                      </label>
+                      <select
+                        value={reqReason}
+                        onChange={(e) => setReqReason(e.target.value)}
+                        className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 transition-colors"
+                      >
+                        <option value="Routine Security Credential Update">Routine Security Credential Update</option>
+                        <option value="Device Replacement / Secondary Terminal Access">Device Replacement / Secondary Terminal Access</option>
+                        <option value="Suspected Credential Compromise">Suspected Credential Compromise</option>
+                        <option value="Forgotten Password / Reset Required">Forgotten Password / Reset Required</option>
+                      </select>
+                    </div>
+
+                    {generatedTicketId && (
+                      <div className="p-3 rounded-lg bg-emerald-950/40 border border-emerald-800/60 space-y-2">
+                        <div className="flex items-center gap-2 text-xs font-medium text-emerald-300">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Request Ticket Logged: {generatedTicketId}</span>
+                        </div>
+                        <p className="text-[11px] text-slate-300">
+                          Status: <strong className="text-amber-300 font-semibold">Pending Department Head Authorization</strong>
+                        </p>
+                        <div className="pt-1">
+                          <button
+                            type="button"
+                            onClick={handleDemoApproveRequest}
+                            disabled={loading}
+                            className="px-3 py-1.5 rounded bg-emerald-700 hover:bg-emerald-600 text-white text-[11px] font-semibold transition-colors flex items-center gap-1.5"
+                          >
+                            <ShieldCheck className="w-3.5 h-3.5" />
+                            <span>Faculty Sign-off (Authorize Ticket)</span>
+                          </button>
+                        </div>
+                      </div>
+                    )}
+
+                    <div className="flex items-center gap-2 pt-2">
+                      <button
+                        type="button"
+                        onClick={() => {
+                          setIsPasswordRequestMode(false);
+                          setError(null);
+                        }}
+                        className="flex-1 py-2 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-900 border border-slate-800 transition-colors"
+                      >
+                        Back to Sign In
+                      </button>
+                      <button
+                        type="submit"
+                        disabled={loading}
+                        className="flex-1 py-2 rounded-lg text-xs font-semibold text-white bg-sky-600 hover:bg-sky-500 transition-colors flex items-center justify-center gap-1.5"
+                      >
+                        {loading ? 'Submitting...' : 'Submit Request'}
+                      </button>
+                    </div>
+                  </form>
+                ) : (
+                  <form onSubmit={handleCompletePasswordChange} className="space-y-3.5">
+                    <div>
+                      <label className="text-xs font-semibold text-slate-300 block mb-1">
+                        Request Ticket ID
+                      </label>
+                      <div className="relative">
+                        <KeyRound className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                        <input
+                          type="text"
+                          value={generatedTicketId || ''}
+                          onChange={(e) => setGeneratedTicketId(e.target.value)}
+                          placeholder="e.g. REQ-PWD-123456"
+                          className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white placeholder-slate-500 uppercase focus:outline-none focus:border-sky-500"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-xs font-semibold text-slate-300 block mb-1">
+                        Department Authorization Code
+                      </label>
+                      <div className="relative">
+                        <ShieldCheck className="w-4 h-4 text-emerald-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                        <input
+                          type="text"
+                          value={authCodeInput}
+                          onChange={(e) => setAuthCodeInput(e.target.value)}
+                          placeholder="e.g. AUTH-654321"
+                          className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white placeholder-slate-500 uppercase focus:outline-none focus:border-sky-500"
+                          required
+                        />
+                      </div>
+                      {demoApprovedCode && (
+                        <span className="text-[10px] text-emerald-400 mt-1 block">
+                          Code issued: {demoApprovedCode}
+                        </span>
+                      )}
+                    </div>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                      <div>
+                        <label className="text-xs font-semibold text-slate-300 block mb-1">New Password</label>
+                        <input
+                          type="password"
+                          value={newPassword}
+                          onChange={(e) => setNewPassword(e.target.value)}
+                          placeholder="Min 6 characters"
+                          className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <label className="text-xs font-semibold text-slate-300 block mb-1">Confirm New Password</label>
+                        <input
+                          type="password"
+                          value={confirmNewPassword}
+                          onChange={(e) => setConfirmNewPassword(e.target.value)}
+                          placeholder="Repeat password"
+                          className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div className="flex items-center gap-2 pt-2">
+                      <button
+                        type="button"
+                        onClick={() => setPwdWorkflowStep('request')}
+                        className="flex-1 py-2 rounded-lg text-xs font-semibold text-slate-300 hover:bg-slate-900 border border-slate-800 transition-colors"
+                      >
+                        Back
+                      </button>
+                      <button
+                        type="submit"
+                        disabled={loading}
+                        className="flex-1 py-2 rounded-lg text-xs font-semibold text-white bg-emerald-600 hover:bg-emerald-500 transition-colors flex items-center justify-center gap-1.5"
+                      >
+                        {loading ? 'Finalizing...' : 'Update Password'}
+                      </button>
+                    </div>
+                  </form>
+                )}
+              </div>
             ) : isRegistering ? (
-              /* Registration Form */
-              <form onSubmit={handleRegisterSubmit} className="space-y-3.5">
-                <div className="grid grid-cols-2 gap-2 p-1 rounded-xl bg-white/5 border border-white/10 mb-2">
+              /* Registration View */
+              <form onSubmit={handleRegisterSubmit} className="space-y-3">
+                <div className="grid grid-cols-2 gap-1.5 p-1 rounded-lg bg-slate-900 border border-slate-800 mb-2">
                   <button
                     type="button"
                     onClick={() => setRole('student')}
-                    className={`py-2 rounded-lg text-xs font-bold transition-all ${
+                    className={`py-1.5 rounded text-xs font-medium transition-colors ${
                       role === 'student'
-                        ? 'bg-purple-600 text-white shadow-sm'
+                        ? 'bg-slate-800 text-white'
                         : 'text-slate-400 hover:text-white'
                     }`}
                   >
@@ -331,316 +564,243 @@ export const LoginPage: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => setRole('teacher')}
-                    className={`py-2 rounded-lg text-xs font-bold transition-all ${
+                    className={`py-1.5 rounded text-xs font-medium transition-colors ${
                       role === 'teacher'
-                        ? 'bg-purple-600 text-white shadow-sm'
+                        ? 'bg-slate-800 text-white'
                         : 'text-slate-400 hover:text-white'
                     }`}
                   >
-                    Faculty Instructor
+                    Faculty Member
                   </button>
                 </div>
 
                 <div>
-                  <label className="text-[11px] font-bold text-slate-300 block mb-1">Full Legal Name</label>
+                  <label className="text-xs font-semibold text-slate-300 block mb-1">Full Legal Name</label>
                   <div className="relative">
-                    <User className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                    <User className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      placeholder="e.g. Alex Rivera"
-                      className="w-full pl-10 pr-4 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all"
+                      placeholder={role === 'teacher' ? 'e.g. Prof. Rajesh Sharma' : 'e.g. Aarav Patel'}
+                      className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
                       required
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <div>
-                    <label className="text-[11px] font-bold text-slate-300 block mb-1">Institutional Email</label>
-                    <div className="relative">
-                      <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                      <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="user@epms.edu"
-                        className="w-full pl-10 pr-4 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all"
-                        required
-                      />
-                    </div>
+                    <label className="text-xs font-semibold text-slate-300 block mb-1">Institutional Email</label>
+                    <input
+                      type="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      placeholder="user@epms.edu"
+                      className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                      required
+                    />
                   </div>
-
                   <div>
-                    <label className="text-[11px] font-bold text-slate-300 block mb-1">
-                      {role === 'teacher' ? 'Faculty ID' : 'Student PRN / ID'}
+                    <label className="text-xs font-semibold text-slate-300 block mb-1">
+                      {role === 'teacher' ? 'Faculty ID' : 'Student ID (PRN)'}
                     </label>
-                    <div className="relative">
-                      <KeyRound className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                      <input
-                        type="text"
-                        value={identifier}
-                        onChange={(e) => setIdentifier(e.target.value)}
-                        placeholder={role === 'teacher' ? 'TCH-1002' : 'STU-2015'}
-                        className="w-full pl-10 pr-4 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all uppercase"
-                        required
-                      />
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="text-[11px] font-bold text-slate-300 block mb-1">Department</label>
-                  <div className="relative">
-                    <Building className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
-                      value={department}
-                      onChange={(e) => setDepartment(e.target.value)}
-                      placeholder="Information Technology & Computer Technology"
-                      className="w-full pl-10 pr-4 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all"
+                      value={identifier}
+                      onChange={(e) => setIdentifier(e.target.value)}
+                      placeholder={role === 'teacher' ? 'TCH-1002' : 'STU-2015'}
+                      className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white uppercase focus:outline-none focus:border-sky-500"
+                      required
                     />
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                  <div>
-                    <label className="text-[11px] font-bold text-slate-300 block mb-1">Password</label>
-                    <div className="relative">
-                      <Lock className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                      <input
-                        type={showPassword ? 'text' : 'password'}
-                        value={password}
-                        onChange={(e) => setPassword(e.target.value)}
-                        placeholder="Min 6 characters"
-                        className="w-full pl-10 pr-10 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all"
-                        required
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowPassword(!showPassword)}
-                        className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                      >
-                        {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                      </button>
-                    </div>
-                  </div>
+                <div>
+                  <label className="text-xs font-semibold text-slate-300 block mb-1">Department</label>
+                  <input
+                    type="text"
+                    value={department}
+                    onChange={(e) => setDepartment(e.target.value)}
+                    placeholder="Computer Science & Engineering"
+                    className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                  />
+                </div>
 
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <div>
-                    <label className="text-[11px] font-bold text-slate-300 block mb-1">Confirm Password</label>
-                    <div className="relative">
-                      <Lock className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
-                      <input
-                        type={showConfirmPassword ? 'text' : 'password'}
-                        value={confirmPassword}
-                        onChange={(e) => setConfirmPassword(e.target.value)}
-                        placeholder="Repeat password"
-                        className="w-full pl-10 pr-10 py-2 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 transition-all"
-                        required
-                      />
-                      <button
-                        type="button"
-                        onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                        className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                      >
-                        {showConfirmPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                      </button>
-                    </div>
+                    <label className="text-xs font-semibold text-slate-300 block mb-1">Password</label>
+                    <input
+                      type="password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      placeholder="Min 6 characters"
+                      className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="text-xs font-semibold text-slate-300 block mb-1">Confirm Password</label>
+                    <input
+                      type="password"
+                      value={confirmPassword}
+                      onChange={(e) => setConfirmPassword(e.target.value)}
+                      placeholder="Repeat password"
+                      className="w-full px-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500"
+                      required
+                    />
                   </div>
                 </div>
 
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full mt-2 py-3 px-4 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-purple-600 via-purple-700 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-glow-purple transition-all flex items-center justify-center gap-2"
+                  className="w-full mt-2 py-2.5 rounded-lg text-xs font-semibold text-white bg-sky-600 hover:bg-sky-500 transition-colors flex items-center justify-center gap-2"
                 >
-                  {loading ? (
-                    <>
-                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                      <span>Creating Account...</span>
-                    </>
-                  ) : (
-                    <>
-                      <span>Complete Registration</span>
-                      <ArrowRight className="w-4 h-4" />
-                    </>
-                  )}
+                  {loading ? 'Creating Account...' : 'Submit Institutional Registration'}
                 </button>
 
-                <p className="text-center text-xs text-slate-400 pt-2">
-                  Already have an account?{' '}
+                <p className="text-center text-xs text-slate-400 pt-1">
+                  Already registered?{' '}
                   <button
                     type="button"
                     onClick={() => {
                       setIsRegistering(false);
                       setError(null);
                     }}
-                    className="text-cyan-400 hover:text-cyan-300 font-bold underline underline-offset-2 ml-1"
+                    className="text-sky-400 hover:underline font-semibold ml-1"
                   >
-                    Sign In instead
+                    Sign In
                   </button>
                 </p>
               </form>
             ) : (
-              /* Standard Login Form */
+              /* Standard Institutional Sign In View */
               <form onSubmit={handleLoginSubmit} className="space-y-4">
-                {/* Role Tabs for Demo & Clarity */}
-                <div className="space-y-2">
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Select Role To Sign In</span>
-                  <div className="grid grid-cols-2 gap-2 p-1 rounded-2xl bg-white/5 border border-white/10">
+                {/* Role Switcher */}
+                <div className="space-y-1.5">
+                  <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-400">
+                    Select Academic Role
+                  </span>
+                  <div className="grid grid-cols-2 gap-1.5 p-1 rounded-lg bg-slate-900 border border-slate-800">
                     <button
                       type="button"
                       onClick={() => handleSelectRoleDemo('student')}
-                      className={`py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-2 transition-all ${
+                      className={`py-2 px-3 rounded text-xs font-medium flex items-center justify-center gap-1.5 transition-colors ${
                         activeRoleTab === 'student'
-                          ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-glow-purple'
+                          ? 'bg-slate-800 text-white shadow-xs'
                           : 'text-slate-400 hover:text-white'
                       }`}
-                      data-cursor="pointer"
                     >
-                      <GraduationCap className="w-4 h-4" />
-                      <span>Student</span>
+                      <User className="w-3.5 h-3.5" />
+                      <span>Student (Aarav Patel)</span>
                     </button>
                     <button
                       type="button"
                       onClick={() => handleSelectRoleDemo('teacher')}
-                      className={`py-2 px-3 rounded-xl text-xs font-bold flex items-center justify-center gap-2 transition-all ${
+                      className={`py-2 px-3 rounded text-xs font-medium flex items-center justify-center gap-1.5 transition-colors ${
                         activeRoleTab === 'teacher'
-                          ? 'bg-gradient-to-r from-purple-600 to-indigo-600 text-white shadow-glow-purple'
+                          ? 'bg-slate-800 text-white shadow-xs'
                           : 'text-slate-400 hover:text-white'
                       }`}
-                      data-cursor="pointer"
                     >
-                      <ShieldCheck className="w-4 h-4" />
-                      <span>Teacher / Faculty</span>
+                      <GraduationCap className="w-3.5 h-3.5" />
+                      <span>Faculty (Prof. Rajesh Sharma)</span>
                     </button>
                   </div>
                 </div>
 
-                {/* Email Field */}
                 <div>
-                  <label className="text-xs font-bold text-slate-300 block mb-1.5">Institutional Email</label>
+                  <label className="text-xs font-semibold text-slate-300 block mb-1">Institutional Email</label>
                   <div className="relative">
-                    <Mail className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                    <Mail className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                     <input
                       type="email"
                       value={loginEmail}
                       onChange={(e) => setLoginEmail(e.target.value)}
-                      placeholder="student1@epms.edu or teacher@epms.edu"
-                      className="w-full pl-10 pr-4 py-2.5 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all"
+                      placeholder="user@epms.edu"
+                      className="w-full pl-9 pr-3 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500 transition-colors"
                       required
                     />
                   </div>
                 </div>
 
-                {/* Password Field */}
                 <div>
-                  <div className="flex items-center justify-between mb-1.5">
-                    <label className="text-xs font-bold text-slate-300">Password</label>
+                  <div className="flex items-center justify-between mb-1">
+                    <label className="text-xs font-semibold text-slate-300">Password</label>
                     <button
                       type="button"
                       onClick={() => {
-                        setIsForgotPassword(true);
+                        setIsPasswordRequestMode(true);
+                        setReqEmailOrId(loginEmail);
                         setError(null);
                       }}
-                      className="text-[11px] text-cyan-400 hover:text-cyan-300 font-semibold"
+                      className="text-[11px] text-sky-400 hover:underline"
                     >
-                      Forgot password?
+                      Change Password (By Request)
                     </button>
                   </div>
                   <div className="relative">
-                    <Lock className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                    <Lock className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
                     <input
                       type={showPassword ? 'text' : 'password'}
                       value={loginPassword}
                       onChange={(e) => setLoginPassword(e.target.value)}
                       placeholder="••••••••"
-                      className="w-full pl-10 pr-10 py-2.5 rounded-xl text-xs bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-purple-500 focus:ring-1 focus:ring-purple-500 transition-all"
+                      className="w-full pl-9 pr-9 py-2 rounded-lg text-xs bg-slate-900 border border-slate-800 text-white focus:outline-none focus:border-sky-500 transition-colors"
                       required
                     />
                     <button
                       type="button"
                       onClick={() => setShowPassword(!showPassword)}
                       className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-white"
-                      tabIndex={-1}
+                      aria-label="Toggle password visibility"
                     >
                       {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                     </button>
                   </div>
                 </div>
 
-                {/* Remember Me Checkbox */}
                 <div className="flex items-center justify-between pt-1">
                   <label className="flex items-center gap-2 cursor-pointer text-xs text-slate-300">
                     <input
                       type="checkbox"
                       checked={rememberMe}
                       onChange={(e) => setRememberMe(e.target.checked)}
-                      className="w-4 h-4 rounded bg-white/10 border-white/20 text-purple-600 focus:ring-purple-500"
+                      className="rounded border-slate-700 bg-slate-900 text-sky-600 focus:ring-sky-500"
                     />
-                    <span>Remember my institutional ID</span>
+                    <span>Remember terminal session</span>
                   </label>
                 </div>
 
-                {/* Submit Login Button */}
-                <motion.button
-                  whileHover={{ scale: 1.01 }}
-                  whileTap={{ scale: 0.99 }}
+                <button
                   type="submit"
                   disabled={loading}
-                  className="w-full py-3 px-4 rounded-xl text-xs font-bold text-white bg-gradient-to-r from-purple-600 via-purple-700 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-glow-purple transition-all flex items-center justify-center gap-2 cursor-pointer"
-                  data-cursor="pointer"
+                  className="w-full py-2.5 rounded-lg text-xs font-semibold text-white bg-slate-900 hover:bg-slate-800 border border-slate-700 transition-colors flex items-center justify-center gap-2 shadow-xs"
                 >
                   {loading ? (
-                    <>
-                      <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                      <span>Verifying Session...</span>
-                    </>
+                    <span>Authenticating...</span>
                   ) : (
                     <>
-                      <span>Sign In to Dashboard</span>
+                      <span>Enter EPMS Portal</span>
                       <ArrowRight className="w-4 h-4" />
                     </>
                   )}
-                </motion.button>
+                </button>
 
-                {/* One-Click Demo Credentials Pill */}
-                <div className="p-3 rounded-2xl bg-white/5 border border-white/10 text-center space-y-1.5">
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">Quick Demo Pre-Fill</p>
-                  <div className="flex items-center justify-center gap-2">
-                    <button
-                      type="button"
-                      onClick={() => handleSelectRoleDemo('student')}
-                      className="text-[11px] px-2.5 py-1 rounded-lg bg-cyan-950/60 text-cyan-300 border border-cyan-800/40 hover:bg-cyan-900/60 transition-colors font-mono font-bold"
-                    >
-                      student1@epms.edu
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => handleSelectRoleDemo('teacher')}
-                      className="text-[11px] px-2.5 py-1 rounded-lg bg-purple-950/60 text-purple-300 border border-purple-800/40 hover:bg-purple-900/60 transition-colors font-mono font-bold"
-                    >
-                      teacher@epms.edu
-                    </button>
-                  </div>
-                </div>
-
-                {/* Register Link Toggle */}
-                <p className="text-center text-xs text-slate-400 pt-1">
-                  Don’t have an EPMS profile?{' '}
+                <div className="pt-2 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+                  <span>New scholar or instructor?</span>
                   <button
                     type="button"
                     onClick={() => {
                       setIsRegistering(true);
                       setError(null);
                     }}
-                    className="text-cyan-400 hover:text-cyan-300 font-bold underline underline-offset-2 ml-1"
-                    data-cursor="pointer"
+                    className="text-sky-400 hover:underline font-semibold"
                   >
-                    Create Account
+                    Register Account
                   </button>
-                </p>
+                </div>
               </form>
             )}
           </div>

@@ -4,7 +4,7 @@
     "recipient": "dca8a0c79f9d0de3f41c4f6d",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"Your attendance is currently 55%, which is well below the mandatory 75% threshold. Please schedule an office hour meeting immediately.\"",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority alert: \"Your attendance is currently 55%, which is well below the mandatory 75% threshold. Please schedule an office hour meeting immediately.\"",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -20,7 +20,7 @@
     "recipient": "2f8923caeafd8201cbc60ddb",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"You have only completed 25% of coursework for CS-101 and CS-202. Immediate catch-up is required to maintain passing standing.\"",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority alert: \"You have only completed 25% of coursework for CS-101 and CS-202. Immediate catch-up is required to maintain passing standing.\"",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -36,7 +36,7 @@
     "recipient": "b4fb86aa7bf030826528cc3b",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Inactive Student",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority alert: \"No learning activity has been logged on your account for over 8 consecutive days. Please resume your video lectures.\"",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority alert: \"No learning activity has been logged on your account for over 8 consecutive days. Please resume your video lectures.\"",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -52,7 +52,7 @@
     "recipient": "1ee48c8838da4e3811f4ed12",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Missing Lessons",
-    "message": "Instructor Dr. Sarah Jenkins issued a Medium priority alert: \"You missed completing Module 2 lessons in React & Node.js. Review the recorded videos before the next quiz.\"",
+    "message": "Instructor Prof. Rajesh Sharma issued a Medium priority alert: \"You missed completing Module 2 lessons in React & Node.js. Review the recorded videos before the next quiz.\"",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -68,7 +68,7 @@
     "recipient": "33fb5bb3bb6d0905b547b6a3",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a Medium priority alert: \"Your attendance has dropped to 76%. One additional absence will place you in academic probation status.\"",
+    "message": "Instructor Prof. Rajesh Sharma issued a Medium priority alert: \"Your attendance has dropped to 76%. One additional absence will place you in academic probation status.\"",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -294,7 +294,7 @@
     "recipient": "33fb5bb3bb6d0905b547b6a3",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -321,7 +321,7 @@
     "recipient": "33fb5bb3bb6d0905b547b6a3",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -348,7 +348,7 @@
     "recipient": "33fb5bb3bb6d0905b547b6a3",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -375,7 +375,7 @@
     "recipient": "8f14b64469cc3f538c76d95e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -391,7 +391,7 @@
     "recipient": "6d87cc017f8c94b87d19f8cc",
     "sender": "8f14b64469cc3f538c76d95e",
     "title": "✅ Warning Acknowledged",
-    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "message": "Student Aarav Patel acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
     "type": "warning",
     "link": "/teacher/warnings",
     "createdAt": "2026-11-07T15:34:14.198Z",
@@ -402,7 +402,7 @@
     "recipient": "8f14b64469cc3f538c76d95e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -418,7 +418,7 @@
     "recipient": "6d87cc017f8c94b87d19f8cc",
     "sender": "8f14b64469cc3f538c76d95e",
     "title": "✅ Warning Acknowledged",
-    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "message": "Student Aarav Patel acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
     "type": "warning",
     "link": "/teacher/warnings",
     "createdAt": "2026-11-07T15:36:08.144Z",
@@ -429,7 +429,7 @@
     "recipient": "8f14b64469cc3f538c76d95e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -445,7 +445,7 @@
     "recipient": "6d87cc017f8c94b87d19f8cc",
     "sender": "8f14b64469cc3f538c76d95e",
     "title": "✅ Warning Acknowledged",
-    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "message": "Student Aarav Patel acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
     "type": "warning",
     "link": "/teacher/warnings",
     "createdAt": "2026-11-07T15:38:21.534Z",
@@ -456,7 +456,7 @@
     "recipient": "8f14b64469cc3f538c76d95e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -472,7 +472,7 @@
     "recipient": "6d87cc017f8c94b87d19f8cc",
     "sender": "8f14b64469cc3f538c76d95e",
     "title": "✅ Warning Acknowledged",
-    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "message": "Student Aarav Patel acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
     "type": "warning",
     "link": "/teacher/warnings",
     "createdAt": "2026-11-07T15:39:13.212Z",
@@ -483,7 +483,7 @@
     "recipient": "33fb5bb3bb6d0905b547b6a3",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -530,7 +530,7 @@
     "recipient": "3cd3f8ac28d644eadfb3b05e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Course Completion",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -557,7 +557,7 @@
     "recipient": "8f14b64469cc3f538c76d95e",
     "sender": "6d87cc017f8c94b87d19f8cc",
     "title": "⚠️ Academic Warning: Low Attendance",
-    "message": "Instructor Dr. Sarah Jenkins issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Advanced Operating Systems & Kernel Architecture: \"Your current attendance requires immediate improvement to remain eligible for the semester exam.\".",
     "type": "warning",
     "link": "/student/notifications",
     "metadata": {
@@ -573,7 +573,7 @@
     "recipient": "6d87cc017f8c94b87d19f8cc",
     "sender": "8f14b64469cc3f538c76d95e",
     "title": "✅ Warning Acknowledged",
-    "message": "Student Alex Rivera acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
+    "message": "Student Aarav Patel acknowledged warning: \"Low Attendance\". Note: \"Understood, I will attend all subsequent sessions.\"",
     "type": "warning",
     "link": "/teacher/warnings",
     "createdAt": "2026-11-14T09:24:33.848Z",
@@ -598,5 +598,27 @@
     "link": "/student/attendance",
     "createdAt": "2026-11-14T09:44:56.116Z",
     "updatedAt": "2026-11-14T09:44:56.116Z"
+  },
+  {
+    "_id": "cfde2bc00d8d9fa87c810179",
+    "user": "8f14b64469cc3f538c76d95e",
+    "type": "warning",
+    "title": "Password Change Request Logged",
+    "message": "Your credential change request #REQ-PWD-634621 has been submitted for institutional authorization.",
+    "read": false,
+    "priority": "Normal",
+    "createdAt": "2026-11-16T05:57:00.844Z",
+    "updatedAt": "2026-11-16T05:57:00.844Z"
+  },
+  {
+    "_id": "7077ff6762911a8ae1e39447",
+    "user": "8f14b64469cc3f538c76d95e",
+    "type": "warning",
+    "title": "Password Change Request Logged",
+    "message": "Your credential change request #REQ-PWD-315890 has been submitted for institutional authorization.",
+    "read": false,
+    "priority": "Normal",
+    "createdAt": "2026-11-16T06:16:14.323Z",
+    "updatedAt": "2026-11-16T06:16:14.323Z"
   }
 ]

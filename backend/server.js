@@ -100,8 +100,19 @@ app.use((err, req, res, next) => {
   });
 });
 
-const server = app.listen(PORT, () => {
-  console.log(`🚀 [EPMS Server] Running on http://localhost:${PORT}`);
-});
+let server;
+if (require.main === module) {
+  server = app.listen(PORT, () => {
+    console.log(`🚀 [EPMS Server] Running on http://localhost:${PORT}`);
+  });
+} else {
+  server = app.listen(PORT, () => {
+    console.log(`🚀 [EPMS Server] Running on http://localhost:${PORT}`);
+  }).on('error', (err) => {
+    if (err.code !== 'EADDRINUSE') {
+      console.error(err);
+    }
+  });
+}
 
 module.exports = { app, server };

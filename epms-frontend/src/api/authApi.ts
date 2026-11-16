@@ -33,5 +33,30 @@ export const authApi = {
   resetPassword: async (data: { token: string; newPassword: string; confirmPassword: string }) => {
     const response = await api.post('/auth/reset-password', data);
     return response.data;
+  },
+
+  submitPasswordRequest: async (data: { email?: string; identifier?: string; reason?: string }) => {
+    const response = await api.post('/auth/password-request', data);
+    return response.data;
+  },
+
+  getPasswordRequestStatus: async (requestId: string) => {
+    const response = await api.get(`/auth/password-requests?requestId=${encodeURIComponent(requestId)}`);
+    return response.data;
+  },
+
+  approvePasswordRequest: async (requestId: string) => {
+    const response = await api.post(`/auth/password-requests/${encodeURIComponent(requestId)}/approve`);
+    return response.data;
+  },
+
+  completePasswordChange: async (data: {
+    requestId: string;
+    authorizationCode: string;
+    newPassword: string;
+    confirmPassword: string;
+  }) => {
+    const response = await api.post('/auth/password-requests/complete', data);
+    return response.data;
   }
 };

@@ -306,7 +306,7 @@ export const TeacherAICopilot: React.FC = () => {
           <div className="space-y-1">
             <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 text-xs font-semibold border border-indigo-200/60 dark:border-indigo-800/60">
               <Bot className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
-              <span>Teacher AI Copilot</span>
+              <span>विद्या Helper Faculty Copilot</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white tracking-tight">
               Faculty Intelligence & Cohort Copilot

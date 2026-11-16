@@ -2,6 +2,8 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const User = require('../models/User');
+const PasswordRequest = require('../models/PasswordRequest');
+const Notification = require('../models/Notification');
 
 const generateToken = (user) => {
   const secret = process.env.JWT_SECRET || 'epms_super_secure_jwt_secret_key_2026_educational_monitoring';
@@ -245,5 +247,235 @@ exports.resetPassword = async (req, res) => {
     res.json({ success: true, message: 'Password has been successfully updated. You can now log in.' });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Server error resetting password.', error: err.message });
+  }
+};
+
+// @desc    Submit Official Password Change Request (Institutional Governance)
+// @route   POST /api/auth/password-request
+exports.requestPasswordChange = async (req, res) => {
+  try {
+    const { email, identifier, reason } = req.body;
+    let targetUser = null;
+
+    if (req.user && req.user.id) {
+      targetUser = await User.findById(req.user.id);
+    } else if (email) {
+      targetUser = await User.findOne({ email: email.toLowerCase().trim() });
+    } else if (identifier) {
+      targetUser = await User.findOne({ identifier: identifier.trim().toUpperCase() });
+    }
+
+    if (!targetUser) {
+      return res.status(404).json({
+        success: false,
+        message: 'No registered student or faculty account matches the provided identifier/email.'
+      });
+    }
+
+    const ticketNumber = Math.floor(100000 + Math.random() * 900000);
+    const requestId = `REQ-PWD-${ticketNumber}`;
+    const authorizationCode = `AUTH-${Math.floor(100000 + Math.random() * 900000)}`;
+
+    const newRequest = await PasswordRequest.create({
+      requestId,
+      user: String(targetUser._id),
+      name: targetUser.name,
+      email: targetUser.email,
+      identifier: targetUser.identifier,
+      role: targetUser.role,
+      department: targetUser.department || 'Computer Science & Engineering',
+      reason: reason || 'Routine Security Credential Update',
+      status: 'PENDING_APPROVAL',
+      authorizationCode,
+      requestedAt: new Date().toISOString(),
+      notes: 'Pending Department Head / Administrator sign-off.'
+    });
+
+    // Notify faculty/admin about the pending password request
+    try {
+      await Notification.create({
+        user: String(targetUser._id),
+        type: 'warning',
+        title: 'Password Change Request Logged',
+        message: `Your credential change request #${requestId} has been submitted for institutional authorization.`,
+        read: false,
+        priority: 'Normal',
+        createdAt: new Date().toISOString()
+      });
+    } catch (_) {}
+
+    res.status(201).json({
+      success: true,
+      message: 'Official password change request submitted to the Academic Office. Once authorized by department administration, your authorization code will be issued.',
+      requestId,
+      request: {
+        requestId,
+        userName: targetUser.name,
+        role: targetUser.role,
+        department: targetUser.department,
+        status: 'PENDING_APPROVAL',
+        requestedAt: newRequest.requestedAt
+      }
+    });
+  } catch (err) {
+    console.error('Password Request Error:', err);
+    res.status(500).json({ success: false, message: 'Server error processing password request.', error: err.message });
+  }
+};
+
+// @desc    Get Password Change Requests
+// @route   GET /api/auth/password-requests
+exports.getPasswordRequests = async (req, res) => {
+  try {
+    const { requestId } = req.query;
+
+    if (requestId) {
+      const single = await PasswordRequest.findOne({ requestId: requestId.trim() });
+      if (!single) {
+        return res.status(404).json({ success: false, message: 'Password change request not found.' });
+      }
+      return res.json({
+        success: true,
+        request: {
+          requestId: single.requestId,
+          name: single.name,
+          role: single.role,
+          department: single.department,
+          status: single.status,
+          requestedAt: single.requestedAt,
+          approvedAt: single.approvedAt,
+          approvedBy: single.approvedBy,
+          authorizationCode: single.status === 'APPROVED' ? single.authorizationCode : undefined
+        }
+      });
+    }
+
+    // Role-based filtering
+    let requests = [];
+    if (req.user && req.user.role === 'teacher') {
+      requests = await PasswordRequest.find();
+    } else if (req.user) {
+      requests = await PasswordRequest.find({ user: String(req.user.id) });
+    } else {
+      return res.status(401).json({ success: false, message: 'Authentication required to view all requests.' });
+    }
+
+    res.json({
+      success: true,
+      count: requests.length,
+      requests
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error retrieving requests.', error: err.message });
+  }
+};
+
+// @desc    Approve a Password Change Request (Faculty / Admin authorization)
+// @route   POST /api/auth/password-requests/:id/approve
+exports.approvePasswordRequest = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const request = await PasswordRequest.findOne({ requestId: id }) || await PasswordRequest.findById(id);
+
+    if (!request) {
+      return res.status(404).json({ success: false, message: 'Password request not found.' });
+    }
+
+    if (request.status === 'COMPLETED') {
+      return res.status(400).json({ success: false, message: 'This request has already been completed.' });
+    }
+
+    const approverName = req.user ? req.user.name : 'Department Administrator';
+
+    const updated = await PasswordRequest.findByIdAndUpdate(request._id, {
+      status: 'APPROVED',
+      approvedAt: new Date().toISOString(),
+      approvedBy: approverName,
+      notes: `Authorized by ${approverName} after institutional verification.`
+    }, { new: true });
+
+    res.json({
+      success: true,
+      message: `Password change request #${request.requestId} has been approved. The authorization code is now active.`,
+      requestId: request.requestId,
+      authorizationCode: updated.authorizationCode,
+      status: 'APPROVED'
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error approving request.', error: err.message });
+  }
+};
+
+// @desc    Complete Password Change using Authorized Request Code
+// @route   POST /api/auth/password-requests/complete
+exports.completePasswordChange = async (req, res) => {
+  try {
+    const { requestId, authorizationCode, newPassword, confirmPassword } = req.body;
+
+    if (!requestId || !authorizationCode || !newPassword) {
+      return res.status(400).json({
+        success: false,
+        message: 'Request ID, Authorization Code, and New Password are required.'
+      });
+    }
+
+    if (newPassword !== confirmPassword) {
+      return res.status(400).json({ success: false, message: 'Passwords do not match.' });
+    }
+
+    if (newPassword.length < 6) {
+      return res.status(400).json({ success: false, message: 'Password must be at least 6 characters.' });
+    }
+
+    const request = await PasswordRequest.findOne({ requestId: requestId.trim() });
+    if (!request) {
+      return res.status(404).json({ success: false, message: 'Invalid Password Request ID.' });
+    }
+
+    if (request.status === 'PENDING_APPROVAL') {
+      return res.status(403).json({
+        success: false,
+        message: 'This password change request is currently PENDING institutional authorization. Please await Department Head approval.'
+      });
+    }
+
+    if (request.status === 'COMPLETED') {
+      return res.status(400).json({
+        success: false,
+        message: 'This password change request ticket has already been used and finalized.'
+      });
+    }
+
+    if (request.authorizationCode.trim().toUpperCase() !== authorizationCode.trim().toUpperCase()) {
+      return res.status(401).json({
+        success: false,
+        message: 'Invalid Authorization Code provided for this request.'
+      });
+    }
+
+    const user = await User.findById(request.user);
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'Associated user account not found.' });
+    }
+
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(newPassword, salt);
+
+    await User.findByIdAndUpdate(user._id, {
+      password: hashedPassword,
+      lastActive: new Date().toISOString()
+    });
+
+    await PasswordRequest.findByIdAndUpdate(request._id, {
+      status: 'COMPLETED',
+      notes: `Password updated successfully on ${new Date().toISOString()}`
+    });
+
+    res.json({
+      success: true,
+      message: 'Password successfully updated following official departmental authorization. You may now log in with your new credentials.'
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error completing password update.', error: err.message });
   }
 };

@@ -55,8 +55,8 @@ export const AIChatDrawer: React.FC<AIChatDrawerProps> = ({
         id: 'welcome',
         role: 'assistant',
         content: isTeacher
-          ? `Hello Professor ${user?.name || ''}. I am your EPMS Teaching Copilot. I can analyze course drop-offs, summarize student attendance risks, and draft intervention notices.`
-          : `Hi ${user?.name || ''}! I am your EPMS Academic Copilot. I can help calculate attendance recovery, create personalized study plans, and explain complex lesson concepts.`,
+          ? `Namaste Prof. ${user?.name || ''}. I am विद्या Helper, your EPMS Faculty Teaching Assistant. I can analyze course drop-offs, summarize student attendance risks, and draft intervention notices.`
+          : `Namaste ${user?.name || ''}! I am विद्या Helper, your EPMS Academic Guide. I can help calculate attendance recovery, create personalized study plans, and explain complex lesson concepts.`,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       },
     ];
@@ -247,14 +247,14 @@ export const AIChatDrawer: React.FC<AIChatDrawerProps> = ({
                 <div className="min-w-0">
                   <div className="flex items-center gap-2">
                     <h2 className="text-sm font-semibold text-navy-900 dark:text-lavender-50 truncate">
-                      EPMS Copilot
+                      विद्या Helper
                     </h2>
                     <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-medium bg-cyan-100 dark:bg-navy-800 text-cyan-800 dark:text-cyan-300 border border-cyan-200 dark:border-navy-700">
                       {isTeacher ? 'Faculty' : 'Student'}
                     </span>
                   </div>
                   <p className="text-xs text-slate-500 dark:text-slate-400 truncate">
-                    {isTeacher ? 'Class monitoring & interventions' : 'Attendance & study advisor'}
+                    {isTeacher ? 'Class telemetry & student intervention' : 'Attendance & academic advisory'}
                   </p>
                 </div>
               </div>
@@ -441,8 +441,8 @@ export const AIChatDrawer: React.FC<AIChatDrawerProps> = ({
                     onKeyDown={handleKeyDown}
                     placeholder={
                       isTeacher
-                        ? 'Ask about student attendance, drop-off rates, intervention notes...'
-                        : 'Ask about attendance recovery, study plans, or lesson explanations...'
+                        ? 'Ask विद्या Helper about attendance risks, intervention notes, or class statistics...'
+                        : 'Ask विद्या Helper about attendance recovery, study plans, or coursework...'
                     }
                     className="w-full resize-none px-3 py-2 rounded-lg text-sm bg-slate-50 dark:bg-navy-900 border border-slate-200 dark:border-navy-800 focus:outline-none focus:ring-1 focus:ring-cyan-500 focus:border-cyan-500 text-slate-900 dark:text-slate-100 placeholder:text-slate-400 transition-colors"
                   />

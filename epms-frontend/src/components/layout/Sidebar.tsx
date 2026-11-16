@@ -53,7 +53,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ mobileOpen = false, onMobileCl
     {
       heading: 'Intelligence',
       links: [
-        { to: '/student/ai-advisor', label: 'AI Academic Advisor', icon: Bot }
+        { to: '/student/ai-advisor', label: 'विद्या Helper (Advisor)', icon: Bot }
       ]
     },
     {
@@ -79,7 +79,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ mobileOpen = false, onMobileCl
     {
       heading: 'Intervention & Analytics',
       links: [
-        { to: '/teacher/ai-copilot', label: 'AI Teaching Copilot', icon: Bot },
+        { to: '/teacher/ai-copilot', label: 'विद्या Helper (Copilot)', icon: Bot },
         { to: '/teacher/warnings', label: 'Academic Warnings', icon: AlertTriangle },
         { to: '/teacher/reports', label: 'Reports & Export', icon: BarChart3 },
         { to: '/teacher/settings', label: 'Risk Thresholds', icon: Sliders }

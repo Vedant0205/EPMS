@@ -171,7 +171,7 @@ export const TeacherDashboard: React.FC = () => {
             className="px-3.5 py-2 rounded-md text-xs font-medium text-white bg-slate-900 hover:bg-slate-800 dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-white transition-colors flex items-center gap-1.5 shadow-xs"
           >
             <Bot className="w-4 h-4 text-sky-400 dark:text-sky-600" />
-            <span>AI Copilot & Interventions</span>
+            <span>विद्या Helper Copilot</span>
           </button>
         </div>
       </div>
