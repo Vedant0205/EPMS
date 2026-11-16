@@ -198,5 +198,29 @@
     "updatedAt": "2026-11-14T09:24:33.847Z",
     "studentNote": "Understood, I will attend all subsequent sessions.",
     "acknowledgedAt": "2026-11-14T09:24:33.847Z"
+  },
+  {
+    "_id": "4da4a0cc7d038fb9d3c25d0f",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": null,
+    "category": "Low Course Completion",
+    "priority": "Medium",
+    "message": "Academic Progress Advisory - Aarav Patel: Dear Aarav Patel,\n\nCongratulations on your solid academic engagement this semester. Your attendance of 81% and consistent course completion demonstrate commendable dedication. Keep up the great work as you tackle your upcoming modules!\n\nBest regards,\nFaculty Academic Support Team",
+    "status": "active",
+    "createdAt": "2026-11-16T06:24:30.055Z",
+    "updatedAt": "2026-11-16T06:24:30.055Z"
+  },
+  {
+    "_id": "6198745cb447ff7438abf317",
+    "student": "dca8a0c79f9d0de3f41c4f6d",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": null,
+    "category": "Low Attendance",
+    "priority": "High",
+    "message": "Please address your current academic standing in Attendance below 60% (52%).",
+    "status": "active",
+    "createdAt": "2026-11-16T07:53:37.025Z",
+    "updatedAt": "2026-11-16T07:53:37.025Z"
   }
 ]

@@ -62,29 +62,29 @@ async function seedDemoData(force = false) {
 
     // 1. Create Teacher
     const teacher = await User.create({
-      name: 'Dr. Sarah Jenkins',
+      name: 'Prof. Rajesh Sharma',
       email: 'teacher@epms.edu',
       identifier: 'TCH-1001',
       password: defaultPassword,
       role: 'teacher',
       department: 'Computer Science & Engineering',
-      avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80',
-      phone: '+1 (555) 349-2810',
+      avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+      phone: '+91 98230 45671',
       lastActive: new Date().toISOString()
     });
 
-    // 2. Create 10 Students
+    // 2. Create 10 Students with authentic Indian names
     const studentProfiles = [
-      { name: 'Alex Rivera', email: 'student1@epms.edu', id: 'STU-2001', dept: 'Computer Science', inactiveDays: 0, avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Aarav Patel', email: 'student1@epms.edu', id: 'STU-2001', dept: 'Computer Science', inactiveDays: 0, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
       { name: 'Priya Sharma', email: 'student2@epms.edu', id: 'STU-2002', dept: 'Software Engineering', inactiveDays: 0, avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Liam Chen', email: 'student3@epms.edu', id: 'STU-2003', dept: 'Data Science', inactiveDays: 1, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Emma Watson', email: 'student4@epms.edu', id: 'STU-2004', dept: 'Computer Science', inactiveDays: 2, avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Marcus Johnson', email: 'student5@epms.edu', id: 'STU-2005', dept: 'Information Technology', inactiveDays: 4, avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Sophia Taylor', email: 'student6@epms.edu', id: 'STU-2006', dept: 'Software Engineering', inactiveDays: 5, avatar: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Daniel Martinez', email: 'student7@epms.edu', id: 'STU-2007', dept: 'Computer Science', inactiveDays: 9, avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Olivia Brown', email: 'student8@epms.edu', id: 'STU-2008', dept: 'Data Science', inactiveDays: 12, avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Noah Wilson', email: 'student9@epms.edu', id: 'STU-2009', dept: 'Information Technology', inactiveDays: 8, avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Ava Davis', email: 'student10@epms.edu', id: 'STU-2010', dept: 'Computer Science', inactiveDays: 3, avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Rohan Deshmukh', email: 'student3@epms.edu', id: 'STU-2003', dept: 'Data Science', inactiveDays: 1, avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Ananya Iyer', email: 'student4@epms.edu', id: 'STU-2004', dept: 'Computer Science', inactiveDays: 2, avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Vikram Singh', email: 'student5@epms.edu', id: 'STU-2005', dept: 'Information Technology', inactiveDays: 4, avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Sneha Joshi', email: 'student6@epms.edu', id: 'STU-2006', dept: 'Software Engineering', inactiveDays: 5, avatar: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Kabir Mehta', email: 'student7@epms.edu', id: 'STU-2007', dept: 'Computer Science', inactiveDays: 9, avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Diya Reddy', email: 'student8@epms.edu', id: 'STU-2008', dept: 'Data Science', inactiveDays: 12, avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Arjun Nair', email: 'student9@epms.edu', id: 'STU-2009', dept: 'Information Technology', inactiveDays: 8, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Pooja Verma', email: 'student10@epms.edu', id: 'STU-2010', dept: 'Computer Science', inactiveDays: 3, avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
     ];
 
     const studentUsers = [];
@@ -238,16 +238,16 @@ async function seedDemoData(force = false) {
     // Students 5-6, 10: 45% - 60% (Moderate)
     // Students 7-9: 15% - 35% (At Risk!)
     const completionProfiles = [
-      0.90, // STU-2001 (Alex) - 90%
+      0.90, // STU-2001 (Aarav) - 90%
       1.00, // STU-2002 (Priya) - 100%
-      0.80, // STU-2003 (Liam) - 80%
-      0.75, // STU-2004 (Emma) - 75%
-      0.55, // STU-2005 (Marcus) - 55%
-      0.45, // STU-2006 (Sophia) - 45%
-      0.20, // STU-2007 (Daniel) - 20% (At Risk)
-      0.25, // STU-2008 (Olivia) - 25% (At Risk)
-      0.30, // STU-2009 (Noah) - 30% (At Risk)
-      0.50  // STU-2010 (Ava) - 50%
+      0.80, // STU-2003 (Rohan) - 80%
+      0.75, // STU-2004 (Ananya) - 75%
+      0.55, // STU-2005 (Vikram) - 55%
+      0.45, // STU-2006 (Sneha) - 45%
+      0.20, // STU-2007 (Kabir) - 20% (At Risk)
+      0.25, // STU-2008 (Diya) - 25% (At Risk)
+      0.30, // STU-2009 (Arjun) - 30% (At Risk)
+      0.50  // STU-2010 (Pooja) - 50%
     ];
 
     for (let sIdx = 0; sIdx < studentUsers.length; sIdx++) {
@@ -393,7 +393,7 @@ async function seedDemoData(force = false) {
     });
 
     await Announcement.create({
-      title: 'Weekly Office Hours with Dr. Sarah Jenkins',
+      title: 'Weekly Academic Office Hours with Prof. Rajesh Sharma',
       content: 'Office hours are conducted every Tuesday & Thursday from 3:00 PM to 5:00 PM in CS Building Hall B or via virtual link.',
       teacher: teacher._id,
       priority: 'normal'

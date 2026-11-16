@@ -7,11 +7,11 @@
     "password": "$2b$10$Wscg95yAqS2M/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
     "role": "teacher",
     "department": "Computer Science & Engineering",
-    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 98230 45671",
-    "lastActive": "2026-11-16T06:16:42.847Z",
+    "lastActive": "2026-11-16T08:09:29.152Z",
     "createdAt": "2026-11-06T15:46:48.240Z",
-    "updatedAt": "2026-11-16T06:16:42.847Z"
+    "updatedAt": "2026-11-16T08:09:29.152Z"
   },
   {
     "_id": "8f14b64469cc3f538c76d95e",
@@ -21,11 +21,11 @@
     "password": "$2b$10$Wscg95yAqS2M/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
     "role": "student",
     "department": "Computer Science",
-    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 98451 23456",
-    "lastActive": "2026-11-16T06:16:42.849Z",
+    "lastActive": "2026-11-16T08:09:29.157Z",
     "createdAt": "2026-11-06T15:46:48.241Z",
-    "updatedAt": "2026-11-16T06:16:42.849Z"
+    "updatedAt": "2026-11-16T08:09:29.157Z"
   },
   {
     "_id": "0cb0aa05090a12ba6dfeedd7",
@@ -49,7 +49,7 @@
     "password": "$2b$10$Wscg95yAqS2M/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
     "role": "student",
     "department": "Data Science",
-    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 97654 32109",
     "lastActive": "2026-11-07T16:12:45.475Z",
     "createdAt": "2026-11-06T15:46:48.242Z",
@@ -77,7 +77,7 @@
     "password": "$2b$10$Wscg95yAqS2M/zam0tx2FudgUjzHOU6mAN5gT5TqliiSAVrPCqtvS",
     "role": "student",
     "department": "Information Technology",
-    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80",
     "phone": "+91 98765 43210",
     "lastActive": "2026-11-09T18:00:19.467Z",
     "createdAt": "2026-11-06T15:46:48.243Z",

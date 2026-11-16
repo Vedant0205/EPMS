@@ -600,25 +600,46 @@
     "updatedAt": "2026-11-14T09:44:56.116Z"
   },
   {
-    "_id": "cfde2bc00d8d9fa87c810179",
-    "user": "8f14b64469cc3f538c76d95e",
+    "_id": "390b8ab2dd9527e8e420f76a",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Rajesh Sharma issued a Medium priority notice regarding Overall Academics: \"Academic Progress Advisory - Aarav Patel: Dear Aarav Patel,\n\nCongratulations on your solid academic engagement this semester. Your attendance of 81% and consistent course completion demonstrate commendable dedication. Keep up the great work as you tackle your upcoming modules!\n\nBest regards,\nFaculty Academic Support Team\".",
     "type": "warning",
-    "title": "Password Change Request Logged",
-    "message": "Your credential change request #REQ-PWD-634621 has been submitted for institutional authorization.",
-    "read": false,
-    "priority": "Normal",
-    "createdAt": "2026-11-16T05:57:00.844Z",
-    "updatedAt": "2026-11-16T05:57:00.844Z"
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "4da4a0cc7d038fb9d3c25d0f",
+      "priority": "Medium",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-16T06:24:30.056Z",
+    "updatedAt": "2026-11-16T06:24:30.056Z"
   },
   {
-    "_id": "7077ff6762911a8ae1e39447",
+    "_id": "c21769c910e6ecfbcc5a254f",
+    "recipient": "dca8a0c79f9d0de3f41c4f6d",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Prof. Rajesh Sharma issued a High priority notice regarding Overall Academics: \"Please address your current academic standing in Attendance below 60% (52%).\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "6198745cb447ff7438abf317",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-16T07:53:37.026Z",
+    "updatedAt": "2026-11-16T07:53:37.026Z"
+  },
+  {
+    "_id": "a3d0e5eebf1f89becc2e9796",
     "user": "8f14b64469cc3f538c76d95e",
     "type": "warning",
     "title": "Password Change Request Logged",
-    "message": "Your credential change request #REQ-PWD-315890 has been submitted for institutional authorization.",
+    "message": "Your credential change request #REQ-PWD-999687 has been submitted for institutional authorization.",
     "read": false,
     "priority": "Normal",
-    "createdAt": "2026-11-16T06:16:14.323Z",
-    "updatedAt": "2026-11-16T06:16:14.323Z"
+    "createdAt": "2026-11-16T08:06:38.745Z",
+    "updatedAt": "2026-11-16T08:06:38.745Z"
   }
 ]
