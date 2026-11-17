@@ -5,7 +5,8 @@ const fs = require('fs');
 const createUploadDirs = () => {
   const dirs = [
     path.join(__dirname, '..', 'uploads', 'thumbnails'),
-    path.join(__dirname, '..', 'uploads', 'videos')
+    path.join(__dirname, '..', 'uploads', 'videos'),
+    path.join(__dirname, '..', 'uploads', 'avatars')
   ];
   dirs.forEach(dir => {
     if (!fs.existsSync(dir)) {
@@ -14,6 +15,17 @@ const createUploadDirs = () => {
   });
 };
 createUploadDirs();
+
+const avatarStorage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, path.join(__dirname, '..', 'uploads', 'avatars'));
+  },
+  filename: (req, file, cb) => {
+    const ext = path.extname(file.originalname);
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1e9);
+    cb(null, 'avatar-' + uniqueSuffix + ext);
+  }
+});
 
 const thumbnailStorage = multer.diskStorage({
   destination: (req, file, cb) => {
@@ -68,4 +80,10 @@ const uploadVideo = multer({
   fileFilter: videoFilter
 });
 
-module.exports = { uploadThumbnail, uploadVideo };
+const uploadAvatar = multer({
+  storage: avatarStorage,
+  limits: { fileSize: 5 * 1024 * 1024 }, // 5MB max
+  fileFilter: imageFilter
+});
+
+module.exports = { uploadThumbnail, uploadVideo, uploadAvatar };

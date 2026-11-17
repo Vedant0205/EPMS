@@ -8,6 +8,7 @@ interface AuthContextType {
   loading: boolean;
   login: (credentials: { email: string; password: string }) => Promise<User>;
   register: (userData: any) => Promise<User>;
+  updateUser: (updatedUser: Partial<User>) => void;
   logout: () => void;
   isTeacher: boolean;
   isStudent: boolean;
@@ -69,6 +70,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     throw new Error(res.message || 'Registration failed');
   };
 
+  const updateUser = (updatedFields: Partial<User>) => {
+    setUser(prev => {
+      if (!prev) return null;
+      const updated = { ...prev, ...updatedFields };
+      localStorage.setItem('epms_user', JSON.stringify(updated));
+      return updated;
+    });
+  };
+
   const logout = () => {
     localStorage.removeItem('epms_token');
     localStorage.removeItem('epms_user');
@@ -87,6 +97,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         loading,
         login,
         register,
+        updateUser,
         logout,
         isTeacher,
         isStudent

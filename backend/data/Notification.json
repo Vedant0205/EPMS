@@ -706,5 +706,229 @@
     "link": "/teacher/warnings",
     "createdAt": "2026-11-16T16:08:54.076Z",
     "updatedAt": "2026-11-16T16:08:54.076Z"
+  },
+  {
+    "_id": "cb4269bbdff8750019664758",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Anjali Kulkarni issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "cfb79b62b679f1940230fac7",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-16T17:44:49.963Z",
+    "updatedAt": "2026-11-16T17:44:49.963Z"
+  },
+  {
+    "_id": "26f38d572b82d47946a14399",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-16T17:44:49.964Z",
+    "updatedAt": "2026-11-16T17:44:49.964Z"
+  },
+  {
+    "_id": "2dfc8886489933a299a6ac0c",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Anjali Kulkarni issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "ae7a7193e28fa39608b41ad8",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-16T17:46:20.550Z",
+    "updatedAt": "2026-11-16T17:46:20.550Z"
+  },
+  {
+    "_id": "da11250e898fe8d6b39404d1",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-16T17:46:20.551Z",
+    "updatedAt": "2026-11-16T17:46:20.551Z"
+  },
+  {
+    "_id": "58bd72bfa67698f8c8cd1393",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"Introduction To Computer Science \" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/f126d6b0ed2c37a561d6a325",
+    "createdAt": "2026-11-17T03:21:41.676Z",
+    "updatedAt": "2026-11-17T03:21:41.676Z"
+  },
+  {
+    "_id": "5e4514294f7f1e028905ef6a",
+    "recipient": "0cb0aa05090a12ba6dfeedd7",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"Introduction To Computer Science \" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/f126d6b0ed2c37a561d6a325",
+    "createdAt": "2026-11-17T03:21:41.690Z",
+    "updatedAt": "2026-11-17T03:21:41.690Z"
+  },
+  {
+    "_id": "a230b200aa541f0d7186b6a5",
+    "recipient": "3cd3f8ac28d644eadfb3b05e",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"Introduction To Computer Science \" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/f126d6b0ed2c37a561d6a325",
+    "createdAt": "2026-11-17T03:21:41.708Z",
+    "updatedAt": "2026-11-17T03:21:41.708Z"
+  },
+  {
+    "_id": "704e77c1acf51b2115b6de6a",
+    "recipient": "f486a26de80ac7f8db8303ab",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"Introduction To Computer Science \" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/f126d6b0ed2c37a561d6a325",
+    "createdAt": "2026-11-17T03:21:41.735Z",
+    "updatedAt": "2026-11-17T03:21:41.735Z"
+  },
+  {
+    "_id": "ce0bb70d5f3f8c4bb139b168",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"Introduction To Computer Science \" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/f126d6b0ed2c37a561d6a325",
+    "createdAt": "2026-11-17T03:21:41.750Z",
+    "updatedAt": "2026-11-17T03:21:41.750Z"
+  },
+  {
+    "_id": "de6700dbd7cc17737062e427",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "7e98dd028a9d05c98e20a9dd",
+    "title": "⚠️ Academic Warning: Low Attendance",
+    "message": "Instructor Prof. Yash Vyas issued a High priority notice regarding Overall Academics: \"Please address your current academic standing in Course completion below 60% (58%).\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "1167846c17290e233e2d63f3",
+      "priority": "High",
+      "category": "Low Attendance"
+    },
+    "createdAt": "2026-11-17T03:48:18.245Z",
+    "updatedAt": "2026-11-17T03:48:18.245Z"
+  },
+  {
+    "_id": "231c5edf7abf565fafde0bff",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"ok\" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/35c637f3f3d57456702112f9",
+    "createdAt": "2026-11-17T03:49:00.467Z",
+    "updatedAt": "2026-11-17T03:49:00.467Z"
+  },
+  {
+    "_id": "5e3ec8e459fbcbdf25ee6c38",
+    "recipient": "0cb0aa05090a12ba6dfeedd7",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"ok\" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/35c637f3f3d57456702112f9",
+    "createdAt": "2026-11-17T03:49:00.474Z",
+    "updatedAt": "2026-11-17T03:49:00.474Z"
+  },
+  {
+    "_id": "f11461244d86a695125cf4af",
+    "recipient": "3cd3f8ac28d644eadfb3b05e",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"ok\" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/35c637f3f3d57456702112f9",
+    "createdAt": "2026-11-17T03:49:00.481Z",
+    "updatedAt": "2026-11-17T03:49:00.481Z"
+  },
+  {
+    "_id": "8f69a0baea0d2e77c5f7deff",
+    "recipient": "f486a26de80ac7f8db8303ab",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"ok\" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/35c637f3f3d57456702112f9",
+    "createdAt": "2026-11-17T03:49:00.486Z",
+    "updatedAt": "2026-11-17T03:49:00.486Z"
+  },
+  {
+    "_id": "17d3bc4965a75c440a95a0e0",
+    "recipient": "1ee48c8838da4e3811f4ed12",
+    "title": "📖 New Lesson Added",
+    "message": "A new lesson \"ok\" has been added to Introduction to Computer Science & Python.",
+    "type": "course",
+    "link": "/student/courses/f0eeed924aed70ee83cc55f4/learn/35c637f3f3d57456702112f9",
+    "createdAt": "2026-11-17T03:49:00.493Z",
+    "updatedAt": "2026-11-17T03:49:00.493Z"
+  },
+  {
+    "_id": "bf54a730b35d06ff7b6e4b51",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Anjali Kulkarni issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "ea9256eef274123a5b5bf640",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-17T04:17:18.844Z",
+    "updatedAt": "2026-11-17T04:17:18.844Z"
+  },
+  {
+    "_id": "a5b162e9a0d2da4da438c495",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-17T04:17:18.845Z",
+    "updatedAt": "2026-11-17T04:17:18.845Z"
+  },
+  {
+    "_id": "19802f1be6bdbba025ada07b",
+    "recipient": "8f14b64469cc3f538c76d95e",
+    "sender": "6d87cc017f8c94b87d19f8cc",
+    "title": "⚠️ Academic Warning: Low Course Completion",
+    "message": "Instructor Prof. Anjali Kulkarni issued a High priority notice regarding DevOps & Distributed Systems Engineering: \"You are currently below the 40% course completion milestone. Please catch up on video modules.\".",
+    "type": "warning",
+    "link": "/student/notifications",
+    "metadata": {
+      "warningId": "712548f3ddafa99117670366",
+      "priority": "High",
+      "category": "Low Course Completion"
+    },
+    "createdAt": "2026-11-17T04:36:18.329Z",
+    "updatedAt": "2026-11-17T04:36:18.329Z"
+  },
+  {
+    "_id": "e4c7f819d787b2615c832881",
+    "recipient": "6d87cc017f8c94b87d19f8cc",
+    "sender": "8f14b64469cc3f538c76d95e",
+    "title": "✅ Warning Acknowledged",
+    "message": "Student undefined acknowledged warning: \"Low Course Completion\". Note: \"I understand and will complete Module 1 and 2 by Friday.\"",
+    "type": "warning",
+    "link": "/teacher/warnings",
+    "createdAt": "2026-11-17T04:36:18.330Z",
+    "updatedAt": "2026-11-17T04:36:18.330Z"
   }
 ]

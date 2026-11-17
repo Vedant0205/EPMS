@@ -1,41 +1,5 @@
 [
   {
-    "_id": "8a2e042efa422e46797dd045",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "category": "Low Attendance",
-    "priority": "High",
-    "message": "Your attendance is currently 55%, which is well below the mandatory 75% threshold. Please schedule an office hour meeting immediately.",
-    "status": "active",
-    "createdAt": "2026-11-06T15:46:48.600Z",
-    "updatedAt": "2026-11-06T15:46:48.600Z"
-  },
-  {
-    "_id": "e5f2ad1fa43a574514bd7fd1",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "category": "Low Course Completion",
-    "priority": "High",
-    "message": "You have only completed 25% of coursework for CS-101 and CS-202. Immediate catch-up is required to maintain passing standing.",
-    "status": "active",
-    "createdAt": "2026-11-06T15:46:48.602Z",
-    "updatedAt": "2026-11-06T15:46:48.602Z"
-  },
-  {
-    "_id": "3b70555fa5f321745f865b2f",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "category": "Inactive Student",
-    "priority": "High",
-    "message": "No learning activity has been logged on your account for over 8 consecutive days. Please resume your video lectures.",
-    "status": "active",
-    "createdAt": "2026-11-06T15:46:48.603Z",
-    "updatedAt": "2026-11-06T15:46:48.603Z"
-  },
-  {
     "_id": "0fd2f7a505ccb218d53941b7",
     "student": "1ee48c8838da4e3811f4ed12",
     "teacher": "6d87cc017f8c94b87d19f8cc",
@@ -46,60 +10,6 @@
     "status": "active",
     "createdAt": "2026-11-06T15:46:48.604Z",
     "updatedAt": "2026-11-06T15:46:48.604Z"
-  },
-  {
-    "_id": "3e3e4bbcee06b4e482cab1b3",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "category": "Low Attendance",
-    "priority": "Medium",
-    "message": "Your attendance has dropped to 76%. One additional absence will place you in academic probation status.",
-    "status": "active",
-    "createdAt": "2026-11-06T15:46:48.604Z",
-    "updatedAt": "2026-11-06T15:46:48.604Z"
-  },
-  {
-    "_id": "91e778e62520788dc1a5090b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "ce950befc9ffc2067480b91c",
-    "category": "Low Course Completion",
-    "priority": "High",
-    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
-    "status": "acknowledged",
-    "createdAt": "2026-11-06T16:14:39.475Z",
-    "updatedAt": "2026-11-06T16:14:39.477Z",
-    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
-    "acknowledgedAt": "2026-11-06T16:14:39.477Z"
-  },
-  {
-    "_id": "cc3d91a8c910d63f20ff5933",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "681da48642dcfda3970d3459",
-    "category": "Low Course Completion",
-    "priority": "High",
-    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
-    "status": "acknowledged",
-    "createdAt": "2026-11-06T16:21:11.954Z",
-    "updatedAt": "2026-11-06T16:21:11.956Z",
-    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
-    "acknowledgedAt": "2026-11-06T16:21:11.956Z"
-  },
-  {
-    "_id": "700976d19bd9a4b93967f068",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "48629298bead10d84eb186e4",
-    "category": "Low Course Completion",
-    "priority": "High",
-    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
-    "status": "acknowledged",
-    "createdAt": "2026-11-06T17:44:27.307Z",
-    "updatedAt": "2026-11-06T17:44:27.311Z",
-    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
-    "acknowledgedAt": "2026-11-06T17:44:27.311Z"
   },
   {
     "_id": "29368f9818fd70f2ec30d3c6",
@@ -158,20 +68,6 @@
     "acknowledgedAt": "2026-11-07T15:39:13.211Z"
   },
   {
-    "_id": "7e239d40b03b82ecba0a315b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": "13aedcf4fb30113b296d0dd6",
-    "category": "Low Course Completion",
-    "priority": "High",
-    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
-    "status": "acknowledged",
-    "createdAt": "2026-11-07T15:39:23.607Z",
-    "updatedAt": "2026-11-07T15:39:23.610Z",
-    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
-    "acknowledgedAt": "2026-11-07T15:39:23.610Z"
-  },
-  {
     "_id": "7bc3eb881306bf63df01b81a",
     "student": "3cd3f8ac28d644eadfb3b05e",
     "teacher": "6d87cc017f8c94b87d19f8cc",
@@ -212,18 +108,6 @@
     "updatedAt": "2026-11-16T06:24:30.055Z"
   },
   {
-    "_id": "6198745cb447ff7438abf317",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "teacher": "6d87cc017f8c94b87d19f8cc",
-    "course": null,
-    "category": "Low Attendance",
-    "priority": "High",
-    "message": "Please address your current academic standing in Attendance below 60% (52%).",
-    "status": "active",
-    "createdAt": "2026-11-16T07:53:37.025Z",
-    "updatedAt": "2026-11-16T07:53:37.025Z"
-  },
-  {
     "_id": "3d11a8db443bebe25e743365",
     "student": "1ee48c8838da4e3811f4ed12",
     "teacher": "6d87cc017f8c94b87d19f8cc",
@@ -250,5 +134,73 @@
     "updatedAt": "2026-11-16T16:08:54.076Z",
     "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
     "acknowledgedAt": "2026-11-16T16:08:54.076Z"
+  },
+  {
+    "_id": "cfb79b62b679f1940230fac7",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "9de6f9739cffca41110a8d72",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-16T17:44:49.963Z",
+    "updatedAt": "2026-11-16T17:44:49.964Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-16T17:44:49.964Z"
+  },
+  {
+    "_id": "ae7a7193e28fa39608b41ad8",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "1021b54bd2aff8e56e8d0fb9",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-16T17:46:20.549Z",
+    "updatedAt": "2026-11-16T17:46:20.550Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-16T17:46:20.550Z"
+  },
+  {
+    "_id": "1167846c17290e233e2d63f3",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "7e98dd028a9d05c98e20a9dd",
+    "course": null,
+    "category": "Low Attendance",
+    "priority": "High",
+    "message": "Please address your current academic standing in Course completion below 60% (58%).",
+    "status": "active",
+    "createdAt": "2026-11-17T03:48:18.243Z",
+    "updatedAt": "2026-11-17T03:48:18.243Z"
+  },
+  {
+    "_id": "ea9256eef274123a5b5bf640",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "c79e24e857ea32e7427b1d6a",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-17T04:17:18.843Z",
+    "updatedAt": "2026-11-17T04:17:18.845Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-17T04:17:18.845Z"
+  },
+  {
+    "_id": "712548f3ddafa99117670366",
+    "student": "8f14b64469cc3f538c76d95e",
+    "teacher": "6d87cc017f8c94b87d19f8cc",
+    "course": "fe79114ac501410641b3b73b",
+    "category": "Low Course Completion",
+    "priority": "High",
+    "message": "You are currently below the 40% course completion milestone. Please catch up on video modules.",
+    "status": "acknowledged",
+    "createdAt": "2026-11-17T04:36:18.328Z",
+    "updatedAt": "2026-11-17T04:36:18.330Z",
+    "studentNote": "I understand and will complete Module 1 and 2 by Friday.",
+    "acknowledgedAt": "2026-11-17T04:36:18.330Z"
   }
 ]

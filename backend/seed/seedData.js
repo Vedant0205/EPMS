@@ -81,14 +81,13 @@ async function seedDemoData(force = false) {
 
     const defaultPassword = await bcrypt.hash('Password123!', 10);
 
-    // 1. Create Faculty Members (Min 5 Professors)
+    // 1. Create Faculty Members (5 requested)
     const facultyProfiles = [
-      { name: 'Prof. Rajesh Sharma', email: 'teacher@epms.edu', id: 'TCH-1001', dept: 'Computer Science & Engineering', phone: '+91 98230 45671', avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Prof. Sunita Deshmukh', email: 'prof.sunita@epms.edu', id: 'TCH-1002', dept: 'Data Science & Artificial Intelligence', phone: '+91 98221 54321', avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Prof. Amit Verma', email: 'prof.amit@epms.edu', id: 'TCH-1003', dept: 'Software Engineering & Cloud Systems', phone: '+91 98332 65432', avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Prof. Ananya Kulkarni', email: 'prof.ananya@epms.edu', id: 'TCH-1004', dept: 'Cybersecurity & Cryptography', phone: '+91 98443 76543', avatar: 'https://images.unsplash.com/photo-1580894732454-defa4fb530c3?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Prof. Vikramaditya Joshi', email: 'prof.vikramaditya@epms.edu', id: 'TCH-1005', dept: 'Embedded Systems & IoT Engineering', phone: '+91 98554 87654', avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Prof. Meera Nambiar', email: 'prof.meera@epms.edu', id: 'TCH-1006', dept: 'Information Technology & Distributed Systems', phone: '+91 98665 98765', avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' }
+      { name: 'Prof. Anjali Kulkarni', email: 'prof.anjali@epms.edu', id: 'TCH-1001', dept: 'Computer Science & Engineering', phone: '+91 98230 45671', avatar: '' },
+      { name: 'Prof. Yash Vyas', email: 'prof.yash@epms.edu', id: 'TCH-1002', dept: 'Data Science & Artificial Intelligence', phone: '+91 98221 54321', avatar: '' },
+      { name: 'Prof. Annirudh Chavan', email: 'prof.annirudh@epms.edu', id: 'TCH-1003', dept: 'Software Engineering & Cloud Systems', phone: '+91 98332 65432', avatar: '' },
+      { name: 'Prof. Pratibha Jadhav', email: 'prof.pratibha@epms.edu', id: 'TCH-1004', dept: 'Cybersecurity & Cryptography', phone: '+91 98443 76543', avatar: '' },
+      { name: 'Prof. Sabir Bagwan', email: 'prof.sabir@epms.edu', id: 'TCH-1005', dept: 'Embedded Systems & IoT Engineering', phone: '+91 98554 87654', avatar: '' }
     ];
 
     const facultyUsers = [];
@@ -100,7 +99,7 @@ async function seedDemoData(force = false) {
         password: defaultPassword,
         role: 'teacher',
         department: f.dept,
-        avatar: f.avatar,
+        avatar: '',
         phone: f.phone,
         lastActive: new Date().toISOString()
       });
@@ -108,18 +107,13 @@ async function seedDemoData(force = false) {
     }
     const teacher = facultyUsers[0]; // primary HOD reference
 
-    // 2. Create 10 Students with authentic Indian names
+    // 2. Create 5 Students (5 requested)
     const studentProfiles = [
-      { name: 'Aarav Patel', email: 'student1@epms.edu', id: 'STU-2001', dept: 'Computer Science', inactiveDays: 0, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Priya Sharma', email: 'student2@epms.edu', id: 'STU-2002', dept: 'Software Engineering', inactiveDays: 0, avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Rohan Deshmukh', email: 'student3@epms.edu', id: 'STU-2003', dept: 'Data Science', inactiveDays: 1, avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Ananya Iyer', email: 'student4@epms.edu', id: 'STU-2004', dept: 'Computer Science', inactiveDays: 2, avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Vikram Singh', email: 'student5@epms.edu', id: 'STU-2005', dept: 'Information Technology', inactiveDays: 4, avatar: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Sneha Joshi', email: 'student6@epms.edu', id: 'STU-2006', dept: 'Software Engineering', inactiveDays: 5, avatar: 'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Kabir Mehta', email: 'student7@epms.edu', id: 'STU-2007', dept: 'Computer Science', inactiveDays: 9, avatar: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Diya Reddy', email: 'student8@epms.edu', id: 'STU-2008', dept: 'Data Science', inactiveDays: 12, avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Arjun Nair', email: 'student9@epms.edu', id: 'STU-2009', dept: 'Information Technology', inactiveDays: 8, avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80' },
-      { name: 'Pooja Verma', email: 'student10@epms.edu', id: 'STU-2010', dept: 'Computer Science', inactiveDays: 3, avatar: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&auto=format&fit=crop&q=80' },
+      { name: 'Aayush Auti', email: 'aayush@epms.edu', id: 'STU-2001', dept: 'Computer Science & Engineering', inactiveDays: 0, avatar: '' },
+      { name: 'Ayush Koshti', email: 'ayush@epms.edu', id: 'STU-2002', dept: 'Software Engineering', inactiveDays: 0, avatar: '' },
+      { name: 'Atharva Pose', email: 'atharvap@epms.edu', id: 'STU-2003', dept: 'Data Science & AI', inactiveDays: 1, avatar: '' },
+      { name: 'Atharva Raut', email: 'atharvar@epms.edu', id: 'STU-2004', dept: 'Information Technology', inactiveDays: 2, avatar: '' },
+      { name: 'Siddhesh Durgude', email: 'siddhesh@epms.edu', id: 'STU-2005', dept: 'Computer Science & Engineering', inactiveDays: 4, avatar: '' }
     ];
 
     const studentUsers = [];
@@ -428,7 +422,7 @@ async function seedDemoData(force = false) {
     });
 
     await Announcement.create({
-      title: 'Weekly Academic Office Hours with Prof. Rajesh Sharma',
+      title: 'Weekly Academic Office Hours with Prof. Anjali Kulkarni',
       content: 'Office hours are conducted every Tuesday & Thursday from 3:00 PM to 5:00 PM in CS Building Hall B or via virtual link.',
       teacher: teacher._id,
       priority: 'normal'
@@ -438,7 +432,7 @@ async function seedDemoData(force = false) {
       await Notification.create({
         recipient: s.doc._id,
         sender: teacher._id,
-        title: '📢 New Course Announcement',
+        title: 'New Course Announcement',
         message: 'Midterm Examination Schedule & Format has been published. Please review the syllabus.',
         type: 'announcement',
         link: '/student/dashboard'
@@ -446,17 +440,17 @@ async function seedDemoData(force = false) {
 
       await Notification.create({
         recipient: s.doc._id,
-        title: '🎓 Welcome to EPMS Portal',
+        title: 'Welcome to EPMS Portal',
         message: 'Your courses have been assigned. Track your video lessons, attendance, and progress in real time.',
         type: 'system',
         link: '/student/dashboard'
       });
     }
 
-    console.log('✅ [Seed] Demo data seeding completed successfully!');
-    console.log('📋 Demo Accounts Created:');
-    console.log('  👨‍🏫 Teacher: teacher@epms.edu / Password123! (ID: TCH-1001)');
-    console.log('  👨‍🎓 Students: student1@epms.edu to student10@epms.edu / Password123!');
+    console.log('[Seed] Demo data seeding completed successfully!');
+    console.log('Demo Accounts Created:');
+    console.log('  Faculty: prof.anjali@epms.edu (teacher@epms.edu) / Password123! (ID: TCH-1001)');
+    console.log('  Students: aayush@epms.edu (student1@epms.edu) to siddhesh@epms.edu / Password123!');
   } catch (err) {
     console.error('❌ [Seed] Error seeding data:', err);
   }

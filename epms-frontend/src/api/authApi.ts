@@ -58,5 +58,24 @@ export const authApi = {
   }) => {
     const response = await api.post('/auth/password-requests/complete', data);
     return response.data;
+  },
+
+  updateProfile: async (data: { name?: string; phone?: string; department?: string; avatar?: string }) => {
+    const response = await api.put<{ success: boolean; message: string; user: User }>('/auth/profile', data);
+    return response.data;
+  },
+
+  uploadAvatar: async (file: File) => {
+    const formData = new FormData();
+    formData.append('avatar', file);
+    const response = await api.post<{ success: boolean; message: string; avatarUrl: string; user: User }>('/auth/avatar', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' }
+    });
+    return response.data;
+  },
+
+  removeAvatar: async () => {
+    const response = await api.delete<{ success: boolean; message: string; user: User }>('/auth/avatar');
+    return response.data;
   }
 };

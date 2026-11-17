@@ -35,7 +35,7 @@ export const LoginPage: React.FC = () => {
 
   // Login form state
   const [loginEmail, setLoginEmail] = useState(() => {
-    return localStorage.getItem('epms_remembered_email') || 'student1@epms.edu';
+    return localStorage.getItem('epms_remembered_email') || 'aayush@epms.edu';
   });
   const [loginPassword, setLoginPassword] = useState('Password123!');
   const [activeRoleTab, setActiveRoleTab] = useState<'student' | 'teacher'>('student');
@@ -66,10 +66,10 @@ export const LoginPage: React.FC = () => {
   const handleSelectRoleDemo = (targetRole: 'student' | 'teacher') => {
     setActiveRoleTab(targetRole);
     if (targetRole === 'teacher') {
-      setLoginEmail('teacher@epms.edu');
+      setLoginEmail('prof.anjali@epms.edu');
       setLoginPassword('Password123!');
     } else {
-      setLoginEmail('student1@epms.edu');
+      setLoginEmail('aayush@epms.edu');
       setLoginPassword('Password123!');
     }
     setError(null);
@@ -693,7 +693,7 @@ export const LoginPage: React.FC = () => {
                       }`}
                     >
                       <User className="w-3.5 h-3.5" />
-                      <span>Student (Aarav Patel)</span>
+                      <span>Student (Aayush Auti)</span>
                     </button>
                     <button
                       type="button"
@@ -705,7 +705,7 @@ export const LoginPage: React.FC = () => {
                       }`}
                     >
                       <GraduationCap className="w-3.5 h-3.5" />
-                      <span>Faculty (6 Professors)</span>
+                      <span>Faculty (5 Professors)</span>
                     </button>
                   </div>
 
@@ -720,13 +720,11 @@ export const LoginPage: React.FC = () => {
                         }}
                         className="w-full px-2.5 py-1.5 rounded-lg text-xs bg-slate-900 border border-slate-800 text-slate-200 focus:outline-none focus:border-sky-500"
                       >
-                        <option value="teacher@epms.edu">Prof. Rajesh Sharma (TCH-1001 - Computer Science)</option>
-                        <option value="prof.sunita@epms.edu">Prof. Sunita Deshmukh (TCH-1002 - Data Science & AI)</option>
-                        <option value="prof.amit@epms.edu">Prof. Amit Verma (TCH-1003 - Software Engineering)</option>
-                        <option value="prof.ananya@epms.edu">Prof. Ananya Kulkarni (TCH-1004 - Cybersecurity)</option>
-                        <option value="prof.vikramaditya@epms.edu">Prof. Vikramaditya Joshi (TCH-1005 - IoT)</option>
-                        <option value="prof.meera@epms.edu">Prof. Meera Nambiar (TCH-1006 - Distributed Systems)</option>
-                        <option value="prathiba@epms.edu">Prof. Prathiba Jadhav (TCH-1020 - Computer Science)</option>
+                        <option value="prof.anjali@epms.edu">Prof. Anjali Kulkarni (TCH-1001 - Computer Science & Engineering)</option>
+                        <option value="prof.yash@epms.edu">Prof. Yash Vyas (TCH-1002 - Data Science & AI)</option>
+                        <option value="prof.annirudh@epms.edu">Prof. Annirudh Chavan (TCH-1003 - Software Engineering)</option>
+                        <option value="prof.pratibha@epms.edu">Prof. Pratibha Jadhav (TCH-1004 - Cybersecurity)</option>
+                        <option value="prof.sabir@epms.edu">Prof. Sabir Bagwan (TCH-1005 - Embedded Systems & IoT)</option>
                       </select>
                     </div>
                   ) : (
@@ -740,17 +738,11 @@ export const LoginPage: React.FC = () => {
                         }}
                         className="w-full px-2.5 py-1.5 rounded-lg text-xs bg-slate-900 border border-slate-800 text-slate-200 focus:outline-none focus:border-sky-500"
                       >
-                        <option value="student1@epms.edu">Aarav Patel (STU-2001 - Computer Science)</option>
-                        <option value="student2@epms.edu">Priya Sharma (STU-2002 - Software Engineering)</option>
-                        <option value="student3@epms.edu">Rohan Deshmukh (STU-2003 - Data Science)</option>
-                        <option value="student4@epms.edu">Ananya Iyer (STU-2004 - Computer Science)</option>
-                        <option value="student5@epms.edu">Vikram Singh (STU-2005 - Information Technology)</option>
-                        <option value="student6@epms.edu">Sneha Joshi (STU-2006 - Software Engineering)</option>
-                        <option value="student7@epms.edu">Kabir Mehta (STU-2007 - Computer Science)</option>
-                        <option value="student8@epms.edu">Diya Reddy (STU-2008 - Data Science)</option>
-                        <option value="student9@epms.edu">Arjun Nair (STU-2009 - Information Technology)</option>
-                        <option value="student10@epms.edu">Pooja Verma (STU-2010 - Computer Science)</option>
-                        <option value="vedant@epms.edu">Vedant Shelke (STU-2020 - Computer Science)</option>
+                        <option value="aayush@epms.edu">Aayush Auti (STU-2001 - Computer Science & Engineering)</option>
+                        <option value="ayush@epms.edu">Ayush Koshti (STU-2002 - Software Engineering)</option>
+                        <option value="atharvap@epms.edu">Atharva Pose (STU-2003 - Data Science & AI)</option>
+                        <option value="atharvar@epms.edu">Atharva Raut (STU-2004 - Information Technology)</option>
+                        <option value="siddhesh@epms.edu">Siddhesh Durgude (STU-2005 - Computer Science & Engineering)</option>
                       </select>
                     </div>
                   )}

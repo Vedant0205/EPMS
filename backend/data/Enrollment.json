@@ -6,10 +6,10 @@
     "status": "completed",
     "completionPercentage": 100,
     "completedLessonsCount": 6,
-    "totalLessonsCount": 6,
+    "totalLessonsCount": 8,
     "lastAccessed": "2026-11-09T17:58:31.981Z",
     "createdAt": "2026-11-06T15:46:48.253Z",
-    "updatedAt": "2026-11-09T17:58:31.981Z"
+    "updatedAt": "2026-11-17T03:49:00.470Z"
   },
   {
     "_id": "8ad11a05b9835c49387f3987",
@@ -42,10 +42,10 @@
     "status": "completed",
     "completionPercentage": 100,
     "completedLessonsCount": 6,
-    "totalLessonsCount": 6,
+    "totalLessonsCount": 8,
     "lastAccessed": "2026-11-06T15:46:48.241Z",
     "createdAt": "2026-11-06T15:46:48.261Z",
-    "updatedAt": "2026-11-06T15:46:48.261Z"
+    "updatedAt": "2026-11-17T03:49:00.478Z"
   },
   {
     "_id": "0cdc5a94150f500cbe886048",
@@ -78,10 +78,10 @@
     "status": "active",
     "completionPercentage": 83,
     "completedLessonsCount": 5,
-    "totalLessonsCount": 6,
+    "totalLessonsCount": 8,
     "lastAccessed": "2026-11-05T15:46:48.241Z",
     "createdAt": "2026-11-06T15:46:48.268Z",
-    "updatedAt": "2026-11-06T15:46:48.268Z"
+    "updatedAt": "2026-11-17T03:49:00.484Z"
   },
   {
     "_id": "2d8c9ff568abfb6ad961922f",
@@ -114,10 +114,10 @@
     "status": "active",
     "completionPercentage": 83,
     "completedLessonsCount": 5,
-    "totalLessonsCount": 6,
+    "totalLessonsCount": 8,
     "lastAccessed": "2026-11-04T15:46:48.241Z",
     "createdAt": "2026-11-06T15:46:48.275Z",
-    "updatedAt": "2026-11-06T15:46:48.275Z"
+    "updatedAt": "2026-11-17T03:49:00.491Z"
   },
   {
     "_id": "ed437edb93c6bba1605bd33b",
@@ -150,10 +150,10 @@
     "status": "active",
     "completionPercentage": 50,
     "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
+    "totalLessonsCount": 8,
     "lastAccessed": "2026-11-02T15:46:48.241Z",
     "createdAt": "2026-11-06T15:46:48.282Z",
-    "updatedAt": "2026-11-06T15:46:48.282Z"
+    "updatedAt": "2026-11-17T03:49:00.495Z"
   },
   {
     "_id": "f568280a37e856ae5d0dfc0c",
@@ -178,186 +178,6 @@
     "lastAccessed": "2026-11-02T15:46:48.241Z",
     "createdAt": "2026-11-06T15:46:48.287Z",
     "updatedAt": "2026-11-06T15:46:48.287Z"
-  },
-  {
-    "_id": "8ff1159b6e5d3ac14444ba06",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-01T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.290Z",
-    "updatedAt": "2026-11-06T15:46:48.290Z"
-  },
-  {
-    "_id": "7d905b52d940ab92a6df089b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-01T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.292Z",
-    "updatedAt": "2026-11-06T15:46:48.292Z"
-  },
-  {
-    "_id": "f0d76d9e70b7a214640bcc0a",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "course": "9b5efdec9908bf44bdce945b",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-01T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.294Z",
-    "updatedAt": "2026-11-06T15:46:48.294Z"
-  },
-  {
-    "_id": "07a826f9b5c67f3999a4266d",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "status": "active",
-    "completionPercentage": 17,
-    "completedLessonsCount": 1,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-28T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.296Z",
-    "updatedAt": "2026-11-06T15:46:48.296Z"
-  },
-  {
-    "_id": "666cc27e646153724f33b476",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "status": "active",
-    "completionPercentage": 17,
-    "completedLessonsCount": 1,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-28T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.298Z",
-    "updatedAt": "2026-11-06T15:46:48.298Z"
-  },
-  {
-    "_id": "1bceef6af61c020fc4598ed1",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "course": "9b5efdec9908bf44bdce945b",
-    "status": "active",
-    "completionPercentage": 17,
-    "completedLessonsCount": 1,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-28T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.301Z",
-    "updatedAt": "2026-11-06T15:46:48.301Z"
-  },
-  {
-    "_id": "e2a2ea7783e30ac2004fc97a",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-25T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.303Z",
-    "updatedAt": "2026-11-06T15:46:48.303Z"
-  },
-  {
-    "_id": "a29180dc27a015aefcb8260b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-25T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.305Z",
-    "updatedAt": "2026-11-06T15:46:48.305Z"
-  },
-  {
-    "_id": "c0a944ec0c25c6a69addc3ae",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "course": "9b5efdec9908bf44bdce945b",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-25T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.308Z",
-    "updatedAt": "2026-11-06T15:46:48.308Z"
-  },
-  {
-    "_id": "c267daec6ec84edc56f97e6f",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-29T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.311Z",
-    "updatedAt": "2026-11-06T15:46:48.311Z"
-  },
-  {
-    "_id": "0529bbd71812da590d88a124",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-29T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.314Z",
-    "updatedAt": "2026-11-06T15:46:48.314Z"
-  },
-  {
-    "_id": "27069befeb35fe85bb030a2a",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "status": "active",
-    "completionPercentage": 33,
-    "completedLessonsCount": 2,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-10-29T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.316Z",
-    "updatedAt": "2026-11-06T15:46:48.316Z"
-  },
-  {
-    "_id": "00d4589ae761d7ec94e6d3c5",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-03T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.319Z",
-    "updatedAt": "2026-11-06T15:46:48.319Z"
-  },
-  {
-    "_id": "a54d984fd65b0ee1eb8057f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-03T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.322Z",
-    "updatedAt": "2026-11-06T15:46:48.322Z"
-  },
-  {
-    "_id": "5e0e159777d9602638ebf117",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "course": "9b5efdec9908bf44bdce945b",
-    "status": "active",
-    "completionPercentage": 50,
-    "completedLessonsCount": 3,
-    "totalLessonsCount": 6,
-    "lastAccessed": "2026-11-03T15:46:48.241Z",
-    "createdAt": "2026-11-06T15:46:48.325Z",
-    "updatedAt": "2026-11-06T15:46:48.325Z"
   },
   {
     "_id": "82b4b83c07dfaed7df345f44",
@@ -502,5 +322,53 @@
     "createdAt": "2026-11-16T16:08:54.068Z",
     "updatedAt": "2026-11-16T16:08:54.071Z",
     "lastAccessed": "2026-11-16T16:08:54.071Z"
+  },
+  {
+    "_id": "baff71124b6cbf96b17d7400",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "9de6f9739cffca41110a8d72",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-16T17:44:49.957Z",
+    "updatedAt": "2026-11-16T17:44:49.959Z",
+    "lastAccessed": "2026-11-16T17:44:49.959Z"
+  },
+  {
+    "_id": "0035bdf63be305c7218524dc",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "1021b54bd2aff8e56e8d0fb9",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-16T17:46:20.543Z",
+    "updatedAt": "2026-11-16T17:46:20.546Z",
+    "lastAccessed": "2026-11-16T17:46:20.546Z"
+  },
+  {
+    "_id": "a2a0aafa3b9f691dae7100cc",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "c79e24e857ea32e7427b1d6a",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-17T04:17:18.834Z",
+    "updatedAt": "2026-11-17T04:17:18.837Z",
+    "lastAccessed": "2026-11-17T04:17:18.837Z"
+  },
+  {
+    "_id": "4be4593df39c157d75123765",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "fe79114ac501410641b3b73b",
+    "completionPercentage": 50,
+    "completedLessonsCount": 1,
+    "totalLessonsCount": 2,
+    "status": "active",
+    "createdAt": "2026-11-17T04:36:18.319Z",
+    "updatedAt": "2026-11-17T04:36:18.322Z",
+    "lastAccessed": "2026-11-17T04:36:18.322Z"
   }
 ]

@@ -89,6 +89,8 @@ export const AppRoutes: React.FC = () => {
                 <Route path="students" element={<StudentManagement />} />
                 <Route path="students/:studentId" element={<StudentProfileView />} />
                 <Route path="courses" element={<CourseManagement />} />
+                <Route path="courses/:courseId/preview" element={<CoursePlayer isPreview />} />
+                <Route path="courses/:courseId/preview/:lessonId" element={<CoursePlayer isPreview />} />
                 <Route path="progress" element={<TeacherProgressMonitoring />} />
                 <Route path="attendance" element={<AttendanceMarking />} />
                 <Route path="ai-copilot" element={<TeacherAICopilot />} />

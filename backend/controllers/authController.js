@@ -123,35 +123,44 @@ exports.login = async (req, res) => {
       user = await User.findOne({ identifier: identifierUpper });
     }
 
+    // Support backward-compatible aliases
+    if (!user) {
+      if (normalizedEmail === 'teacher@epms.edu' || identifierUpper === 'TCH-1001' || normalizedEmail === 'prof.anjali@epms.edu') {
+        user = await User.findOne({ identifier: 'TCH-1001' });
+      } else if (normalizedEmail === 'student1@epms.edu' || identifierUpper === 'STU-2001' || normalizedEmail === 'aayush@epms.edu') {
+        user = await User.findOne({ identifier: 'STU-2001' });
+      }
+    }
+
     // Auto-fallback / provision demo accounts if missing
     if (!user) {
-      if (normalizedEmail === 'teacher@epms.edu' || identifierUpper === 'TCH-1001') {
+      if (normalizedEmail === 'teacher@epms.edu' || normalizedEmail === 'prof.anjali@epms.edu' || identifierUpper === 'TCH-1001') {
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash('Password123!', salt);
         user = await User.create({
           _id: '6d87cc017f8c94b87d19f8cc',
-          name: 'Prof. Rajesh Sharma',
-          email: 'teacher@epms.edu',
+          name: 'Prof. Anjali Kulkarni',
+          email: 'prof.anjali@epms.edu',
           identifier: 'TCH-1001',
           password: hashedPassword,
           role: 'teacher',
           department: 'Computer Science & Engineering',
-          avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+          avatar: '',
           phone: '+91 98230 45671',
           lastActive: new Date().toISOString()
         });
-      } else if (normalizedEmail === 'student1@epms.edu' || identifierUpper === 'STU-2001') {
+      } else if (normalizedEmail === 'student1@epms.edu' || normalizedEmail === 'aayush@epms.edu' || identifierUpper === 'STU-2001') {
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash('Password123!', salt);
         user = await User.create({
           _id: '8f14b64469cc3f538c76d95e',
-          name: 'Aarav Patel',
-          email: 'student1@epms.edu',
+          name: 'Aayush Auti',
+          email: 'aayush@epms.edu',
           identifier: 'STU-2001',
           password: hashedPassword,
           role: 'student',
-          department: 'Computer Science',
-          avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+          department: 'Computer Science & Engineering',
+          avatar: '',
           phone: '+91 98451 23456',
           lastActive: new Date().toISOString()
         });
@@ -243,6 +252,92 @@ exports.getMe = async (req, res) => {
     });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Server error fetching profile.', error: err.message });
+  }
+};
+
+// @desc    Update current user profile (name, phone, department, etc.)
+// @route   PUT /api/auth/profile
+exports.updateProfile = async (req, res) => {
+  try {
+    const { name, phone, department } = req.body;
+    const updateFields = { updatedAt: new Date().toISOString() };
+    if (name) updateFields.name = name.trim();
+    if (phone !== undefined) updateFields.phone = phone.trim();
+    if (department) updateFields.department = department.trim();
+
+    const updatedUser = await User.findByIdAndUpdate(req.user.id, updateFields, { new: true });
+    res.json({
+      success: true,
+      message: 'Profile details updated successfully.',
+      user: {
+        _id: updatedUser._id,
+        id: updatedUser._id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        identifier: updatedUser.identifier,
+        role: updatedUser.role,
+        department: updatedUser.department,
+        avatar: updatedUser.avatar,
+        phone: updatedUser.phone
+      }
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error updating profile.', error: err.message });
+  }
+};
+
+// @desc    Upload or update manual photo avatar
+// @route   POST /api/auth/avatar
+exports.uploadAvatar = async (req, res) => {
+  try {
+    if (!req.file) {
+      return res.status(400).json({ success: false, message: 'No photo image was provided for upload.' });
+    }
+    const avatarUrl = `${req.protocol}://${req.get('host')}/uploads/avatars/${req.file.filename}`;
+    const updatedUser = await User.findByIdAndUpdate(req.user.id, { avatar: avatarUrl, updatedAt: new Date().toISOString() }, { new: true });
+    res.json({
+      success: true,
+      message: 'Profile photo uploaded successfully.',
+      avatarUrl,
+      user: {
+        _id: updatedUser._id,
+        id: updatedUser._id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        identifier: updatedUser.identifier,
+        role: updatedUser.role,
+        department: updatedUser.department,
+        avatar: updatedUser.avatar,
+        phone: updatedUser.phone
+      }
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error uploading profile photo.', error: err.message });
+  }
+};
+
+// @desc    Remove photo avatar
+// @route   DELETE /api/auth/avatar
+exports.removeAvatar = async (req, res) => {
+  try {
+    const updatedUser = await User.findByIdAndUpdate(req.user.id, { avatar: '', updatedAt: new Date().toISOString() }, { new: true });
+    res.json({
+      success: true,
+      message: 'Profile photo removed successfully.',
+      user: {
+        _id: updatedUser._id,
+        id: updatedUser._id,
+        name: updatedUser.name,
+        email: updatedUser.email,
+        identifier: updatedUser.identifier,
+        role: updatedUser.role,
+        department: updatedUser.department,
+        avatar: '',
+        phone: updatedUser.phone
+      }
+    });
+  } catch (err) {
+    res.status(500).json({ success: false, message: 'Server error removing profile photo.', error: err.message });
   }
 };
 

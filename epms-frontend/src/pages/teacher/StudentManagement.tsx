@@ -129,15 +129,14 @@ export const StudentManagement: React.FC = () => {
       className="space-y-6 max-w-7xl mx-auto"
     >
       {/* Header Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-navy-950 via-navy-900 to-purple-950 p-6 sm:p-8 text-white border border-purple-500/20 shadow-xl">
-        <div className="absolute -right-16 -top-16 w-64 h-64 bg-purple-600/20 rounded-full blur-3xl pointer-events-none" />
-        <div className="relative z-10 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="rounded-xl bg-slate-900 p-6 text-white border border-slate-800 shadow-sm">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-500/10 border border-purple-400/20 text-purple-300 text-xs font-semibold uppercase tracking-wider mb-2">
-              <Users className="w-3.5 h-3.5 text-cyan-400" />
+            <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-md bg-blue-950/80 border border-blue-800/60 text-blue-300 text-xs font-semibold uppercase tracking-wider mb-2">
+              <Users className="w-3.5 h-3.5 text-blue-400" />
               <span>Cohort Management</span>
             </div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+            <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
               Student Directory & Intervention
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 mt-1 max-w-xl">
@@ -145,26 +144,26 @@ export const StudentManagement: React.FC = () => {
             </p>
           </div>
           <div className="flex items-center gap-3">
-            <div className="px-4 py-2.5 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 text-center">
-              <p className="text-xs text-slate-400">Total Enrolled</p>
-              <p className="text-xl font-black text-cyan-400">{students.length}</p>
+            <div className="px-4 py-2 rounded-lg bg-slate-800/80 border border-slate-700 text-center">
+              <p className="text-[11px] text-slate-400 font-medium">Total Enrolled</p>
+              <p className="text-lg font-bold text-white">{students.length}</p>
             </div>
           </div>
         </div>
       </div>
 
       {/* Filter Toolbar */}
-      <div className="glass-panel p-5 rounded-3xl space-y-4">
+      <div className="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm space-y-3">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
           {/* Search by Name/ID/Email */}
           <div className="relative lg:col-span-2">
-            <Search className="w-4 h-4 text-purple-400 absolute left-3.5 top-3" />
+            <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Search by student name, ID, or email..."
-              className="w-full pl-10 pr-3 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white/70 dark:bg-navy-900/70 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+              placeholder="Search student by name, ID, or email..."
+              className="w-full pl-9 pr-3 py-2 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-colors"
             />
           </div>
 
@@ -173,7 +172,7 @@ export const StudentManagement: React.FC = () => {
             <select
               value={selectedCourse}
               onChange={(e) => setSelectedCourse(e.target.value)}
-              className="w-full px-3 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white/70 dark:bg-navy-900/70 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 font-medium transition-all"
+              className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium transition-colors"
             >
               <option value="">All Enrolled Courses</option>
               {courses.map((c) => (
@@ -189,7 +188,7 @@ export const StudentManagement: React.FC = () => {
             <select
               value={attendanceFilter}
               onChange={(e) => setAttendanceFilter(e.target.value)}
-              className="w-full px-3 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white/70 dark:bg-navy-900/70 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 font-medium transition-all"
+              className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium transition-colors"
             >
               <option value="">All Attendance Rates</option>
               <option value="low">Low (&lt; 75%)</option>
@@ -203,24 +202,24 @@ export const StudentManagement: React.FC = () => {
             <select
               value={riskFilter}
               onChange={(e) => setRiskFilter(e.target.value)}
-              className="w-full px-3 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white/70 dark:bg-navy-900/70 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 font-semibold transition-all"
+              className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium transition-colors"
             >
               <option value="">All Academic Statuses</option>
-              <option value="On Track">🟢 On Track</option>
-              <option value="Needs Attention">🟡 Needs Attention</option>
-              <option value="At Risk">🔴 At Risk</option>
+              <option value="On Track">On Track</option>
+              <option value="Needs Attention">Needs Attention</option>
+              <option value="At Risk">At Risk</option>
             </select>
           </div>
         </div>
 
-        <div className="flex justify-between items-center pt-2 border-t border-slate-100 dark:border-navy-700/60 text-xs">
+        <div className="flex justify-between items-center pt-2 border-t border-slate-100 dark:border-slate-800 text-xs">
           <span className="text-slate-500 dark:text-slate-400 font-medium">
-            Showing <span className="font-bold text-purple-600 dark:text-purple-400">{students.length}</span> students matching filters
+            Showing <span className="font-semibold text-slate-900 dark:text-white">{students.length}</span> students matching filters
           </span>
           {(search || selectedCourse || attendanceFilter || progressFilter || riskFilter) && (
             <button
               onClick={clearFilters}
-              className="text-purple-600 dark:text-purple-400 hover:text-cyan-500 font-semibold transition-colors"
+              className="text-blue-600 dark:text-blue-400 hover:underline font-medium transition-colors"
             >
               Reset Filters
             </button>
@@ -229,32 +228,32 @@ export const StudentManagement: React.FC = () => {
       </div>
 
       {/* Main Students Table */}
-      <div className="glass-panel rounded-3xl overflow-hidden">
+      <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden shadow-sm">
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs">
-            <thead className="bg-slate-50/80 dark:bg-navy-900/80 text-slate-500 dark:text-slate-400 font-bold uppercase tracking-wider border-b border-slate-100 dark:border-navy-700/60">
+            <thead className="bg-slate-50 dark:bg-slate-800/60 text-slate-600 dark:text-slate-300 font-semibold uppercase tracking-wider border-b border-slate-200 dark:border-slate-800">
               <tr>
-                <th className="py-4 px-5">Student</th>
-                <th className="py-4 px-4">Identifier</th>
-                <th className="py-4 px-4">Courses</th>
-                <th className="py-4 px-4">Attendance</th>
-                <th className="py-4 px-4">Course Progress</th>
-                <th className="py-4 px-4">Status</th>
-                <th className="py-4 px-5 text-right">Actions</th>
+                <th className="py-3 px-4">Student</th>
+                <th className="py-3 px-3">Identifier</th>
+                <th className="py-3 px-3">Courses</th>
+                <th className="py-3 px-3">Attendance</th>
+                <th className="py-3 px-3">Course Progress</th>
+                <th className="py-3 px-3">Status</th>
+                <th className="py-3 px-4 text-right">Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-navy-700/50">
+            <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
               {loading ? (
                 <tr>
-                  <td colSpan={7} className="py-16 text-center text-slate-400">
-                    <div className="w-8 h-8 border-3 border-purple-600 border-t-transparent rounded-full animate-spin mx-auto mb-3"></div>
-                    <p className="font-medium">Loading student roster...</p>
+                  <td colSpan={7} className="py-12 text-center text-slate-400">
+                    <div className="w-6 h-6 border-2 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto mb-2"></div>
+                    <p className="font-medium text-xs">Loading student roster...</p>
                   </td>
                 </tr>
               ) : students.length === 0 ? (
                 <tr>
-                  <td colSpan={7} className="py-16 text-center text-slate-400">
-                    <Users className="w-10 h-10 mx-auto mb-2 text-slate-300 dark:text-slate-600" />
+                  <td colSpan={7} className="py-12 text-center text-slate-400">
+                    <Users className="w-8 h-8 mx-auto mb-2 text-slate-300 dark:text-slate-600" />
                     No students found matching your criteria.
                   </td>
                 </tr>
@@ -266,45 +265,49 @@ export const StudentManagement: React.FC = () => {
                   return (
                     <tr
                       key={student._id}
-                      className="hover:bg-purple-500/5 dark:hover:bg-purple-500/10 transition-colors group"
+                      className="hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors group"
                     >
                       {/* Name & Avatar */}
-                      <td className="py-4 px-5">
+                      <td className="py-3 px-4">
                         <div className="flex items-center gap-3">
                           {student.avatar ? (
-                            <img src={student.avatar} alt={student.name} className="w-10 h-10 rounded-full object-cover shrink-0 ring-2 ring-purple-500/20" />
+                            <img
+                              src={student.avatar.startsWith('/uploads') ? `http://localhost:5000${student.avatar}` : student.avatar}
+                              alt={student.name}
+                              className="w-8 h-8 rounded-full object-cover shrink-0 border border-slate-200 dark:border-slate-700"
+                            />
                           ) : (
-                            <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-navy-900 to-purple-600 text-white font-bold flex items-center justify-center text-xs shrink-0 shadow-sm">
+                            <div className="w-8 h-8 rounded-full bg-slate-800 dark:bg-slate-700 text-white font-semibold flex items-center justify-center text-xs shrink-0">
                               {student.name.charAt(0)}
                             </div>
                           )}
                           <div className="min-w-0">
-                            <p className="font-bold text-slate-900 dark:text-white truncate group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                            <p className="font-semibold text-slate-900 dark:text-white truncate">
                               {student.name}
                             </p>
-                            <p className="text-[11px] text-slate-400 truncate">{student.email}</p>
+                            <p className="text-[11px] text-slate-500 dark:text-slate-400 truncate">{student.email}</p>
                           </div>
                         </div>
                       </td>
 
                       {/* ID */}
-                      <td className="py-4 px-4 font-mono font-semibold text-slate-700 dark:text-slate-300">
+                      <td className="py-3 px-3 font-mono font-medium text-slate-700 dark:text-slate-300">
                         {student.identifier}
                       </td>
 
                       {/* Enrolled Courses */}
-                      <td className="py-4 px-4">
-                        <span className="font-semibold text-slate-700 dark:text-slate-300 inline-flex items-center gap-1.5">
-                          <BookOpen className="w-3.5 h-3.5 text-purple-500" />
+                      <td className="py-3 px-3">
+                        <span className="font-medium text-slate-700 dark:text-slate-300 inline-flex items-center gap-1.5">
+                          <BookOpen className="w-3.5 h-3.5 text-slate-400" />
                           {student.enrolledCount} {student.enrolledCount === 1 ? 'Course' : 'Courses'}
                         </span>
                       </td>
 
                       {/* Attendance % */}
-                      <td className="py-4 px-4">
-                        <div className="flex items-center gap-2">
-                          <span className={`font-bold ${
-                            student.attendancePercentage < 75 ? 'text-rose-500 font-extrabold' : 'text-slate-800 dark:text-slate-200'
+                      <td className="py-3 px-3">
+                        <div className="flex items-center gap-1.5">
+                          <span className={`font-semibold ${
+                            student.attendancePercentage < 75 ? 'text-rose-600 dark:text-rose-400' : 'text-slate-800 dark:text-slate-200'
                           }`}>
                             {student.attendancePercentage}%
                           </span>
@@ -315,21 +318,21 @@ export const StudentManagement: React.FC = () => {
                       </td>
 
                       {/* Course Completion % */}
-                      <td className="py-4 px-4">
-                        <div className="w-32">
-                          <div className="flex justify-between items-center text-[10px] mb-1 font-bold">
-                            <span className={student.courseCompletionPercentage < 40 ? 'text-rose-500' : 'text-slate-700 dark:text-slate-300'}>
+                      <td className="py-3 px-3">
+                        <div className="w-28">
+                          <div className="flex justify-between items-center text-[10px] mb-1 font-semibold">
+                            <span className={student.courseCompletionPercentage < 40 ? 'text-rose-600 dark:text-rose-400' : 'text-slate-700 dark:text-slate-300'}>
                               {student.courseCompletionPercentage}%
                             </span>
                           </div>
-                          <div className="w-full bg-slate-100 dark:bg-navy-900 h-2 rounded-full overflow-hidden">
+                          <div className="w-full bg-slate-100 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden">
                             <div
-                              className={`h-full rounded-full transition-all duration-500 ${
+                              className={`h-full rounded-full transition-all duration-300 ${
                                 student.courseCompletionPercentage < 40
                                   ? 'bg-rose-500'
                                   : student.courseCompletionPercentage < 70
                                   ? 'bg-amber-500'
-                                  : 'bg-gradient-to-r from-purple-500 to-cyan-500'
+                                  : 'bg-emerald-500'
                               }`}
                               style={{ width: `${student.courseCompletionPercentage}%` }}
                             ></div>
@@ -338,37 +341,37 @@ export const StudentManagement: React.FC = () => {
                       </td>
 
                       {/* Overall Status */}
-                      <td className="py-4 px-4">
-                        <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider border ${
+                      <td className="py-3 px-3">
+                        <span className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-md text-[11px] font-medium border ${
                           isRisk
-                            ? 'bg-rose-500/10 text-rose-500 border-rose-500/30'
+                            ? 'bg-rose-50 dark:bg-rose-950/40 text-rose-700 dark:text-rose-400 border-rose-200 dark:border-rose-900/60'
                             : isAttention
-                            ? 'bg-amber-500/10 text-amber-500 border-amber-500/30'
-                            : 'bg-emerald-500/10 text-emerald-500 border-emerald-500/30'
+                            ? 'bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border-amber-200 dark:border-amber-900/60'
+                            : 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-900/60'
                         }`}>
-                          <span className={`w-1.5 h-1.5 rounded-full ${isRisk ? 'bg-rose-500' : isAttention ? 'bg-amber-500' : 'bg-emerald-500'}`}></span>
+                          <span className={`w-1.5 h-1.5 rounded-full ${isRisk ? 'bg-rose-600' : isAttention ? 'bg-amber-600' : 'bg-emerald-600'}`}></span>
                           {student.risk.status}
                         </span>
                       </td>
 
                       {/* Actions */}
-                      <td className="py-4 px-5 text-right">
-                        <div className="flex items-center justify-end gap-2">
+                      <td className="py-3 px-4 text-right">
+                        <div className="flex items-center justify-end gap-1.5">
                           <button
                             onClick={() => openWarningModal(student)}
-                            className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-rose-500/10 text-rose-600 dark:text-rose-400 hover:bg-rose-500/20 border border-rose-500/20 transition-all flex items-center gap-1.5 hover:scale-105 active:scale-95"
+                            className="px-2.5 py-1 rounded-md text-xs font-medium bg-rose-50 hover:bg-rose-100 dark:bg-rose-950/40 dark:hover:bg-rose-900/50 text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-900/50 transition-colors flex items-center gap-1"
                             title="Dispatch Early Academic Warning"
                           >
-                            <Send className="w-3.5 h-3.5" />
-                            <span className="hidden sm:inline">Warn</span>
+                            <Send className="w-3 h-3" />
+                            <span>Warn</span>
                           </button>
                           <button
                             onClick={() => navigate(`/teacher/students/${student._id}`)}
-                            className="px-3 py-1.5 rounded-xl text-xs font-semibold bg-purple-500/10 text-purple-600 dark:text-purple-400 hover:bg-purple-500/20 border border-purple-500/20 transition-all flex items-center gap-1.5 hover:scale-105 active:scale-95"
+                            className="px-2.5 py-1 rounded-md text-xs font-medium bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 transition-colors flex items-center gap-1"
                             title="Examine Student Details"
                           >
-                            <ExternalLink className="w-3.5 h-3.5" />
-                            <span className="hidden sm:inline">Profile</span>
+                            <ExternalLink className="w-3 h-3" />
+                            <span>Profile</span>
                           </button>
                         </div>
                       </td>
@@ -384,42 +387,42 @@ export const StudentManagement: React.FC = () => {
       {/* Warning Dispatch Modal */}
       <AnimatePresence>
         {warningModalOpen && selectedStudent && (
-          <div className="fixed inset-0 bg-navy-950/70 backdrop-blur-sm flex items-center justify-center z-50 p-4">
+          <div className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs flex items-center justify-center z-50 p-4">
             <motion.div
-              initial={{ opacity: 0, scale: 0.95, y: 10 }}
+              initial={{ opacity: 0, scale: 0.98, y: 8 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
-              exit={{ opacity: 0, scale: 0.95, y: 10 }}
-              className="bg-white dark:bg-navy-800 rounded-3xl max-w-lg w-full p-6 border border-slate-200 dark:border-navy-700 shadow-2xl space-y-4"
+              exit={{ opacity: 0, scale: 0.98, y: 8 }}
+              className="bg-white dark:bg-slate-900 rounded-xl max-w-lg w-full p-5 border border-slate-200 dark:border-slate-800 shadow-xl space-y-4"
             >
-              <div className="flex items-center justify-between border-b border-slate-100 dark:border-navy-700 pb-3">
+              <div className="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
                 <div className="flex items-center gap-3">
-                  <div className="p-2.5 rounded-2xl bg-rose-500/10 text-rose-500 border border-rose-500/20">
-                    <AlertTriangle className="w-5 h-5" />
+                  <div className="p-2 rounded-lg bg-rose-50 dark:bg-rose-950/50 text-rose-600 dark:text-rose-400 border border-rose-200 dark:border-rose-900/50">
+                    <AlertTriangle className="w-4 h-4" />
                   </div>
                   <div>
                     <h3 className="text-sm font-bold text-slate-900 dark:text-white">
                       Dispatch Warning: {selectedStudent.name}
                     </h3>
-                    <p className="text-[11px] text-slate-400">{selectedStudent.identifier} • {selectedStudent.email}</p>
+                    <p className="text-[11px] text-slate-500 dark:text-slate-400">{selectedStudent.identifier} • {selectedStudent.email}</p>
                   </div>
                 </div>
                 <button
                   onClick={() => setWarningModalOpen(false)}
-                  className="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-navy-700 transition-colors"
+                  className="p-1 rounded-md text-slate-400 hover:text-slate-600 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
                 >
-                  <X className="w-5 h-5" />
+                  <X className="w-4 h-4" />
                 </button>
               </div>
 
-              <form onSubmit={handleSendWarning} className="space-y-4">
+              <form onSubmit={handleSendWarning} className="space-y-3.5">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Warning Category
                   </label>
                   <select
                     value={warningCategory}
                     onChange={(e) => setWarningCategory(e.target.value)}
-                    className="w-full px-3.5 py-2.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white dark:bg-navy-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all font-medium"
+                    className="w-full px-3 py-2 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-colors font-medium"
                   >
                     <option value="Low Attendance">Low Attendance</option>
                     <option value="Low Course Completion">Low Course Completion</option>
@@ -430,7 +433,7 @@ export const StudentManagement: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Priority Level
                   </label>
                   <div className="grid grid-cols-3 gap-2">
@@ -439,14 +442,14 @@ export const StudentManagement: React.FC = () => {
                         key={p}
                         type="button"
                         onClick={() => setWarningPriority(p)}
-                        className={`py-2 text-xs font-bold rounded-xl border transition-all ${
+                        className={`py-1.5 text-xs font-medium rounded-lg border transition-colors ${
                           warningPriority === p
                             ? p === 'High'
-                              ? 'bg-rose-600 text-white border-rose-600 shadow-md shadow-rose-500/20'
+                              ? 'bg-rose-600 text-white border-rose-600'
                               : p === 'Medium'
-                              ? 'bg-amber-600 text-white border-amber-600 shadow-md shadow-amber-500/20'
-                              : 'bg-purple-600 text-white border-purple-600 shadow-md shadow-purple-500/20'
-                            : 'bg-slate-50 dark:bg-navy-900 text-slate-600 dark:text-slate-400 border-slate-200 dark:border-navy-700'
+                              ? 'bg-amber-600 text-white border-amber-600'
+                              : 'bg-blue-600 text-white border-blue-600'
+                            : 'bg-slate-50 dark:bg-slate-800 text-slate-700 dark:text-slate-300 border-slate-200 dark:border-slate-700'
                         }`}
                       >
                         {p}
@@ -456,7 +459,7 @@ export const StudentManagement: React.FC = () => {
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5">
+                  <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1">
                     Intervention Instructions & Academic Feedback
                   </label>
                   <textarea
@@ -465,22 +468,22 @@ export const StudentManagement: React.FC = () => {
                     value={warningMessage}
                     onChange={(e) => setWarningMessage(e.target.value)}
                     placeholder="Provide actionable guidance for the student..."
-                    className="w-full p-3.5 text-xs rounded-xl border border-slate-200 dark:border-navy-700 bg-white dark:bg-navy-900 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all"
+                    className="w-full p-3 text-xs rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-blue-600 transition-colors"
                   ></textarea>
                 </div>
 
-                <div className="flex justify-end gap-2.5 pt-3 border-t border-slate-100 dark:border-navy-700">
+                <div className="flex justify-end gap-2 pt-2 border-t border-slate-100 dark:border-slate-800">
                   <button
                     type="button"
                     onClick={() => setWarningModalOpen(false)}
-                    className="px-4 py-2 text-xs font-semibold rounded-xl text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-navy-700 transition-colors"
+                    className="px-3 py-1.5 text-xs font-medium rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
                   >
                     Cancel
                   </button>
                   <button
                     type="submit"
                     disabled={sendingWarning}
-                    className="px-5 py-2 text-xs font-bold rounded-xl bg-gradient-to-r from-purple-600 to-navy-900 hover:from-purple-500 hover:to-navy-800 text-white transition-all shadow-md shadow-purple-500/25 disabled:opacity-50"
+                    className="px-4 py-1.5 text-xs font-semibold rounded-lg bg-blue-600 hover:bg-blue-700 text-white transition-colors disabled:opacity-50"
                   >
                     {sendingWarning ? 'Sending...' : 'Dispatch Intervention'}
                   </button>

@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 setlocal enabledelayedexpansion
 title Educational Progress Monitoring System (EPMS) Launcher
 
@@ -116,11 +116,11 @@ echo ---------------------------------------------------------------------------
 echo  DEMO CREDENTIALS [Quick Login buttons also available on login screen]:
 echo.
 echo   [Teacher / Faculty]
-echo     Email:    teacher@epms.edu
+echo     Email:    prof.anjali@epms.edu (or teacher@epms.edu)
 echo     Password: Password123!
 echo.
 echo   [Student]
-echo     Email:    student1@epms.edu
+echo     Email:    aayush@epms.edu (or student1@epms.edu)
 echo     Password: Password123!
 echo -------------------------------------------------------------------------------
 echo.

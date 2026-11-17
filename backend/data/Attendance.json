@@ -55,61 +55,6 @@
     "updatedAt": "2026-11-06T15:46:48.331Z"
   },
   {
-    "_id": "911dbcff533b8cc35b59596f",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-09",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.331Z",
-    "updatedAt": "2026-11-06T15:46:48.331Z"
-  },
-  {
-    "_id": "e44c7a7ce1931c7493aba652",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.332Z",
-    "updatedAt": "2026-11-06T15:46:48.332Z"
-  },
-  {
-    "_id": "fad5b2ec281b71167bb41e83",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-09",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.332Z",
-    "updatedAt": "2026-11-06T15:46:48.332Z"
-  },
-  {
-    "_id": "f3d71e3233254bf0b38cb5f1",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.332Z",
-    "updatedAt": "2026-11-06T15:46:48.332Z"
-  },
-  {
-    "_id": "54eeccf37c5957ff7c9218c9",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.333Z",
-    "updatedAt": "2026-11-06T15:46:48.333Z"
-  },
-  {
     "_id": "7fee8ea118d1bd9e36951906",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -163,61 +108,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.334Z",
     "updatedAt": "2026-11-06T15:46:48.334Z"
-  },
-  {
-    "_id": "ad00232d7f424162a5bce522",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.334Z",
-    "updatedAt": "2026-11-06T15:46:48.334Z"
-  },
-  {
-    "_id": "0d208fc3b3cf606b9d1ed032",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-12",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.335Z",
-    "updatedAt": "2026-11-06T15:46:48.335Z"
-  },
-  {
-    "_id": "c50a8488e1bb95107beea8f2",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-12",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.335Z",
-    "updatedAt": "2026-11-06T15:46:48.335Z"
-  },
-  {
-    "_id": "c2c28366ed6246331c1de526",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.335Z",
-    "updatedAt": "2026-11-06T15:46:48.335Z"
-  },
-  {
-    "_id": "9bfa754a2c9bb6c835801b28",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.336Z",
-    "updatedAt": "2026-11-06T15:46:48.336Z"
   },
   {
     "_id": "65b4f17ec05e63abdd7ca7ac",
@@ -275,61 +165,6 @@
     "updatedAt": "2026-11-06T15:46:48.337Z"
   },
   {
-    "_id": "9de94b9527f4cc47195e4298",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.337Z",
-    "updatedAt": "2026-11-06T15:46:48.338Z"
-  },
-  {
-    "_id": "719a32205251df33f059f6e2",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.338Z",
-    "updatedAt": "2026-11-06T15:46:48.338Z"
-  },
-  {
-    "_id": "827259b270dc7679c98f6898",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.338Z",
-    "updatedAt": "2026-11-06T15:46:48.338Z"
-  },
-  {
-    "_id": "95cf9dfe0ffcf52176f08223",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.338Z",
-    "updatedAt": "2026-11-06T15:46:48.338Z"
-  },
-  {
-    "_id": "c4257b5bd3c1375b91695341",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-13",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.339Z",
-    "updatedAt": "2026-11-06T15:46:48.339Z"
-  },
-  {
     "_id": "b3bbc7428a94a9d6f5ef5189",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -383,61 +218,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.340Z",
     "updatedAt": "2026-11-06T15:46:48.340Z"
-  },
-  {
-    "_id": "0e03a02530f7211513034e67",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.340Z",
-    "updatedAt": "2026-11-06T15:46:48.340Z"
-  },
-  {
-    "_id": "9fd49c06eaefe14f08b0039d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.341Z",
-    "updatedAt": "2026-11-06T15:46:48.341Z"
-  },
-  {
-    "_id": "260ee7ad0e36459d909eba85",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.341Z",
-    "updatedAt": "2026-11-06T15:46:48.341Z"
-  },
-  {
-    "_id": "c20f32f9407586e00e8bb48e",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.341Z",
-    "updatedAt": "2026-11-06T15:46:48.341Z"
-  },
-  {
-    "_id": "a95501ec95ede45b3ff99ac6",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.342Z",
-    "updatedAt": "2026-11-06T15:46:48.342Z"
   },
   {
     "_id": "c4119ff8e5fa72c29cdb5cab",
@@ -495,61 +275,6 @@
     "updatedAt": "2026-11-06T15:46:48.344Z"
   },
   {
-    "_id": "b2c6f5a8ece4338b1e77742c",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.344Z",
-    "updatedAt": "2026-11-06T15:46:48.344Z"
-  },
-  {
-    "_id": "6e4f9e6f9b29f4cd6daf0816",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.344Z",
-    "updatedAt": "2026-11-06T15:46:48.344Z"
-  },
-  {
-    "_id": "44e5fa98e32a68846e807839",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.345Z",
-    "updatedAt": "2026-11-06T15:46:48.345Z"
-  },
-  {
-    "_id": "4bd05c087890144c85e56d28",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-15",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.345Z",
-    "updatedAt": "2026-11-06T15:46:48.345Z"
-  },
-  {
-    "_id": "d71718c0e521efa3de340949",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.345Z",
-    "updatedAt": "2026-11-06T15:46:48.345Z"
-  },
-  {
     "_id": "bb09cb8407e7ed6b78310d6e",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -603,61 +328,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.347Z",
     "updatedAt": "2026-11-06T15:46:48.347Z"
-  },
-  {
-    "_id": "1114a1541d95376ae6524e0d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.347Z",
-    "updatedAt": "2026-11-06T15:46:48.347Z"
-  },
-  {
-    "_id": "fea07289930f13730f7bc015",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.347Z",
-    "updatedAt": "2026-11-06T15:46:48.347Z"
-  },
-  {
-    "_id": "8e4ee6ab65cd913a9e619afd",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-16",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.348Z",
-    "updatedAt": "2026-11-06T15:46:48.348Z"
-  },
-  {
-    "_id": "5336d4ea61ce2146ce636d02",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.348Z",
-    "updatedAt": "2026-11-06T15:46:48.348Z"
-  },
-  {
-    "_id": "5d738371fe78dcb7bfaa2edd",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.348Z",
-    "updatedAt": "2026-11-06T15:46:48.348Z"
   },
   {
     "_id": "a65117df508f01ef507dabf9",
@@ -715,61 +385,6 @@
     "updatedAt": "2026-11-06T15:46:48.350Z"
   },
   {
-    "_id": "c69300dd7e9521d2a3498143",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.350Z",
-    "updatedAt": "2026-11-06T15:46:48.350Z"
-  },
-  {
-    "_id": "dc0140691f26847858e68f96",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.351Z",
-    "updatedAt": "2026-11-06T15:46:48.351Z"
-  },
-  {
-    "_id": "53734175f33e70dc0e020818",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.351Z",
-    "updatedAt": "2026-11-06T15:46:48.351Z"
-  },
-  {
-    "_id": "80dd11afeba2a5c496698138",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.351Z",
-    "updatedAt": "2026-11-06T15:46:48.351Z"
-  },
-  {
-    "_id": "160c40c3f22125ddf7309283",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.352Z",
-    "updatedAt": "2026-11-06T15:46:48.352Z"
-  },
-  {
     "_id": "99a510e1ca46c2183eef0408",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -823,61 +438,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.353Z",
     "updatedAt": "2026-11-06T15:46:48.353Z"
-  },
-  {
-    "_id": "6b9e9508e01d559ea095d7ec",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.353Z",
-    "updatedAt": "2026-11-06T15:46:48.353Z"
-  },
-  {
-    "_id": "e2f383453548e9926a6cc8f6",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.354Z",
-    "updatedAt": "2026-11-06T15:46:48.354Z"
-  },
-  {
-    "_id": "5eb121fc3cc6c4958ba96ce1",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.354Z",
-    "updatedAt": "2026-11-06T15:46:48.354Z"
-  },
-  {
-    "_id": "69556eb74ba0de02c1e89abf",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-20",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.354Z",
-    "updatedAt": "2026-11-06T15:46:48.354Z"
-  },
-  {
-    "_id": "33a218bbf669020e254c1f9a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.355Z",
-    "updatedAt": "2026-11-06T15:46:48.355Z"
   },
   {
     "_id": "4bde7184dfcac84cb815c6b6",
@@ -935,61 +495,6 @@
     "updatedAt": "2026-11-06T15:46:48.357Z"
   },
   {
-    "_id": "2e33497df0eceb3845000782",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.357Z",
-    "updatedAt": "2026-11-06T15:46:48.357Z"
-  },
-  {
-    "_id": "c10f7d746b7ad9b1e64b882a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.357Z",
-    "updatedAt": "2026-11-06T15:46:48.357Z"
-  },
-  {
-    "_id": "4c4fd26447e316ae2c3b628b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.358Z",
-    "updatedAt": "2026-11-06T15:46:48.358Z"
-  },
-  {
-    "_id": "e045e111d190903bfcab6a5a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-21",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.358Z",
-    "updatedAt": "2026-11-06T15:46:48.358Z"
-  },
-  {
-    "_id": "2375ced30f17507f6d2601ce",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-21",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.359Z",
-    "updatedAt": "2026-11-06T15:46:48.359Z"
-  },
-  {
     "_id": "ddf2a850119104304367464c",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -1043,61 +548,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.360Z",
     "updatedAt": "2026-11-06T15:46:48.360Z"
-  },
-  {
-    "_id": "98a0fba44f80b796bd0e63f6",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.360Z",
-    "updatedAt": "2026-11-06T15:46:48.360Z"
-  },
-  {
-    "_id": "d25736f1f6470843c28c851c",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.361Z",
-    "updatedAt": "2026-11-06T15:46:48.361Z"
-  },
-  {
-    "_id": "0b01d8184a99aaabb07dd96b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.361Z",
-    "updatedAt": "2026-11-06T15:46:48.361Z"
-  },
-  {
-    "_id": "d94e90e7053c85ceaccc7eed",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.361Z",
-    "updatedAt": "2026-11-06T15:46:48.361Z"
-  },
-  {
-    "_id": "ea728859192f29a445b66318",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.362Z",
-    "updatedAt": "2026-11-06T15:46:48.362Z"
   },
   {
     "_id": "5f363bc30334cb8c34ab3def",
@@ -1155,61 +605,6 @@
     "updatedAt": "2026-11-06T15:46:48.364Z"
   },
   {
-    "_id": "d38d289872a7d049e517a327",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.364Z",
-    "updatedAt": "2026-11-06T15:46:48.364Z"
-  },
-  {
-    "_id": "cf86636afc4f9fa6dc340d20",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.364Z",
-    "updatedAt": "2026-11-06T15:46:48.364Z"
-  },
-  {
-    "_id": "e7f695dc2412269962a9977e",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.364Z",
-    "updatedAt": "2026-11-06T15:46:48.364Z"
-  },
-  {
-    "_id": "8dfee5937f5a92a97c3041ef",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.365Z",
-    "updatedAt": "2026-11-06T15:46:48.365Z"
-  },
-  {
-    "_id": "a1861eeefd8ee6f26f9f5c5d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.365Z",
-    "updatedAt": "2026-11-06T15:46:48.365Z"
-  },
-  {
     "_id": "071902adb14706ace3a74745",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -1263,61 +658,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.367Z",
     "updatedAt": "2026-11-06T15:46:48.367Z"
-  },
-  {
-    "_id": "57295cce0355fc7914f97ad0",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-26",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.367Z",
-    "updatedAt": "2026-11-06T15:46:48.367Z"
-  },
-  {
-    "_id": "3239d95609cb12f5f0a583cc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.367Z",
-    "updatedAt": "2026-11-06T15:46:48.367Z"
-  },
-  {
-    "_id": "7e0ebf2e4f2737f81fe42d7f",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.368Z",
-    "updatedAt": "2026-11-06T15:46:48.368Z"
-  },
-  {
-    "_id": "48ddd4668acc9e1cbc97665b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.368Z",
-    "updatedAt": "2026-11-06T15:46:48.368Z"
-  },
-  {
-    "_id": "4a203ae3fac64b1e7e185c50",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.368Z",
-    "updatedAt": "2026-11-06T15:46:48.368Z"
   },
   {
     "_id": "8a729f489bb9528e25b304d1",
@@ -1375,61 +715,6 @@
     "updatedAt": "2026-11-06T15:46:48.370Z"
   },
   {
-    "_id": "c47391d5c9fa43cad18f1f08",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.371Z",
-    "updatedAt": "2026-11-06T15:46:48.371Z"
-  },
-  {
-    "_id": "565d3307b053578bce98039d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.371Z",
-    "updatedAt": "2026-11-06T15:46:48.371Z"
-  },
-  {
-    "_id": "1d512f8bf037124e7b1788da",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.372Z",
-    "updatedAt": "2026-11-06T15:46:48.372Z"
-  },
-  {
-    "_id": "d3a497433780277f4a1d2d9f",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.372Z",
-    "updatedAt": "2026-11-06T15:46:48.372Z"
-  },
-  {
-    "_id": "cb5fdfb0edfbce4dedd67582",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.372Z",
-    "updatedAt": "2026-11-06T15:46:48.372Z"
-  },
-  {
     "_id": "2f59be3d8ca5feb324936493",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -1483,61 +768,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.374Z",
     "updatedAt": "2026-11-06T15:46:48.374Z"
-  },
-  {
-    "_id": "4c4adbf268fe798e9db61ef0",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.375Z",
-    "updatedAt": "2026-11-06T15:46:48.375Z"
-  },
-  {
-    "_id": "38f24c548ded28ca3f9c9bc3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.375Z",
-    "updatedAt": "2026-11-06T15:46:48.375Z"
-  },
-  {
-    "_id": "28c2e32a0a980c7818426601",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-28",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.375Z",
-    "updatedAt": "2026-11-06T15:46:48.375Z"
-  },
-  {
-    "_id": "87d5b403f86964f218f98b87",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.375Z",
-    "updatedAt": "2026-11-06T15:46:48.375Z"
-  },
-  {
-    "_id": "b20b35c85b295249b1fc13e7",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.376Z",
-    "updatedAt": "2026-11-06T15:46:48.376Z"
   },
   {
     "_id": "cc8dd13cc5d577c6b1d9479d",
@@ -1595,61 +825,6 @@
     "updatedAt": "2026-11-06T15:46:48.378Z"
   },
   {
-    "_id": "b55ead1da8512c032476a4a3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-29",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.378Z",
-    "updatedAt": "2026-11-06T15:46:48.378Z"
-  },
-  {
-    "_id": "58ee59f1cc7317369228fc95",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.379Z",
-    "updatedAt": "2026-11-06T15:46:48.379Z"
-  },
-  {
-    "_id": "82ac487177bc640dbe47c117",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.379Z",
-    "updatedAt": "2026-11-06T15:46:48.379Z"
-  },
-  {
-    "_id": "9a84f053d12f47a066bd380a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.380Z",
-    "updatedAt": "2026-11-06T15:46:48.380Z"
-  },
-  {
-    "_id": "713e45822722c8b04963326b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.380Z",
-    "updatedAt": "2026-11-06T15:46:48.380Z"
-  },
-  {
     "_id": "5cf5bf6b7607dd19f5b9443c",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -1703,61 +878,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.382Z",
     "updatedAt": "2026-11-06T15:46:48.382Z"
-  },
-  {
-    "_id": "f06f4131add3d4da6d215d7e",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.383Z",
-    "updatedAt": "2026-11-06T15:46:48.383Z"
-  },
-  {
-    "_id": "9bf5b76bfa97951540b1ac5c",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.383Z",
-    "updatedAt": "2026-11-06T15:46:48.383Z"
-  },
-  {
-    "_id": "0a10d83c570de7b94df8af98",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.384Z",
-    "updatedAt": "2026-11-06T15:46:48.384Z"
-  },
-  {
-    "_id": "1a80e315fecc8f1c4e7a83e3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.384Z",
-    "updatedAt": "2026-11-06T15:46:48.384Z"
-  },
-  {
-    "_id": "f533f10a19e41cb302ba9cab",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.385Z",
-    "updatedAt": "2026-11-06T15:46:48.385Z"
   },
   {
     "_id": "a4ed848d390bca6b2e2c9fb8",
@@ -1815,61 +935,6 @@
     "updatedAt": "2026-11-06T15:46:48.386Z"
   },
   {
-    "_id": "2fd23f4d55b69abf75053150",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.387Z",
-    "updatedAt": "2026-11-06T15:46:48.387Z"
-  },
-  {
-    "_id": "2c317fd88465165e31c5f84a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.387Z",
-    "updatedAt": "2026-11-06T15:46:48.387Z"
-  },
-  {
-    "_id": "1d366a794afc033d937818ac",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.388Z",
-    "updatedAt": "2026-11-06T15:46:48.388Z"
-  },
-  {
-    "_id": "9f6ad9ba3a037f47554487f0",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-02",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.388Z",
-    "updatedAt": "2026-11-06T15:46:48.388Z"
-  },
-  {
-    "_id": "8a06948edb2f4039a0c70c04",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.388Z",
-    "updatedAt": "2026-11-06T15:46:48.388Z"
-  },
-  {
     "_id": "cec889c865ba28f432d78c14",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -1923,61 +988,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.390Z",
     "updatedAt": "2026-11-06T15:46:48.390Z"
-  },
-  {
-    "_id": "4e2548e764cb3e11662630bc",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.390Z",
-    "updatedAt": "2026-11-06T15:46:48.390Z"
-  },
-  {
-    "_id": "e6b6471d9b11916e168a75fe",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.391Z",
-    "updatedAt": "2026-11-06T15:46:48.391Z"
-  },
-  {
-    "_id": "99d8f4c42ca32721cd37e764",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-03",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.391Z",
-    "updatedAt": "2026-11-06T15:46:48.391Z"
-  },
-  {
-    "_id": "ae7e2654580b372f4a321e36",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-03",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.391Z",
-    "updatedAt": "2026-11-06T15:46:48.391Z"
-  },
-  {
-    "_id": "fa5453cab1c8093e51d02ded",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.392Z",
-    "updatedAt": "2026-11-06T15:46:48.392Z"
   },
   {
     "_id": "0c73188ea6d323f960d2155c",
@@ -2035,61 +1045,6 @@
     "updatedAt": "2026-11-06T15:46:48.394Z"
   },
   {
-    "_id": "093a8ede23138ccb10f2e9c4",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.394Z",
-    "updatedAt": "2026-11-06T15:46:48.394Z"
-  },
-  {
-    "_id": "374fd8555fc10737845b0ff2",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-04",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.394Z",
-    "updatedAt": "2026-11-06T15:46:48.394Z"
-  },
-  {
-    "_id": "8a4e6aec2858f3174eb82947",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.395Z",
-    "updatedAt": "2026-11-06T15:46:48.395Z"
-  },
-  {
-    "_id": "27bee0311b40e46f526ad3f0",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-04",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.395Z",
-    "updatedAt": "2026-11-06T15:46:48.395Z"
-  },
-  {
-    "_id": "5a269ed2c7664e4fd2bf063a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.395Z",
-    "updatedAt": "2026-11-06T15:46:48.395Z"
-  },
-  {
     "_id": "7689fb773c2af9aed1da05bd",
     "course": "f0eeed924aed70ee83cc55f4",
     "student": "8f14b64469cc3f538c76d95e",
@@ -2143,61 +1098,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.397Z",
     "updatedAt": "2026-11-06T15:46:48.397Z"
-  },
-  {
-    "_id": "7a47f45f683e24fda22fbd2d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.398Z",
-    "updatedAt": "2026-11-06T15:46:48.398Z"
-  },
-  {
-    "_id": "16a6935e8780bcb5184f51d4",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-05",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.398Z",
-    "updatedAt": "2026-11-06T15:46:48.398Z"
-  },
-  {
-    "_id": "2a521f7dba2f5baa2db2d90a",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.398Z",
-    "updatedAt": "2026-11-06T15:46:48.398Z"
-  },
-  {
-    "_id": "6941c99ee553efe7336479a4",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.399Z",
-    "updatedAt": "2026-11-06T15:46:48.399Z"
-  },
-  {
-    "_id": "fa00b12387b717e733900677",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.399Z",
-    "updatedAt": "2026-11-06T15:46:48.399Z"
   },
   {
     "_id": "a592e6fef0ec2f004e14eb05",
@@ -2255,61 +1155,6 @@
     "updatedAt": "2026-11-06T15:46:48.401Z"
   },
   {
-    "_id": "5016920ab6b41eb6b3a4db51",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.401Z",
-    "updatedAt": "2026-11-06T15:46:48.401Z"
-  },
-  {
-    "_id": "27a8aa414a27a03ddce558ac",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.402Z",
-    "updatedAt": "2026-11-06T15:46:48.402Z"
-  },
-  {
-    "_id": "a636fd110f5fe81c30e99f84",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.402Z",
-    "updatedAt": "2026-11-06T15:46:48.402Z"
-  },
-  {
-    "_id": "c335748e744ee0663961d262",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.403Z",
-    "updatedAt": "2026-11-06T15:46:48.403Z"
-  },
-  {
-    "_id": "9877bcd19f2ff91ca79eb2e0",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.403Z",
-    "updatedAt": "2026-11-06T15:46:48.403Z"
-  },
-  {
     "_id": "0a7f1c4fbedea53c9af72128",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -2363,61 +1208,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.405Z",
     "updatedAt": "2026-11-06T15:46:48.405Z"
-  },
-  {
-    "_id": "3e6ba9f5e2e9225c41e7b2ca",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.405Z",
-    "updatedAt": "2026-11-06T15:46:48.405Z"
-  },
-  {
-    "_id": "a674603a3e69a8d4b5dd12e7",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.406Z",
-    "updatedAt": "2026-11-06T15:46:48.406Z"
-  },
-  {
-    "_id": "d907861b97c26b05e46db79d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-12",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.406Z",
-    "updatedAt": "2026-11-06T15:46:48.406Z"
-  },
-  {
-    "_id": "e74fa155b01f18aee7414128",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-12",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.406Z",
-    "updatedAt": "2026-11-06T15:46:48.406Z"
-  },
-  {
-    "_id": "d76dfaa76db0a0a597222368",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.407Z",
-    "updatedAt": "2026-11-06T15:46:48.407Z"
   },
   {
     "_id": "500662dd4d59d0338f32385d",
@@ -2475,61 +1265,6 @@
     "updatedAt": "2026-11-06T15:46:48.409Z"
   },
   {
-    "_id": "e1756fad9745fa0db195525a",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-13",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.409Z",
-    "updatedAt": "2026-11-06T15:46:48.409Z"
-  },
-  {
-    "_id": "3a44e98e0e2ceb6ca734cc58",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.410Z",
-    "updatedAt": "2026-11-06T15:46:48.410Z"
-  },
-  {
-    "_id": "f2b4c0e5478de6dabdf4d098",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.410Z",
-    "updatedAt": "2026-11-06T15:46:48.410Z"
-  },
-  {
-    "_id": "bd12b4ad8a4646202242e1ee",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.411Z",
-    "updatedAt": "2026-11-06T15:46:48.411Z"
-  },
-  {
-    "_id": "fd877cdcd043f6c70dd7e8d3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.411Z",
-    "updatedAt": "2026-11-06T15:46:48.411Z"
-  },
-  {
     "_id": "404751ef7142d1f4de4d088d",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -2583,61 +1318,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.413Z",
     "updatedAt": "2026-11-06T15:46:48.413Z"
-  },
-  {
-    "_id": "acbdc49976b3cefbf35b5b91",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.414Z",
-    "updatedAt": "2026-11-06T15:46:48.414Z"
-  },
-  {
-    "_id": "b3ad60f279f033e115dbf4e7",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.414Z",
-    "updatedAt": "2026-11-06T15:46:48.414Z"
-  },
-  {
-    "_id": "696eda85c47a3b18b95fb676",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.415Z",
-    "updatedAt": "2026-11-06T15:46:48.415Z"
-  },
-  {
-    "_id": "8b5b40a63eb3c0b249ae95c4",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.415Z",
-    "updatedAt": "2026-11-06T15:46:48.415Z"
-  },
-  {
-    "_id": "26236c34dd0b9091f0e07e69",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.415Z",
-    "updatedAt": "2026-11-06T15:46:48.415Z"
   },
   {
     "_id": "27f189f0cdd28dac654ac2d4",
@@ -2695,61 +1375,6 @@
     "updatedAt": "2026-11-06T15:46:48.417Z"
   },
   {
-    "_id": "28d17b0b73091d75152ab9ce",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-15",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.418Z",
-    "updatedAt": "2026-11-06T15:46:48.418Z"
-  },
-  {
-    "_id": "72e8f3e5990950cf7d880b30",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.418Z",
-    "updatedAt": "2026-11-06T15:46:48.418Z"
-  },
-  {
-    "_id": "7a714e9d37009ab04a1d3f8f",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.418Z",
-    "updatedAt": "2026-11-06T15:46:48.418Z"
-  },
-  {
-    "_id": "3789ca65905775e0535b6bbb",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-15",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.419Z",
-    "updatedAt": "2026-11-06T15:46:48.419Z"
-  },
-  {
-    "_id": "de989034bf883b66b808b8b5",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.420Z",
-    "updatedAt": "2026-11-06T15:46:48.420Z"
-  },
-  {
     "_id": "dd651c8c7f6bf56d9ca5947a",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -2803,61 +1428,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.421Z",
     "updatedAt": "2026-11-06T15:46:48.421Z"
-  },
-  {
-    "_id": "9ba77fbe25cbd69868bbfad3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.422Z",
-    "updatedAt": "2026-11-06T15:46:48.422Z"
-  },
-  {
-    "_id": "da9f99c566ff92b40d3a6b55",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.422Z",
-    "updatedAt": "2026-11-06T15:46:48.422Z"
-  },
-  {
-    "_id": "9c5f329dc545db54d81d77da",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.422Z",
-    "updatedAt": "2026-11-06T15:46:48.422Z"
-  },
-  {
-    "_id": "25a9ee47db26e685e5dbbb5f",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-16",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.423Z",
-    "updatedAt": "2026-11-06T15:46:48.423Z"
-  },
-  {
-    "_id": "6802c80cd770ce47d5c08d40",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.423Z",
-    "updatedAt": "2026-11-06T15:46:48.423Z"
   },
   {
     "_id": "a70f30d5e3037b5e7377b361",
@@ -2915,61 +1485,6 @@
     "updatedAt": "2026-11-06T15:46:48.425Z"
   },
   {
-    "_id": "e1d7abc5d6e952f3cfe14a85",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.426Z",
-    "updatedAt": "2026-11-06T15:46:48.426Z"
-  },
-  {
-    "_id": "a595a39606c1cc8d4ec84c68",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.426Z",
-    "updatedAt": "2026-11-06T15:46:48.426Z"
-  },
-  {
-    "_id": "bce86008fdbbcafc89b9451d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.427Z",
-    "updatedAt": "2026-11-06T15:46:48.427Z"
-  },
-  {
-    "_id": "6b3407346f7eb4b1ecd93197",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.427Z",
-    "updatedAt": "2026-11-06T15:46:48.427Z"
-  },
-  {
-    "_id": "6daae521f403364a1c4a4855",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.427Z",
-    "updatedAt": "2026-11-06T15:46:48.428Z"
-  },
-  {
     "_id": "79e374d882dc6356e11c8fd1",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -3023,61 +1538,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.429Z",
     "updatedAt": "2026-11-06T15:46:48.429Z"
-  },
-  {
-    "_id": "cc4971b612d2cabbfdfbbc49",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.430Z",
-    "updatedAt": "2026-11-06T15:46:48.430Z"
-  },
-  {
-    "_id": "c57c753e8fae22f4ad176473",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.430Z",
-    "updatedAt": "2026-11-06T15:46:48.430Z"
-  },
-  {
-    "_id": "1b52b2f8b51732aa2f0b94a3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.430Z",
-    "updatedAt": "2026-11-06T15:46:48.430Z"
-  },
-  {
-    "_id": "1b4fee8b142ec960fe8223eb",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-20",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.431Z",
-    "updatedAt": "2026-11-06T15:46:48.431Z"
-  },
-  {
-    "_id": "a86fb26680983b15d9a28a49",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.431Z",
-    "updatedAt": "2026-11-06T15:46:48.431Z"
   },
   {
     "_id": "edfa1485673d6acad47cf79b",
@@ -3135,61 +1595,6 @@
     "updatedAt": "2026-11-06T15:46:48.433Z"
   },
   {
-    "_id": "283e739a3cf78f0e0f49ba5c",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.434Z",
-    "updatedAt": "2026-11-06T15:46:48.434Z"
-  },
-  {
-    "_id": "fd9893183414f34b51e10c2e",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.434Z",
-    "updatedAt": "2026-11-06T15:46:48.434Z"
-  },
-  {
-    "_id": "614b548f933057aecfedf7f5",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.434Z",
-    "updatedAt": "2026-11-06T15:46:48.434Z"
-  },
-  {
-    "_id": "667facfd236cb86a21c25a2f",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-21",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.435Z",
-    "updatedAt": "2026-11-06T15:46:48.435Z"
-  },
-  {
-    "_id": "a416553804a1bcac4b1e176d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.435Z",
-    "updatedAt": "2026-11-06T15:46:48.435Z"
-  },
-  {
     "_id": "7ddb62645e5af597bb2ae8c6",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -3243,61 +1648,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.437Z",
     "updatedAt": "2026-11-06T15:46:48.437Z"
-  },
-  {
-    "_id": "77a2cbf7c3f8a22cc71eedf4",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.437Z",
-    "updatedAt": "2026-11-06T15:46:48.437Z"
-  },
-  {
-    "_id": "7e75f2e8c8d92e6a0cd18d99",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.438Z",
-    "updatedAt": "2026-11-06T15:46:48.438Z"
-  },
-  {
-    "_id": "c04d048c5451852701dc9f7b",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.438Z",
-    "updatedAt": "2026-11-06T15:46:48.438Z"
-  },
-  {
-    "_id": "c17c01d059f59a7dc91e02b1",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.439Z",
-    "updatedAt": "2026-11-06T15:46:48.439Z"
-  },
-  {
-    "_id": "f3d2197977fa3e10640086ff",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.439Z",
-    "updatedAt": "2026-11-06T15:46:48.439Z"
   },
   {
     "_id": "78b55107991b99da826ac49e",
@@ -3355,61 +1705,6 @@
     "updatedAt": "2026-11-06T15:46:48.441Z"
   },
   {
-    "_id": "1102e2d07643fa16d119ca44",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.442Z",
-    "updatedAt": "2026-11-06T15:46:48.442Z"
-  },
-  {
-    "_id": "9f49255a5d7fc8d6cd3b3683",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.442Z",
-    "updatedAt": "2026-11-06T15:46:48.442Z"
-  },
-  {
-    "_id": "c237892f639594f4518368c9",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.443Z",
-    "updatedAt": "2026-11-06T15:46:48.443Z"
-  },
-  {
-    "_id": "b3552556c67a9ce24b537cee",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-23",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.443Z",
-    "updatedAt": "2026-11-06T15:46:48.443Z"
-  },
-  {
-    "_id": "524367744fbc4af5e09ccf02",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.443Z",
-    "updatedAt": "2026-11-06T15:46:48.443Z"
-  },
-  {
     "_id": "28209f4def1098a04cfbb476",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -3463,61 +1758,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.445Z",
     "updatedAt": "2026-11-06T15:46:48.445Z"
-  },
-  {
-    "_id": "27a437b7be87e0eca2903325",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.446Z",
-    "updatedAt": "2026-11-06T15:46:48.446Z"
-  },
-  {
-    "_id": "02e2bcd90d5e890899f1a663",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-26",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.446Z",
-    "updatedAt": "2026-11-06T15:46:48.446Z"
-  },
-  {
-    "_id": "469a6f32ce3e902548ac7e66",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.447Z",
-    "updatedAt": "2026-11-06T15:46:48.447Z"
-  },
-  {
-    "_id": "6e9648796c08473ab2419931",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.447Z",
-    "updatedAt": "2026-11-06T15:46:48.447Z"
-  },
-  {
-    "_id": "052b568e4f5d87f7c9bb91a5",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.447Z",
-    "updatedAt": "2026-11-06T15:46:48.447Z"
   },
   {
     "_id": "09112b929d7d00f3f11c426b",
@@ -3575,61 +1815,6 @@
     "updatedAt": "2026-11-06T15:46:48.450Z"
   },
   {
-    "_id": "056a0f79b4953bc591c002de",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.450Z",
-    "updatedAt": "2026-11-06T15:46:48.450Z"
-  },
-  {
-    "_id": "4845cd86572f450e2c4ccd57",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-27",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.450Z",
-    "updatedAt": "2026-11-06T15:46:48.450Z"
-  },
-  {
-    "_id": "c30077968af0aa014a618bc0",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.451Z",
-    "updatedAt": "2026-11-06T15:46:48.451Z"
-  },
-  {
-    "_id": "f469c5d59579b2a9ab96e19e",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.451Z",
-    "updatedAt": "2026-11-06T15:46:48.451Z"
-  },
-  {
-    "_id": "d16af2b11b7cfda3fce5f3c2",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-27",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.451Z",
-    "updatedAt": "2026-11-06T15:46:48.451Z"
-  },
-  {
     "_id": "8727835a63ddeda05b4c192d",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -3683,61 +1868,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.454Z",
     "updatedAt": "2026-11-06T15:46:48.454Z"
-  },
-  {
-    "_id": "42dda173437d157794b72ced",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.454Z",
-    "updatedAt": "2026-11-06T15:46:48.454Z"
-  },
-  {
-    "_id": "399728c5f7ed6fb4251b4f9a",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-28",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.455Z",
-    "updatedAt": "2026-11-06T15:46:48.455Z"
-  },
-  {
-    "_id": "d2ae4cc86fdb9cae26520574",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.455Z",
-    "updatedAt": "2026-11-06T15:46:48.455Z"
-  },
-  {
-    "_id": "671688648766a127cbb9fb84",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-28",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.456Z",
-    "updatedAt": "2026-11-06T15:46:48.456Z"
-  },
-  {
-    "_id": "bd1a453d52891f58621e3e09",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.456Z",
-    "updatedAt": "2026-11-06T15:46:48.456Z"
   },
   {
     "_id": "174414d2fb88088b0a03374b",
@@ -3795,61 +1925,6 @@
     "updatedAt": "2026-11-06T15:46:48.458Z"
   },
   {
-    "_id": "ce0ccd887b6cb4d305884722",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.458Z",
-    "updatedAt": "2026-11-06T15:46:48.458Z"
-  },
-  {
-    "_id": "883d87fdb05920167887cf92",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-29",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.459Z",
-    "updatedAt": "2026-11-06T15:46:48.459Z"
-  },
-  {
-    "_id": "49b993b6d8a6e66f6755ee43",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.459Z",
-    "updatedAt": "2026-11-06T15:46:48.459Z"
-  },
-  {
-    "_id": "e21ff1ecf7b841aff43060f5",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.459Z",
-    "updatedAt": "2026-11-06T15:46:48.459Z"
-  },
-  {
-    "_id": "9392e7abe3ea5e381b3fb7d8",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.460Z",
-    "updatedAt": "2026-11-06T15:46:48.460Z"
-  },
-  {
     "_id": "71ff4eec4fb1713083578e7f",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -3903,61 +1978,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.462Z",
     "updatedAt": "2026-11-06T15:46:48.462Z"
-  },
-  {
-    "_id": "227789a37fa737b18b04db49",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-30",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.463Z",
-    "updatedAt": "2026-11-06T15:46:48.463Z"
-  },
-  {
-    "_id": "9a4b26e358fb3c8df63f2100",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-30",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.463Z",
-    "updatedAt": "2026-11-06T15:46:48.463Z"
-  },
-  {
-    "_id": "0942d7cb7d9e3f97af61ec8d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-30",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.464Z",
-    "updatedAt": "2026-11-06T15:46:48.464Z"
-  },
-  {
-    "_id": "5815a10b5e1dccb951a08b8a",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.464Z",
-    "updatedAt": "2026-11-06T15:46:48.464Z"
-  },
-  {
-    "_id": "c887aa2178a8a0aa135dc6d2",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.465Z",
-    "updatedAt": "2026-11-06T15:46:48.465Z"
   },
   {
     "_id": "53aeaa89040b7c5c083e2a3d",
@@ -4015,61 +2035,6 @@
     "updatedAt": "2026-11-06T15:46:48.467Z"
   },
   {
-    "_id": "4f7bd0675d85fa69e4e1b0f6",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.467Z",
-    "updatedAt": "2026-11-06T15:46:48.467Z"
-  },
-  {
-    "_id": "500e6c785eca5664b7372a8d",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-02",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.468Z",
-    "updatedAt": "2026-11-06T15:46:48.468Z"
-  },
-  {
-    "_id": "64742ed32c3b67846e81a5c3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-02",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.469Z",
-    "updatedAt": "2026-11-06T15:46:48.469Z"
-  },
-  {
-    "_id": "6bc971f0092e3cdd67ee08e2",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-02",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.469Z",
-    "updatedAt": "2026-11-06T15:46:48.469Z"
-  },
-  {
-    "_id": "d4d2286891a3307c55fcbac3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.469Z",
-    "updatedAt": "2026-11-06T15:46:48.469Z"
-  },
-  {
     "_id": "dd186f2754ff33353cb8fdcf",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -4123,61 +2088,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.472Z",
     "updatedAt": "2026-11-06T15:46:48.472Z"
-  },
-  {
-    "_id": "a7cbde9aa8846f14b7271778",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.472Z",
-    "updatedAt": "2026-11-06T15:46:48.472Z"
-  },
-  {
-    "_id": "09e104b00aa4bcd4f39684de",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.473Z",
-    "updatedAt": "2026-11-06T15:46:48.473Z"
-  },
-  {
-    "_id": "c30cf8d8764946ee633bc6bc",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.473Z",
-    "updatedAt": "2026-11-06T15:46:48.473Z"
-  },
-  {
-    "_id": "c50824e16237fe74413496fa",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-03",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.474Z",
-    "updatedAt": "2026-11-06T15:46:48.474Z"
-  },
-  {
-    "_id": "efcb96f77010e490daea8b26",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.474Z",
-    "updatedAt": "2026-11-06T15:46:48.474Z"
   },
   {
     "_id": "29b70699402ec95282529ff1",
@@ -4235,61 +2145,6 @@
     "updatedAt": "2026-11-06T15:46:48.477Z"
   },
   {
-    "_id": "b67a5debb36dbf4080f646da",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.477Z",
-    "updatedAt": "2026-11-06T15:46:48.477Z"
-  },
-  {
-    "_id": "f661b91baf7f9129c5629187",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-04",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.478Z",
-    "updatedAt": "2026-11-06T15:46:48.478Z"
-  },
-  {
-    "_id": "e0d13982b53aee667c522353",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-04",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.478Z",
-    "updatedAt": "2026-11-06T15:46:48.478Z"
-  },
-  {
-    "_id": "9f587c01ca87ca33742fd803",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.479Z",
-    "updatedAt": "2026-11-06T15:46:48.479Z"
-  },
-  {
-    "_id": "bfaef36f480b6bdbe5163bc0",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.479Z",
-    "updatedAt": "2026-11-06T15:46:48.479Z"
-  },
-  {
     "_id": "e03765621428d6681fc13492",
     "course": "9b8d9ba99dd22178d26158fe",
     "student": "8f14b64469cc3f538c76d95e",
@@ -4343,61 +2198,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.482Z",
     "updatedAt": "2026-11-06T15:46:48.482Z"
-  },
-  {
-    "_id": "3da7e0b467a2f0f64a7f9963",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.483Z",
-    "updatedAt": "2026-11-06T15:46:48.483Z"
-  },
-  {
-    "_id": "fa44f28d60c01b53e2d696f9",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-05",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.483Z",
-    "updatedAt": "2026-11-06T15:46:48.483Z"
-  },
-  {
-    "_id": "d6330753785c7e1a56c9fadc",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.484Z",
-    "updatedAt": "2026-11-06T15:46:48.484Z"
-  },
-  {
-    "_id": "d1ab5a09e8e00522bc23f970",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.484Z",
-    "updatedAt": "2026-11-06T15:46:48.484Z"
-  },
-  {
-    "_id": "c729d0467b673318e1c235e3",
-    "course": "9b8d9ba99dd22178d26158fe",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.485Z",
-    "updatedAt": "2026-11-06T15:46:48.485Z"
   },
   {
     "_id": "9e3c6116fada02350be11526",
@@ -4455,61 +2255,6 @@
     "updatedAt": "2026-11-06T15:46:48.487Z"
   },
   {
-    "_id": "c6c41398a64656832427490c",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.488Z",
-    "updatedAt": "2026-11-06T15:46:48.488Z"
-  },
-  {
-    "_id": "0e861bb37ba4510e6185c08c",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-09",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.489Z",
-    "updatedAt": "2026-11-06T15:46:48.489Z"
-  },
-  {
-    "_id": "67a7611b8f91f5b7072d05a5",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.489Z",
-    "updatedAt": "2026-11-06T15:46:48.489Z"
-  },
-  {
-    "_id": "36df75b1f7e9acc0dd678694",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-09",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.490Z",
-    "updatedAt": "2026-11-06T15:46:48.490Z"
-  },
-  {
-    "_id": "b5bac520b2a1b31349acd1f2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-09",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.491Z",
-    "updatedAt": "2026-11-06T15:46:48.491Z"
-  },
-  {
     "_id": "ee0cc1afc64fc675314eb0d9",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -4563,61 +2308,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.494Z",
     "updatedAt": "2026-11-06T15:46:48.494Z"
-  },
-  {
-    "_id": "c45e4e5110bb3252132e5717",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.494Z",
-    "updatedAt": "2026-11-06T15:46:48.494Z"
-  },
-  {
-    "_id": "9510cc0bef7ac5d3d011d085",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.495Z",
-    "updatedAt": "2026-11-06T15:46:48.495Z"
-  },
-  {
-    "_id": "e36922de7112c45b9e58b9f3",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.496Z",
-    "updatedAt": "2026-11-06T15:46:48.496Z"
-  },
-  {
-    "_id": "a2f69a561314e95779c32f6d",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-12",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.496Z",
-    "updatedAt": "2026-11-06T15:46:48.496Z"
-  },
-  {
-    "_id": "0d107231800425f7a2fdc085",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-12",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.497Z",
-    "updatedAt": "2026-11-06T15:46:48.497Z"
   },
   {
     "_id": "54060751df6b21dca7c0614d",
@@ -4675,61 +2365,6 @@
     "updatedAt": "2026-11-06T15:46:48.499Z"
   },
   {
-    "_id": "32797d2de56dc727f7d47040",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.500Z",
-    "updatedAt": "2026-11-06T15:46:48.500Z"
-  },
-  {
-    "_id": "b2562e0fd0b8b98c7957f042",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.500Z",
-    "updatedAt": "2026-11-06T15:46:48.500Z"
-  },
-  {
-    "_id": "6036d51af79ddf783c7d6bad",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.501Z",
-    "updatedAt": "2026-11-06T15:46:48.501Z"
-  },
-  {
-    "_id": "c3e4d54efbdbae03b9a3534e",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-13",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.502Z",
-    "updatedAt": "2026-11-06T15:46:48.502Z"
-  },
-  {
-    "_id": "069b75ab6092e5f5391d5d63",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-13",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.502Z",
-    "updatedAt": "2026-11-06T15:46:48.502Z"
-  },
-  {
     "_id": "5f53270d734ea8c9c4159a99",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -4783,61 +2418,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.505Z",
     "updatedAt": "2026-11-06T15:46:48.505Z"
-  },
-  {
-    "_id": "cf1b601fdc351cee5dbe7872",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.505Z",
-    "updatedAt": "2026-11-06T15:46:48.505Z"
-  },
-  {
-    "_id": "8f90c8e4b81994e19f8a2ba6",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.506Z",
-    "updatedAt": "2026-11-06T15:46:48.506Z"
-  },
-  {
-    "_id": "01fcb410e8163feaf3df7bb6",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.506Z",
-    "updatedAt": "2026-11-06T15:46:48.506Z"
-  },
-  {
-    "_id": "ec3bad3ee476b9ffb70a45ee",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.507Z",
-    "updatedAt": "2026-11-06T15:46:48.507Z"
-  },
-  {
-    "_id": "12c23afefbc95a25655bafd8",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-14",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.507Z",
-    "updatedAt": "2026-11-06T15:46:48.507Z"
   },
   {
     "_id": "916c1d282990249f9a69f998",
@@ -4895,61 +2475,6 @@
     "updatedAt": "2026-11-06T15:46:48.510Z"
   },
   {
-    "_id": "04f472e58ad1ce42fdd8a4ed",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-15",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.511Z",
-    "updatedAt": "2026-11-06T15:46:48.511Z"
-  },
-  {
-    "_id": "e9e8e981b0a2bf53fdbdfd57",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.511Z",
-    "updatedAt": "2026-11-06T15:46:48.511Z"
-  },
-  {
-    "_id": "385538bc8b5866564c5037b2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.512Z",
-    "updatedAt": "2026-11-06T15:46:48.512Z"
-  },
-  {
-    "_id": "fc87282c47461c0a82c315f6",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.512Z",
-    "updatedAt": "2026-11-06T15:46:48.512Z"
-  },
-  {
-    "_id": "ef50f501618d4a02e3fc60c9",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-15",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.513Z",
-    "updatedAt": "2026-11-06T15:46:48.513Z"
-  },
-  {
     "_id": "39973e7d44a5b85b9401223d",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -5003,61 +2528,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.515Z",
     "updatedAt": "2026-11-06T15:46:48.515Z"
-  },
-  {
-    "_id": "86c2baca36b817c55a7d8d5c",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.516Z",
-    "updatedAt": "2026-11-06T15:46:48.516Z"
-  },
-  {
-    "_id": "f79af9908aa5109d1f707472",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-16",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.516Z",
-    "updatedAt": "2026-11-06T15:46:48.516Z"
-  },
-  {
-    "_id": "dc4c2431fdc81bbe551eb4b9",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-16",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.517Z",
-    "updatedAt": "2026-11-06T15:46:48.517Z"
-  },
-  {
-    "_id": "b22373a8abd11793b1b0730b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.517Z",
-    "updatedAt": "2026-11-06T15:46:48.517Z"
-  },
-  {
-    "_id": "30badcf54c501c03a6bbcbe3",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-16",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.518Z",
-    "updatedAt": "2026-11-06T15:46:48.518Z"
   },
   {
     "_id": "48137cd733ebb4e34438a4f9",
@@ -5115,61 +2585,6 @@
     "updatedAt": "2026-11-06T15:46:48.520Z"
   },
   {
-    "_id": "b14e065035df3f9c0fa78fcd",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.521Z",
-    "updatedAt": "2026-11-06T15:46:48.521Z"
-  },
-  {
-    "_id": "8dc62f52d76c07369cd36d7b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.521Z",
-    "updatedAt": "2026-11-06T15:46:48.521Z"
-  },
-  {
-    "_id": "e08627a0c57a2775bf41a10f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.522Z",
-    "updatedAt": "2026-11-06T15:46:48.522Z"
-  },
-  {
-    "_id": "88f12dfdb3fc967c1d35527b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-19",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.523Z",
-    "updatedAt": "2026-11-06T15:46:48.523Z"
-  },
-  {
-    "_id": "0b571063c7c93beeb13b0420",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-19",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.523Z",
-    "updatedAt": "2026-11-06T15:46:48.523Z"
-  },
-  {
     "_id": "d1b0dfa7cc22c92ff38c2051",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -5223,61 +2638,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.526Z",
     "updatedAt": "2026-11-06T15:46:48.526Z"
-  },
-  {
-    "_id": "af1c12e99af0e6a957478c2b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.526Z",
-    "updatedAt": "2026-11-06T15:46:48.526Z"
-  },
-  {
-    "_id": "21bf2282812353eff234d9c8",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-20",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.527Z",
-    "updatedAt": "2026-11-06T15:46:48.527Z"
-  },
-  {
-    "_id": "0dda44df828ebf77fc87b0ab",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.527Z",
-    "updatedAt": "2026-11-06T15:46:48.527Z"
-  },
-  {
-    "_id": "cb189cf7b95a7d25fe620c72",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.527Z",
-    "updatedAt": "2026-11-06T15:46:48.528Z"
-  },
-  {
-    "_id": "482100ddd99fd0c1f529e76e",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-20",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.528Z",
-    "updatedAt": "2026-11-06T15:46:48.528Z"
   },
   {
     "_id": "ea9b68c5b1698c0def22a5bc",
@@ -5335,61 +2695,6 @@
     "updatedAt": "2026-11-06T15:46:48.531Z"
   },
   {
-    "_id": "6af37ab42123762f3246a038",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-21",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.531Z",
-    "updatedAt": "2026-11-06T15:46:48.531Z"
-  },
-  {
-    "_id": "45cf6ce50c0c0210ff901f6f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.532Z",
-    "updatedAt": "2026-11-06T15:46:48.532Z"
-  },
-  {
-    "_id": "e4dca6ddaf1b25d554ef80a2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-21",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.532Z",
-    "updatedAt": "2026-11-06T15:46:48.532Z"
-  },
-  {
-    "_id": "2c900e29e458e8fb04ae4e17",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.533Z",
-    "updatedAt": "2026-11-06T15:46:48.533Z"
-  },
-  {
-    "_id": "19194f651dfc87375308163f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-21",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.533Z",
-    "updatedAt": "2026-11-06T15:46:48.533Z"
-  },
-  {
     "_id": "1c7190525b8f9d53a4f66882",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -5443,61 +2748,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.536Z",
     "updatedAt": "2026-11-06T15:46:48.536Z"
-  },
-  {
-    "_id": "6fe22a71242344ea0ec83265",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-22",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.537Z",
-    "updatedAt": "2026-11-06T15:46:48.537Z"
-  },
-  {
-    "_id": "6076824c3f030ff8ca29536c",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-22",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.537Z",
-    "updatedAt": "2026-11-06T15:46:48.537Z"
-  },
-  {
-    "_id": "5f09fd1b44c8e80151e34e79",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.538Z",
-    "updatedAt": "2026-11-06T15:46:48.538Z"
-  },
-  {
-    "_id": "136edeb0bb5b85cbeb5bac10",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-22",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.538Z",
-    "updatedAt": "2026-11-06T15:46:48.538Z"
-  },
-  {
-    "_id": "d6d802d37ce548bdbdf3c583",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-22",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.539Z",
-    "updatedAt": "2026-11-06T15:46:48.539Z"
   },
   {
     "_id": "dbd6e8d5b2876d2f69fcf201",
@@ -5555,61 +2805,6 @@
     "updatedAt": "2026-11-06T15:46:48.541Z"
   },
   {
-    "_id": "f3c4e8e4f3a494bd16bec128",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.542Z",
-    "updatedAt": "2026-11-06T15:46:48.542Z"
-  },
-  {
-    "_id": "be08de3737b50599b03ad898",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.542Z",
-    "updatedAt": "2026-11-06T15:46:48.542Z"
-  },
-  {
-    "_id": "c5ca118008d1dcf52c7e2535",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-23",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.543Z",
-    "updatedAt": "2026-11-06T15:46:48.543Z"
-  },
-  {
-    "_id": "22efda0fd53ebeb07c469f2f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.545Z",
-    "updatedAt": "2026-11-06T15:46:48.545Z"
-  },
-  {
-    "_id": "a8087c79c0b4484706ee14e0",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-23",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.545Z",
-    "updatedAt": "2026-11-06T15:46:48.545Z"
-  },
-  {
     "_id": "99fc292ce31c7847b7afa9b6",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -5663,61 +2858,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.548Z",
     "updatedAt": "2026-11-06T15:46:48.548Z"
-  },
-  {
-    "_id": "2d15b7e823136643b04f1c92",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.548Z",
-    "updatedAt": "2026-11-06T15:46:48.548Z"
-  },
-  {
-    "_id": "0cb9de3ef3ea80ff2789f4a8",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.549Z",
-    "updatedAt": "2026-11-06T15:46:48.549Z"
-  },
-  {
-    "_id": "60cb7255525baadb69e692fa",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.549Z",
-    "updatedAt": "2026-11-06T15:46:48.549Z"
-  },
-  {
-    "_id": "9b3be8784355cc353784b68b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-26",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.550Z",
-    "updatedAt": "2026-11-06T15:46:48.550Z"
-  },
-  {
-    "_id": "73d062e8d7d13e8aa4d11c5e",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-26",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.551Z",
-    "updatedAt": "2026-11-06T15:46:48.551Z"
   },
   {
     "_id": "f601a8ac1b3f3171dd4998b1",
@@ -5775,61 +2915,6 @@
     "updatedAt": "2026-11-06T15:46:48.554Z"
   },
   {
-    "_id": "a76ae7ec3d8802cd526b71ff",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.555Z",
-    "updatedAt": "2026-11-06T15:46:48.555Z"
-  },
-  {
-    "_id": "7dbeeb4b1cc91eeac04beb88",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.555Z",
-    "updatedAt": "2026-11-06T15:46:48.555Z"
-  },
-  {
-    "_id": "76b1bbba72487f853b7dcb35",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.556Z",
-    "updatedAt": "2026-11-06T15:46:48.556Z"
-  },
-  {
-    "_id": "c4e21c0fc3a6e13f90b1f6ed",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-27",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.556Z",
-    "updatedAt": "2026-11-06T15:46:48.556Z"
-  },
-  {
-    "_id": "d1f2b231577cee93167b2956",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-27",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.557Z",
-    "updatedAt": "2026-11-06T15:46:48.557Z"
-  },
-  {
     "_id": "50b5a5e07738306416b45638",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -5883,61 +2968,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.560Z",
     "updatedAt": "2026-11-06T15:46:48.560Z"
-  },
-  {
-    "_id": "6c0fb873e2fb197849a49d5c",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-28",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.560Z",
-    "updatedAt": "2026-11-06T15:46:48.560Z"
-  },
-  {
-    "_id": "edc65105777f5d18173787d2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.561Z",
-    "updatedAt": "2026-11-06T15:46:48.561Z"
-  },
-  {
-    "_id": "9a4ec3cf9d97e6398db1fbbc",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-28",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.561Z",
-    "updatedAt": "2026-11-06T15:46:48.561Z"
-  },
-  {
-    "_id": "a7fb28a0db7a12823e9a73dd",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.562Z",
-    "updatedAt": "2026-11-06T15:46:48.562Z"
-  },
-  {
-    "_id": "c6eeca02c2a81e3361938c45",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-28",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.563Z",
-    "updatedAt": "2026-11-06T15:46:48.563Z"
   },
   {
     "_id": "db78ef852d906c26d9b5a783",
@@ -5995,61 +3025,6 @@
     "updatedAt": "2026-11-06T15:46:48.566Z"
   },
   {
-    "_id": "7a158e370b01fed416307552",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.566Z",
-    "updatedAt": "2026-11-06T15:46:48.566Z"
-  },
-  {
-    "_id": "f3cdee28b99db1a250ebd359",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-29",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.567Z",
-    "updatedAt": "2026-11-06T15:46:48.567Z"
-  },
-  {
-    "_id": "f81f46a7a9f081a47dd60cc2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.567Z",
-    "updatedAt": "2026-11-06T15:46:48.567Z"
-  },
-  {
-    "_id": "fa3c679219cf8f551c907cae",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.568Z",
-    "updatedAt": "2026-11-06T15:46:48.568Z"
-  },
-  {
-    "_id": "04e4db2f05cf11c2b270662f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-29",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.568Z",
-    "updatedAt": "2026-11-06T15:46:48.568Z"
-  },
-  {
     "_id": "9429a9ef5f8180ad38fdd651",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -6103,61 +3078,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.572Z",
     "updatedAt": "2026-11-06T15:46:48.572Z"
-  },
-  {
-    "_id": "5693fc647ad390cc437626a2",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.572Z",
-    "updatedAt": "2026-11-06T15:46:48.572Z"
-  },
-  {
-    "_id": "d2773e85971204c0d5d3a22d",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-10-30",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.573Z",
-    "updatedAt": "2026-11-06T15:46:48.573Z"
-  },
-  {
-    "_id": "484c0a757298841b68636fc1",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-10-30",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.574Z",
-    "updatedAt": "2026-11-06T15:46:48.574Z"
-  },
-  {
-    "_id": "f69817463dcf9f7d24d8729b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.574Z",
-    "updatedAt": "2026-11-06T15:46:48.574Z"
-  },
-  {
-    "_id": "50e8fe2a30956c496017cfe0",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-10-30",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.575Z",
-    "updatedAt": "2026-11-06T15:46:48.575Z"
   },
   {
     "_id": "4dc0601f7ca797fcdbf146fb",
@@ -6215,61 +3135,6 @@
     "updatedAt": "2026-11-06T15:46:48.578Z"
   },
   {
-    "_id": "4cc7f55f51b38c2ce5e98072",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.579Z",
-    "updatedAt": "2026-11-06T15:46:48.579Z"
-  },
-  {
-    "_id": "16f45efec72c12717993a838",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-02",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.579Z",
-    "updatedAt": "2026-11-06T15:46:48.579Z"
-  },
-  {
-    "_id": "b48c33bad708c6f1a2e6c2af",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.580Z",
-    "updatedAt": "2026-11-06T15:46:48.580Z"
-  },
-  {
-    "_id": "b9da2df57dcebf1f1f7de869",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.580Z",
-    "updatedAt": "2026-11-06T15:46:48.580Z"
-  },
-  {
-    "_id": "499682ac58ee7f9e6556c4e4",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-02",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.581Z",
-    "updatedAt": "2026-11-06T15:46:48.581Z"
-  },
-  {
     "_id": "2e2d4030757ba38c7045570e",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -6323,61 +3188,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.584Z",
     "updatedAt": "2026-11-06T15:46:48.584Z"
-  },
-  {
-    "_id": "a3c465f235f7824d2aa0e4d5",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.584Z",
-    "updatedAt": "2026-11-06T15:46:48.584Z"
-  },
-  {
-    "_id": "c1cb8c4b445e5d2d36ab2ae6",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-03",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.585Z",
-    "updatedAt": "2026-11-06T15:46:48.585Z"
-  },
-  {
-    "_id": "cb3bed7eba81b6bd74deb7c1",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-03",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.586Z",
-    "updatedAt": "2026-11-06T15:46:48.586Z"
-  },
-  {
-    "_id": "40e156c134fe71fd10523b3d",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-03",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.586Z",
-    "updatedAt": "2026-11-06T15:46:48.586Z"
-  },
-  {
-    "_id": "ad182fa36b62f17ab21fb503",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-03",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.587Z",
-    "updatedAt": "2026-11-06T15:46:48.587Z"
   },
   {
     "_id": "be2ebc2a60f30d5e549597b2",
@@ -6435,61 +3245,6 @@
     "updatedAt": "2026-11-06T15:46:48.590Z"
   },
   {
-    "_id": "c1ce46401c8e148bd009f20a",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-04",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.590Z",
-    "updatedAt": "2026-11-06T15:46:48.590Z"
-  },
-  {
-    "_id": "52a516c096f053dd1c03cf28",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.591Z",
-    "updatedAt": "2026-11-06T15:46:48.591Z"
-  },
-  {
-    "_id": "ea1f2c18ff294e1323b29fab",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.592Z",
-    "updatedAt": "2026-11-06T15:46:48.592Z"
-  },
-  {
-    "_id": "1ec8f2f3c6eeed97dc5c161b",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-04",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.593Z",
-    "updatedAt": "2026-11-06T15:46:48.593Z"
-  },
-  {
-    "_id": "ce390c73c7d83d3d04ac0a6f",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-04",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.593Z",
-    "updatedAt": "2026-11-06T15:46:48.593Z"
-  },
-  {
     "_id": "df2cd48d8a62975442d7ad8a",
     "course": "9b5efdec9908bf44bdce945b",
     "student": "8f14b64469cc3f538c76d95e",
@@ -6543,61 +3298,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T15:46:48.597Z",
     "updatedAt": "2026-11-06T15:46:48.597Z"
-  },
-  {
-    "_id": "8eab9d1c639796ad701b5d52",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "date": "2026-11-05",
-    "status": "leave",
-    "remarks": "Approved medical leave",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.597Z",
-    "updatedAt": "2026-11-06T15:46:48.597Z"
-  },
-  {
-    "_id": "27e4f52cd82055a18898ca5a",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "date": "2026-11-05",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.598Z",
-    "updatedAt": "2026-11-06T15:46:48.598Z"
-  },
-  {
-    "_id": "e6e937ef6fccd8ef106a0952",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "date": "2026-11-05",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.598Z",
-    "updatedAt": "2026-11-06T15:46:48.598Z"
-  },
-  {
-    "_id": "f010118b8e57627f51d8f249",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "date": "2026-11-05",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.599Z",
-    "updatedAt": "2026-11-06T15:46:48.599Z"
-  },
-  {
-    "_id": "fcec75d50161dbcf4f89c3a6",
-    "course": "9b5efdec9908bf44bdce945b",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "date": "2026-11-05",
-    "status": "absent",
-    "remarks": "Unexcused absence",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T15:46:48.599Z",
-    "updatedAt": "2026-11-06T15:46:48.599Z"
   },
   {
     "_id": "7d700604c74ae4fb2974c84a",
@@ -6675,61 +3375,6 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-06T17:34:07.747Z",
     "updatedAt": "2026-11-06T17:34:07.747Z"
-  },
-  {
-    "_id": "44633c6c63e594575c1d6385",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-06",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T17:34:07.766Z",
-    "updatedAt": "2026-11-06T17:34:07.766Z"
-  },
-  {
-    "_id": "8998f37da86a58ae71f78503",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-06",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T17:34:07.773Z",
-    "updatedAt": "2026-11-06T17:34:07.773Z"
-  },
-  {
-    "_id": "3ca18b4977d9c8f0188ab82a",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-06",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T17:34:07.787Z",
-    "updatedAt": "2026-11-06T17:34:07.787Z"
-  },
-  {
-    "_id": "1b2b14472f75b174abbd844b",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-06",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T17:34:07.793Z",
-    "updatedAt": "2026-11-06T17:34:07.793Z"
-  },
-  {
-    "_id": "bdda5e20efc877f9399de9de",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-06",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-06T17:34:07.806Z",
-    "updatedAt": "2026-11-06T17:34:07.806Z"
   },
   {
     "_id": "45c9adb3b4e98f86df80c425",
@@ -6875,61 +3520,6 @@
     "updatedAt": "2026-11-14T09:44:56.122Z"
   },
   {
-    "_id": "33e099d9b9700370f11371a7",
-    "student": "33fb5bb3bb6d0905b547b6a3",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-14T09:30:49.555Z",
-    "updatedAt": "2026-11-14T09:44:56.123Z"
-  },
-  {
-    "_id": "4104c0294613bd848a6bbc58",
-    "student": "dca8a0c79f9d0de3f41c4f6d",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-14T09:30:49.556Z",
-    "updatedAt": "2026-11-14T09:44:56.125Z"
-  },
-  {
-    "_id": "35165511f87a578545b7e36a",
-    "student": "2f8923caeafd8201cbc60ddb",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-14T09:30:49.558Z",
-    "updatedAt": "2026-11-14T09:44:56.126Z"
-  },
-  {
-    "_id": "1f381b954099d562c0af0568",
-    "student": "b4fb86aa7bf030826528cc3b",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-14T09:30:49.559Z",
-    "updatedAt": "2026-11-14T09:44:56.127Z"
-  },
-  {
-    "_id": "1603085c0329e9ec610d7fd3",
-    "student": "bdb60f9b1f1f903fffd63081",
-    "course": "f0eeed924aed70ee83cc55f4",
-    "date": "2026-11-14",
-    "status": "present",
-    "remarks": "",
-    "markedBy": "6d87cc017f8c94b87d19f8cc",
-    "createdAt": "2026-11-14T09:30:49.560Z",
-    "updatedAt": "2026-11-14T09:44:56.128Z"
-  },
-  {
     "_id": "8286e696859704c35ae3ae8f",
     "student": "8f14b64469cc3f538c76d95e",
     "course": "de6e40d05c72e8e8381e9481",
@@ -6950,5 +3540,49 @@
     "markedBy": "6d87cc017f8c94b87d19f8cc",
     "createdAt": "2026-11-16T16:08:54.072Z",
     "updatedAt": "2026-11-16T16:08:54.073Z"
+  },
+  {
+    "_id": "1aeb3d733d03dcccebcbc79c",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "9de6f9739cffca41110a8d72",
+    "date": "2026-11-16",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-16T17:44:49.960Z",
+    "updatedAt": "2026-11-16T17:44:49.961Z"
+  },
+  {
+    "_id": "9fa4b66bb42e581c303086a6",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "1021b54bd2aff8e56e8d0fb9",
+    "date": "2026-11-16",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-16T17:46:20.547Z",
+    "updatedAt": "2026-11-16T17:46:20.548Z"
+  },
+  {
+    "_id": "3f338d1041a77cca3ec6dfbc",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "c79e24e857ea32e7427b1d6a",
+    "date": "2026-11-17",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-17T04:17:18.840Z",
+    "updatedAt": "2026-11-17T04:17:18.841Z"
+  },
+  {
+    "_id": "ea52bb5d9727108e32523a9a",
+    "student": "8f14b64469cc3f538c76d95e",
+    "course": "fe79114ac501410641b3b73b",
+    "date": "2026-11-17",
+    "status": "leave",
+    "remarks": "Updated to excused leave",
+    "markedBy": "6d87cc017f8c94b87d19f8cc",
+    "createdAt": "2026-11-17T04:36:18.324Z",
+    "updatedAt": "2026-11-17T04:36:18.326Z"
   }
 ]
